@@ -1,35 +1,44 @@
-# gamedev-portfolio
-A gamedev portfolio template
+# What is this ?
+This is a portfolio template that you can use to showcase your work, especially if it's comprised of projects that should be shown in a very visual way.
+Looking for a game developer job, I needed a portfolio to present my work to recruiters. I found a lot of custom made portfolios, but no easy to use template unless I used Wordpress. Which was overkill to me because a static HTML/JS website would do fine.
 
-Why i did this
+So i created my own using VueJS, keeping in mind that I wanted it to be easily customisable so other people can use this as a base to make their own. It's very simple, static, fast and responsive.
 
-
-Install
-    Fork or duplicate the repository
-    npm install
-    npm run serve
-
-Customize
-    Content :
-        static html in views and components
-        projects json files
-        static files (images, icon, downloadables,..) in /public folder)
-        .env file (restart npm run serve)
-    Style:
-        css variables
-        static css content in views and components
-        projects.css for css used in project overlay dialog
-    Additional/optim:
-        In app.vue, Helpers.preloadImages to preload heavy images so they show up fast when changing tab
+For a real world use case, check my portfolio: https://scheefer.me
 
 
+# How to use
 
-Deploy
-    npm run build
-    copy the dist folder content to publish location
-    example for github pages
+1. Install
+
+    - Fork or duplicate the repository
+    - npm install
+    - npm run serve
+
+2. Customize
+* For the content
+    - Except for the projects pages, everything is static Html that you can edit directly in the views and components files
+    - For the projects pages, the page is dynamically populated at runtime using data stored in json files (data/GameProjectsData.ts and data/OtherProjectsData.ts). Make the changes directly in these .ts fies
+    - Static files (images, icons, downloadables,..) should be placed in /public folder.
+    - Don't forget to make the necessary changes in the .env file (this is mostly the site metadata). You need to "npm run serve" again when updating this file.
+
+* For the style
+    - The basic colors can be edited in the css/variables.less file.
+    - The rest of the CSS can be edited directly inside each view and component.
+    - If you place custom CSS in your projects json (that will be displayed in an overlay dialog), you must add the definition for this CSS in the css/projects.less file
+
+* Additional info & optimizations
+    - Images will be loaded on-demand when you switch tabs. It means if you have big images or animated gifs, you may want to preload them so the user sees them faster when they change tabs. To do this, you can call Helpers.preloadImages in app.vue to preload heavy images.
+
+3. Deploy
+
+    - npm run build
+    - copy the dist folder content to publish location
+    - example for github pages
 
 
+# License
 
-GNU LGPL, do what you want.
-Plz consider leaving the attribution/link at bottom unless you modify heavily, so other people can find and use this template
+This is GNU LGPL, do what you want.
+
+Please consider leaving the link to this repository at the bottom of your site, so other people can find and use this template too. Keeping it is not mandatory though.
