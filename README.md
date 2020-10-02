@@ -42,4 +42,4 @@ For a real world use case, check my portfolio: https://scheefer.me
 
 This is GNU LGPL, check the LICENSE file.
 
-Please consider keeping the link to this repository at the bottom of your portfolio, so other people can find and use this template too. Of corse it's not mandatory though.
+Please consider keeping the link to this repository at the bottom of your portfolio, so other people can find and use this template too. Of course it's not mandatory though.
