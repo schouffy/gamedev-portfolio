@@ -33,8 +33,8 @@ For a real world use case, check my portfolio: https://scheefer.me
 3. Deploy
 
     - npm run build
-    - copy the dist folder content to publish location
-    - example for github pages
+    - copy the content of the "dist" folder (created by "npm run build") to the publish location.
+    - Check this example if you want to deploy to GitHub pages or some other major static content host: https://cli.vuejs.org/guide/deployment.html#github-pages
 
 
 # License
