@@ -34,7 +34,10 @@ export default Vue.extend({
 
 .skill-name {
   float: left;
-  width: 200px;
+  border:1px solid hsla(0,0%,86.3%,.44);
+  padding: 2px 10px;
+  margin: 5px;
+
 }
 
 .skill-rate {

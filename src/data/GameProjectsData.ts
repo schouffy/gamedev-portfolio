@@ -1,120 +1,120 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
-    new ProjectData("project-1", "Optimistic Chubby", "img/projects/project-1-icon.png", 
+    new ProjectData("project-1", "VRProject", "img/projects/project-1-icon.png", 
     `
     <div class="paragraph">
-     <strong>Optimistic Chubby</strong> is a thing of beauty that I am so proud of. It's available on Android because why not.
-     <br/>Image by <a href="https://www.pexels.com/fr-fr/@knownasovan" target="_blank">OVAN</a>.
-    </div>
-    <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
-    </div>
-    <div class="paragraph center">
-        <a href="https://play.google.com/store/apps/details?id=some.playstore.thing" target="_blank"><img src="img/projects/play-store-logo.png" alt="Play Store badge" /></a>
-    </div>
-
+     <strong>VRProject (Temporal Name)</strong> is my current on-going Project in finals phase which is a VR Game with OpenXR Support. <br/>
+     Which you can find Information about the current state <a href="https://github.com/gabuscuv/VRProjectLiteForRecruiter-HR">here.</a> <br/>
+     You can find <a href="https://www.youtube.com/playlist?list=PLUjwTJzEXpjZi-vGFN79H84W2OptAIlkG"> here </a> a playlist about different features of the game.
+     <br/>Placeholder Image by <a href="https://www.pexels.com/fr-fr/@knownasovan" target="_blank">OVAN</a>.
+     </div>
     <div class="paragraph">
         Main features :
         <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
+        <li>Adventure/Mystery Game for VR!</li>
         </ul>
     </div>
 
     <div class="paragraph center">
-        <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="Optimistic Chubby Screenshot" />
-        <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="Optimistic Chubby Screenshot" />
+        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Optimistic Chubby Screenshot" />
+        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Optimistic Chubby Screenshot" />
     </div>
     `, "#23bd69", true),
-    new ProjectData("project-2", "Singing Addict", "img/projects/project-2-icon.png", `
+    new ProjectData("project-2", "Kübler", "img/projects/project-2-icon.png", `
     <div class="paragraph">
-        <strong>Optimistic Chubby Blog</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-        <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@adonyi-gabor-604571">Adonyi Gábor</a>.
+        <strong>Kübler</strong> is a "unfinished" project leaded by Juanjo Salvador for Spain GameDev II, Written in Love2D. <br />
+        It's only in Spanish
+    </div>
+    <div class="paragraph">
+    Main Tasks :
+    <ul>
+    <li>ImGui Tools/Debugger Programmer</li>
+    <li>Game Programmer</li>
+    <li>Music Composition (No Published)</li>
+    <li>CI Automatization (for Release & Debug Builds)</li>
+    </ul>
     </div>
     <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
-    </div>
-
-    <div class="paragraph">
-        Main features :
-        <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
-        </ul>
+        <iframe class="youtube" src="https://www.youtube.com/embed/bR4uboKmQQU" frameborder="0" allowfullscreen></iframe>
     </div>
 
     <div class="paragraph">
     <div class="notice">
-        Windows build available on <a href="https://some.where/nice" target="_blank">itch.io</a>.
-        Source code is available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
+        Windows build available on <a href="https://juanjosalvador.itch.io/kubler" target="_blank">itch.io</a>.
     </div>
     </div>
 
     <div class="paragraph center">
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
+    <img class="pc-screenshot" src="https://img.itch.zone/aW1hZ2UvNzcxMzE3LzQzMTUzNDcucG5n/250x600/Q3WTMj.png" alt="Singing Addict Screenshot" />
     <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
     </div>
     `, "#5a78af"),
-    new ProjectData("project-3", "Drawing Overload", "img/projects/project-3-icon.png", `
+    new ProjectData("project-3", "TestingGround++", "img/projects/project-3-icon.png", `
     <div class="paragraph">
-        <strong>Drawing Overload</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-        <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@miphotography">Miesha Maiden</a>.
+        <strong>TestingGround++</strong> is a expansion of last execrise of a UE4 course made by [Ben Tristem](https://www.udemy.com/user/bentristem/),<br/>
+        Adding Some Must-Have features.
+        <br/>Placeholder Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@miphotography">Miesha Maiden</a>.
     </div>
-    <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
-    </div>
-
     <div class="paragraph">
-        Main features :
+        New Features :
         <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
+        <li>Added Multi-Tile Support (+ 2 New tiles extras).</li>
+        <li>Added Enemies Multiplier.</li>
+        <li>Added Title Screen, Dead Screen, Tutorial Screen, Settings Screen and Pause Screen.</li>
+        <li>Added Revive/Lives/Attempts mode</li>
+        <li>Added Aim Mode.</li>
+        <li>Added Walk/Run Mode.</li>
+        <li>Added Footsteps Sounds.</li>
+        <li> Added Multi-language Support (English and Spanish).
+        <li> Better Memory Management.</li>
+        <li> Better Textures.</li>
+        <li> Better Performance.</li>
+        <li> Improved UI.</li>
+        <li> Saving HighScore.</li>
         </ul>
+    <!-- <div class="paragraph center"><iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe></div> -->
+
     </div>
 
     <div class="paragraph">
         <div class="notice">
-        Playable in the browser (WebGL) on <a href="https://some.where/nice" target="_blank">itch.io</a>.
-        Source code is available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
+        Windows/Linux builds available <a href="https://github.com/gabuscuv/TestingGrounds-Public/releases" target="_blank">here</a>.
+        Source code is available on <a href="https://github.com/gabuscuv/TestingGrounds-Public" target="_blank">GitHub</a>.
         </div>
     </div>
 
     <div class="paragraph center">
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
+        <img class="pc-screenshot" src="img/projects/TestingGrounds/MainMenu.jpg" alt="Drawing Overload Screenshot" />
         <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
         <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
         <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
     </div>
     `, "#383838"),
-    new ProjectData("project-4", "Eugeneable", "img/projects/project-4-icon.png", `
+    new ProjectData("project-4", "_4thof4th", "img/projects/project-4-icon.png", `
     <div class="paragraph">
-    <strong>Eugeneable</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-    <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@neo8iam">NEOSiAM 2020</a>.
+    <strong>_4thof4th (2017)</strong> was my end of degree project (note: 9) using my own Game Engine (Usagi Engine) based on MonoGame Game Framework. (C#) <br />
+    The Game is about a Cute/Kawaii Game which suffer a Buffer overflow which result in a virtual reboot <br />
+    booting in a Simulated OS (based on FreeBSD) and (again, fictional/Virtual etc) run some unknown routines which active your typical Bad AI. (HAL900,GLaDOS, etcetc) <br />
+    they shows some tricks like toggling keyboard lights, reading some desktop filenames (again, it's safe) <br />
+    and produces some beepings (a little melody!), all with a cheap battle end which is poor/werid bad bullet hell. <br />
+    And technically don't have a ending so...
     </div>
+    <br/>Placeholder Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@neo8iam">NEOSiAM 2020</a>.
+
     
     <div class="paragraph">
         Main features :
         <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
+        <li>Emulate a Customized POST with your computer data (your real BIOS and CPU are showed)!!</li>
+        <li>Simulate a FreeBSD Bootstrap!!</li>
+        <li>Uses your PC-Speaker (DOS-Style)</li>
+        <li>Enables lights from your keyboard!!!! (?)</li>
+        <li>Probably It's not proudest work as it's was my first "game" for my own way but hey!, Not bad for a beginner, right? (?)</li>
         </ul>
     </div>
 
-    <div class="paragraph">
-        <div class="notice">
-        Windows build available on <a href="https://some.where/nice" target="_blank">itch.io</a>.
-        </div>
+    <!-- <div class="paragraph"><div class="notice">Windows build available on <a href="https://some.where/nice" target="_blank">itch.io</a>.</div> -->
     </div>
 
     <div class="paragraph center">
@@ -122,32 +122,5 @@ export default [
         <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Eugeneable Screenshot" />
     </div>
     `, "#e80fb7"),
-    new ProjectData("project-5", "Cloud Drew Land", "img/projects/project-5-icon.png", `
-    <div class="paragraph">
-        <strong>Cloud Drew Land</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-        <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@cottonbro">cottonbro</a>.
-    </div>
-    
-    <div class="paragraph">
-        Main features :
-        <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
-        </ul>
-    </div>
 
-    <div class="paragraph">
-        <div class="notice">
-        Windows build available on <a href="https://some.where/nice" target="_blank">itch.io</a>.
-        Source code available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
-        </div>
-    </div>
-
-    <div class="paragraph center">
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Cloud Drew Land Screenshot" />
-    </div>`, "#e48246")
 ];
