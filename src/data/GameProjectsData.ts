@@ -1,18 +1,26 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
-    new ProjectData("project-1", "VRProject", "img/projects/project-1-icon.png", 
+    new ProjectData("project-1", "VRProject (Temporal Name)", "img/projects/project-1-icon.png", 
     `
     <div class="paragraph">
-     <strong>VRProject (Temporal Name)</strong> is my current on-going Project in finals phase which is a VR Game with OpenXR Support. <br/>
+     <strong>VRProject (Temporal Name)</strong> is my current on-going Project in finals phase which is a VR Game. <br/>
      Which you can find Information about the current state <a href="https://github.com/gabuscuv/VRProjectLiteForRecruiter-HR">here.</a> <br/>
      You can find <a href="https://www.youtube.com/playlist?list=PLUjwTJzEXpjZi-vGFN79H84W2OptAIlkG"> here </a> a playlist about different features of the game.
-     <br/>Placeholder Image by <a href="https://www.pexels.com/fr-fr/@knownasovan" target="_blank">OVAN</a>.
+     <br/>Placeholder Photo by <a href="https://unsplash.com/@unblume?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jannis Blume</a> on <a href="https://unsplash.com/s/photos/virtual-reality-woman?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>.
      </div>
+
+     <div class="paragraph center">
+     <iframe class="youtube" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLUjwTJzEXpjZi-vGFN79H84W2OptAIlkG" frameborder="0" allowfullscreen></iframe>
+    </div>
+
     <div class="paragraph">
         Main features :
         <ul>
-        <li>Adventure/Mystery Game for VR!</li>
+            <li>Adventure/Mystery Game for VR!</li>
+            <li>Compatible with almost every headset thanks to OpenXR!</li>
+            <li>Made with Unreal Engine 4 with future build for Unreal Engine 5</li>
+            <li>Features FMOD & SteamAudio for Audio Immersion</li>
         </ul>
     </div>
 
@@ -36,7 +44,7 @@ export default [
     </ul>
     </div>
     <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/bR4uboKmQQU" frameborder="0" allowfullscreen></iframe>
+        <iframe class="youtube" src="https://www.youtube-nocookie.com/embed/bR4uboKmQQU" frameborder="0" allowfullscreen></iframe>
     </div>
 
     <div class="paragraph">
@@ -46,16 +54,18 @@ export default [
     </div>
 
     <div class="paragraph center">
+    <img class="pc-screenshot" src="img/projects/Kubler/MainTitle.jpg" alt="Singing Addict Screenshot" />
     <img class="pc-screenshot" src="https://img.itch.zone/aW1hZ2UvNzcxMzE3LzQzMTUzNDcucG5n/250x600/Q3WTMj.png" alt="Singing Addict Screenshot" />
-    <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Singing Addict Screenshot" />
+    <img class="pc-screenshot" src="img/projects/Kubler/Shield.jpg" alt="Singing Addict Screenshot" />
+    <img class="pc-screenshot" src="img/projects/Kubler/Boss.jpg" alt="Singing Addict Screenshot" />
     </div>
     `, "#5a78af"),
     new ProjectData("project-3", "TestingGround++", "img/projects/project-3-icon.png", `
     <div class="paragraph">
-        <strong>TestingGround++</strong> is a expansion of last execrise of a UE4 course made by [Ben Tristem](https://www.udemy.com/user/bentristem/),<br/>
+        <strong>TestingGround++</strong> is an improvement of last execrise from UE4 course made by <a href="https://www.udemy.com/user/bentristem/">Ben Tristem</a><br/>
         Adding Some Must-Have features.
-        <br/>Placeholder Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@miphotography">Miesha Maiden</a>.
     </div>
+    <div class="paragraph center"><iframe class="youtube" src="https://www.youtube-nocookie.com/embed/UFTDGFCA2vI" frameborder="0" allowfullscreen></iframe></div>
     <div class="paragraph">
         New Features :
         <ul>
@@ -73,8 +83,6 @@ export default [
         <li> Improved UI.</li>
         <li> Saving HighScore.</li>
         </ul>
-    <!-- <div class="paragraph center"><iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe></div> -->
-
     </div>
 
     <div class="paragraph">
@@ -85,10 +93,10 @@ export default [
     </div>
 
     <div class="paragraph center">
-        <img class="pc-screenshot" src="img/projects/TestingGrounds/MainMenu.jpg" alt="Drawing Overload Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
+        <img class="pc-screenshot" src="img/projects/TestingGrounds/MainMenu.jpg" alt="Main Menu" />
+        <img class="pc-screenshot" src="img/projects/TestingGrounds/NormalBattle.jpg" alt="Player Aiming an Enemy" />
+        <img class="pc-screenshot" src="img/projects/TestingGrounds/AmmoItem.jpg" alt="Ammo/Health Item" />
+        <img class="pc-screenshot" src="/img/projects/TestingGrounds/DeathScreen.jpg" alt="Death Screen" />
     </div>
     `, "#383838"),
     new ProjectData("project-4", "_4thof4th", "img/projects/project-4-icon.png", `
@@ -110,7 +118,7 @@ export default [
         <li>Simulate a FreeBSD Bootstrap!!</li>
         <li>Uses your PC-Speaker (DOS-Style)</li>
         <li>Enables lights from your keyboard!!!! (?)</li>
-        <li>Probably It's not proudest work as it's was my first "game" for my own way but hey!, Not bad for a beginner, right? (?)</li>
+        <li>Probably It's not a proudest work as it's was my first "game" (and one quite bad) for my own way but hey!, Not bad for a beginner, right? (?)</li>
         </ul>
     </div>
 
@@ -118,8 +126,15 @@ export default [
     </div>
 
     <div class="paragraph center">
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Eugeneable Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Eugeneable Screenshot" />
+        <img class="pc-screenshot" src="/img/projects/_4thof4th/MainTitle.jpg" alt="_4th" />
+        <img class="pc-screenshot" src="/img/projects/_4thof4th/Overflow.jpg" alt="Eugeneable Screenshot" />
+        <img class="pc-screenshot" src="/img/projects/_4thof4th/VirtualBios.jpg" alt="Eugeneable Screenshot" />
+        <img class="pc-screenshot" src="/img/projects/_4thof4th/InGame.jpg" alt="Eugeneable Screenshot" />
+    </div>
+
+    <div class="paragraph">
+    Trivia: Mono means "Monkey" in Spanish and Usagi means "Rabbit" in Japanese, So... <br /> Is It Rabbit over a Monkey? <br />
+    *Ba dum tss*
     </div>
     `, "#e80fb7"),
 
