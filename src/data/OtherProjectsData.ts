@@ -3,104 +3,45 @@ import ProjectData from '@/data/ProjectData.ts'
 export default [
     new ProjectData("project-6", "ArrowDialogueParse", "img/projects/project-6-icon.png", `
     <div class="paragraph">
-      <strong>Sultans Of Sing</strong> is a thing of beauty that I am so proud of. It's available on Windows Store because why not.
-      <br/>Image by <a href="https://www.pexels.com/fr-fr/@aldoalz" target="blank">Aldo Picaso</a>.
+      <strong>ArrowDialogueParse</strong> is a simple & quick format converter program/script written in golang. <br />
+      This parser allows converts all dialogue from a Arrow project to CSV which makes importable to another Game Engine like Unreal Engine.
             </div>
             <div class="paragraph center">
-              <a href="https://www.microsoft.com/en-us/p/some-app" target="_blank"><img src="img/projects/ms-store-logo.png" alt="MS Store button" /></a>
-          </div>
+            <div class="notice">
+            Available on <a href="https://github.com/gabuscuv/ArrowDialogueParser" target="_blank">Github</a>
+            </div>
+        </div>
 
           <div class="paragraph">
             Main features :
             <ul>
-            <li>Some stuff</li>
-            <li>Some great stuff</li>
-            <li>More awesome stuff</li>
-            <li>And then some</li>
+            <li>Fast, Quick & Simple</li>
+            <li>Unattended mode using a JSON config file!</li>
+            <li>Allows use Node Notes as Metadata!</li>
             </ul>
         </div>
 
-        <div class="paragraph center">
-          <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Sultans Of Sing Screenshot" />
-          <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Sultans Of Sing Screenshot" />
-          <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Sultans Of Sing Screenshot" /> 
-        </div>
     `, "#c10606", false, true),
-    new ProjectData("project-7", "UE4 Toolkit", "img/projects/project-7-icon.png", `
+    new ProjectData("project-7", "UE4 Toolkit", "img/projects/toolkit/cmd.jpg", `
     <div class="paragraph">
-                <strong>Drew Blood</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-                <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@karolina-grabowska">Karolina Grabowska</a>.
-            </div>
+                <strong>UE4 Toolkit</strong> is a set of scripts written in Powershell & Bash that helps about automatization compiling and cooking UE4 Games since CLI. <br />
+                without need open UE4Editor, Ideal for Continous Integration Tasks.
+          </div>
+
+    <div class="paragraph center">
+              <div class="notice">
+                Available on <a href="https://github.com/gabuscuv/UE4-Toolkit-Public" target="_blank">Github</a>
+              </div>
+          </div>
 
             <div class="paragraph">
               Main features :
               <ul>
-              <li>Some stuff</li>
-              <li>Some great stuff</li>
-              <li>More awesome stuff</li>
-              <li>And then some</li>
+              <li>Allows Cooking your UE4 Game, copy all extra files (like README, NOTICE or ChangeLog files) & compress in one-click/enter</li>
+              <li>Allows you retry failed compilations or initial compilations in one-click/enter</li>
+              <li>Make easy set up custom ssh keys, name, e-mail commits, and checks if it's not installed git lfs</li>
               </ul>
           </div>
 
-            <div class="paragraph">
-              <div class="notice">
-                You can download and try the app for free or purchase it directly from <a href="http://www.somewbsite.com/" target="_blank">Some website</a>
-              </div>
-            </div>
-
-            <div class="paragraph center">
-                <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drew Blood Screenshot" />
-                <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drew Blood Screenshot" />
-                <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drew Blood Screenshot" /> 
-            </div>`, "#1ca1e2"),
-    new ProjectData("project-8", "The Art of Walking", "img/projects/project-8-icon.png", `
-    <div class="paragraph">
-                <strong>The Art of Walking</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-            </div>
-
-            <div class="paragraph center">
-              <a href="https://play.google.com/store/apps/details?id=someapp" target="_blank"><img src="img/projects/play-store-logo.png" alt="Play Store badge" /></a>
-          </div>
-
-          <div class="paragraph">
-          Main features :
-          <ul>
-          <li>Some stuff</li>
-          <li>Some great stuff</li>
-          <li>More awesome stuff</li>
-          <li>And then some</li>
-          </ul>
-      </div>
-
-            <div class="paragraph">
-              <div class="notice">
-                Source code available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
-              </div>
-            </div>
-
-            <div class="paragraph center">
-                <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="The Art of Walking Screenshot" />
-                <img class="phone-screenshot" src="https://fakeimg.pl/300x534/" alt="The Art of Walking Screenshot" />
-            </div>`),
-    new ProjectData("project-9", "Nikolable", "img/projects/project-9-icon.png", `
-     <div class="paragraph">
-                <strong>Nikolable</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-                <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@goumbik">Lukas</a>.
-            </div>
-
-            <div class="paragraph">
-        Main features :
-        <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
-        </ul>
-    </div>
-
-            <div class="paragraph">
-              <div class="notice">
-                Source code available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
-              </div>
-            </div>`),
+`, "#1ca1e2"),
 ];

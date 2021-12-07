@@ -7,7 +7,7 @@
 
       <div style="margin-top:20px; margin-bottom:20px;">
         <a class="download-link" href="d/resume-en.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download Essential Resume (PDF) 🇬🇧</a>
-        <!-- <a class="download-link" href="d/cv-fr.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Descargar CV Esencial (PDF) 🇪🇸</a> -->
+        <a class="download-link" href="d/resume-es.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Descargar CV Esencial (PDF) 🇪🇸</a>
         <div style="clear:both"></div>
       </div>
     </div>
@@ -16,6 +16,11 @@
     </div>
 
     <div style="clear:both"></div>
+
+      <div class="notice">
+        All content below It's a long and detailed version of my resume, If you want the 1-page version. <br /> 
+        Please Download the "Essential Resume" from the links above.
+      </div>
 
     <div class="full-content">
       <h2>Work experience</h2>
@@ -86,13 +91,22 @@
 
       <h2>Education</h2>
 
-      <h3>Higher IT Studies in Multi-Platform Applications Development - 2017</h3>
-      <h4>IES Agora</h4>
-      <div></div>
+      <h3>
+        <a href="https://www.todofp.es/dam/jcr:7655e32d-08a3-47a7-a479-ddb6f032c63e/n-tsdesarrolloaplicacionesmultiplataformaen-pdf.pdf">
+        Higher IT Studies in Multi-Platform Applications Development</a> - 2017</h3>
+      <h4>IES Agora, Caceres, Spain</h4>
+      <div>In Spain: Técnico Superior en Desarrollo de Aplicaciones Multiplataforma  <br />
+      European Qualification Framework: EQ5
+      <br />
+      International Standard Classification of Education: ISCED5</div>
       
-      <h3>IT Technician Studies - 2014</h3>
-      <h4>Educatec</h4>
-      <div></div>
+      <h3><a href="https://www.todofp.es/dam/jcr:3a2f6e25-6324-4ced-8c08-ca6f65927900/n-tsistemasmicroinformaticosredesen-pdf.pdf">
+        IT Technician Studies</a>- 2014</h3>
+      <h4>Educatec,Caceres, Spain</h4>
+      <div>
+        In Spain: Técnico en Sistemas Microinformáticos y Redes <br />
+        
+        International Standard Classification of Education: ISCED3</div>
 
       <h2>Languages</h2>
 
@@ -102,6 +116,16 @@
       <h3>English</h3>
       <div>I lived and worked in England for 5 months at the end of 2017 and did bussiness with Czech People for 2 years with British Clients</div>
 
+      <h2>Courses and Certifications</h2>
+      <h3> <a href="https://www.udemy.com/certificate/UC-OHE75YJE/">
+      Unreal Engine C++ Developer: Learn C++ and Make Video Games</a>- 2019</h3>
+      <h4> by Ben Tristem & Sam Pattuzzi on Udemy</h4>
+      
+      <h3>CCNA Discovery 2 : Working at a Small-to-Medium Business or ISP - 2013</h3>
+      <h4>Cisco</h4>
+      
+      <h3>CCNA Discovery 1 : Networking for Home and Small Businesses - 2013</h3>
+      <h4>Cisco</h4>
 
       <h2>Besides...</h2>
       <div>
@@ -198,6 +222,13 @@ h4 {
   margin-top: 50px;
   text-align: center;
 }
+
+    .notice {
+        border:1px solid rgb(85, 0, 0);
+        background-color: rgb(196, 144, 144);
+        color: rgb(99, 1, 1);
+        padding: 10px;
+    }
 
 @media only screen and (min-width: 620px){
   .paragraph {

@@ -105,8 +105,8 @@ export default [
     The Game is about a Cute/Kawaii Game which suffer a Buffer overflow which result in a virtual reboot <br />
     booting in a Simulated OS (based on FreeBSD) and (again, fictional/Virtual etc) run some unknown routines which active your typical Bad AI. (HAL900,GLaDOS, etcetc) <br />
     they shows some tricks like toggling keyboard lights, reading some desktop filenames (again, it's safe) <br />
-    and produces some beepings (a little melody!), all with a cheap battle end which is poor/werid bad bullet hell. <br />
-    And technically don't have a ending so...
+    and produces some beepings (a little melody!), all with a cheap battle end which is poor/weird bad bullet hell. <br />
+    And technically don't have an ending so...
     </div>
     <br/>Placeholder Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@neo8iam">NEOSiAM 2020</a>.
 
@@ -114,11 +114,11 @@ export default [
     <div class="paragraph">
         Main features :
         <ul>
-        <li>Emulate a Customized POST with your computer data (your real BIOS and CPU are showed)!!</li>
+        <li>Emulate a Customized POST with your computer data (your real BIOS and CPU are shown)!!</li>
         <li>Simulate a FreeBSD Bootstrap!!</li>
         <li>Uses your PC-Speaker (DOS-Style)</li>
         <li>Enables lights from your keyboard!!!! (?)</li>
-        <li>Probably It's not a proudest work as it's was my first "game" (and one quite bad) for my own way but hey!, Not bad for a beginner, right? (?)</li>
+        <li>It's not work that I can be proud of, as it was my first "game" (and one quite bad) for my own way but hey!. Not bad for a beginner, right? (?)</li>
         </ul>
     </div>
 
@@ -126,10 +126,10 @@ export default [
     </div>
 
     <div class="paragraph center">
-        <img class="pc-screenshot" src="/img/projects/_4thof4th/MainTitle.jpg" alt="_4th" />
-        <img class="pc-screenshot" src="/img/projects/_4thof4th/Overflow.jpg" alt="Eugeneable Screenshot" />
-        <img class="pc-screenshot" src="/img/projects/_4thof4th/VirtualBios.jpg" alt="Eugeneable Screenshot" />
-        <img class="pc-screenshot" src="/img/projects/_4thof4th/InGame.jpg" alt="Eugeneable Screenshot" />
+        <img class="pc-screenshot" src="img/projects/4thof4th/MainTitle.jpg" alt="_4th" />
+        <img class="pc-screenshot" src="img/projects/4thof4th/Overflow.jpg" alt="Eugeneable Screenshot" />
+        <img class="pc-screenshot" src="img/projects/4thof4th/VirtualBios.jpg" alt="Eugeneable Screenshot" />
+        <img class="pc-screenshot" src="img/projects/4thof4th/InGame.jpg" alt="Eugeneable Screenshot" />
     </div>
 
     <div class="paragraph">
