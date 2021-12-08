@@ -21,7 +21,7 @@ export default [
             </ul>
         </div>
 
-    `, "#c10606", false, true),
+    `, "#c10606", false, false),
     new ProjectData("project-7", "UE4 Toolkit", "img/projects/toolkit/cmd.jpg", `
     <div class="paragraph">
                 <strong>UE4 Toolkit</strong> is a set of scripts written in Powershell & Bash that helps about automatization compiling and cooking UE4 Games since CLI. <br />
@@ -43,5 +43,5 @@ export default [
               </ul>
           </div>
 
-`, "#1ca1e2"),
+`, "#1ca1e2", false, true),
 ];

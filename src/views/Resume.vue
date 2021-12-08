@@ -223,12 +223,12 @@ h4 {
   text-align: center;
 }
 
-    .notice {
-        border:1px solid rgb(85, 0, 0);
-        background-color: rgb(196, 144, 144);
-        color: rgb(99, 1, 1);
-        padding: 10px;
-    }
+.notice {
+    border:1px solid rgb(85, 0, 0);
+    background-color: rgb(196, 144, 144);
+    color: rgb(99, 1, 1);
+    padding: 10px;
+}
 
 @media only screen and (min-width: 620px){
   .paragraph {

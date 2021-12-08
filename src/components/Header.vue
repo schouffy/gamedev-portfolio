@@ -6,6 +6,7 @@
       <router-link to="/other-projects">Game Tools Projects</router-link>
       <!-- <router-link to="/hacky-things">Hacky Things</router-link> -->
       <router-link to="/resume">Resume</router-link>
+      <router-link to="/references">References</router-link>
       <router-link to="/contact">Contact</router-link>
       <a href="https://gabuscuv.github.io/blog">Blog</a>
     </div>
