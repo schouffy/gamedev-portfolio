@@ -26,7 +26,7 @@
       <h2>Work experience</h2>
 
       <h3>Hobbyist Game Developer</h3>
-      <h4>2017-2021</h4>
+      <h4>2017-2022</h4>
       <div> You can see my work <router-link to="/game-projects">here</router-link>,
       </div>
 
@@ -137,14 +137,33 @@
         So, Yeah, I love Tinker IT Stuff</div>
         
         <h3>I ❤️ VideoGames</h3>
-        <div> My Favorites Videogames are: Atelier Saga, Ace Attorney Saga, Beatsaber, ID Software Games, Metro Saga, Vanillaware Games, Valve Games, Zero Escape Saga<br/>
-        So, I would say I love Adventure, JRPGs, (No-Military) FPS, Rhythm and Beat em' up or Hack 'n' Slash Games. <br/>
-        I don't play a lot of Mobile Games/GaaS because my lack of time (mainly developing games) and my huge backlog but I always have installed Rhythm games like デレステ (deresute), ミリシタ(mirishita), SB69:Fes A Live (69 in japanese is roku (rock)) </div>
+        <div> Some of my Favorites Videogames are: 
+          <ul>
+            <li>Atelier Saga (Specially Rorona Plus)</li>
+            <li>Ace Attorney Saga (T&T my favourite)</li>
+            <li>Another Code (I didn't beat any other Cing game, Sorry!)</li>
+            <li>BeatSaber</li>
+            <li>ID Software IP (old&new ones)</li> 
+            <li>Metro Saga</li> 
+            <li>Transistor</li>
+            <li>Vanillaware Games (My Favourite: Odin Sphere)</li> 
+            <li>Valve Games(HL, Portal, etc)</li>
+            <li>Valkyria Chronicles Saga</li>
+            <li>Zero Escape Saga</li> 
+          </ul>
+  <br/>
+        
+	So, I would say my game generes favourites: (Graphic) Adventure, JRPGs (specially cute ones), (No-Military) FPS, Rhythm and Beat em' up or Hack 'n' Slash Games. <br/><br/>
+        I don't play a lot of Mobile Games/GaaS because my huge backlog & lack of time (mainly developing games) but I always have installed Rhythm games like デレステ (deresute), ミリシタ(mirishita), Bandori, SB69:Fes A Live (69 in japanese is pronounced as ro-ku (rock)) </div>
 
         <h3>I 🧡 Anime/Manga/Akiba-kei</h3>
-        <div>//TODO <br />
-        Anime Favorites: The Eccentric Family, Humanity Has Declined, Serial Experiments Lain, From the New World, Kids on the Slope, Idolm@ster</div>
-
+        <div>
+        Some of my Anime Favorites: The Eccentric Family, Humanity Has Declined, Serial Experiments Lain, From the New World, Kids on the Slope, Idolm@ster. <br />
+	
+	Also I like normal TV Shows like: The Good Place, The Marvelous Mrs. Maisel.
+   <br />
+   (Sorry!, There is a big gap between my ratio of eastern:western tv shows watched)
+	</div>
         <h3>I 💛 Music</h3>
         <div> 
         As I'm a guitarrist (and a bit about Piano/Keyboard) I love so some much Musical improvisation and Music Arrangement, 
