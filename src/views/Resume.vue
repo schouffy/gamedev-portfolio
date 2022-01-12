@@ -6,8 +6,10 @@
       I'm Gabriel Bustillo del Cuvillo, <strong> Gaby for everyone </strong>, I'm a Software Developer since 2017.
 
       <div style="margin-top:20px; margin-bottom:20px;">
-        <a class="download-link" href="d/resume-en.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download Essential Resume (PDF) 🇬🇧</a>
-        <a class="download-link" href="d/resume-es.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Descargar CV Esencial (PDF) 🇪🇸</a>
+        <a class="download-link" href="d/cv-BustilloDelCuvilloGabriel-en.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download Essential Resume (PDF) 🇬🇧</a>
+        <a class="download-link" href="d/resume-BustilloDelCuvilloGabriel-en-gamedev.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download Essential Resume GameDev (PDF) 🇬🇧</a>
+        <a class="download-link" href="d/cv-BustilloDelCuvilloGabriel-es.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Descargar CV Esencial (PDF) 🇪🇸</a>
+        <a class="download-link" href="d/cv-BustilloDelCuvilloGabriel-es-gamedev.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Descargar CV Esencial GameDev (PDF) 🇪🇸</a>
         <div style="clear:both"></div>
       </div>
     </div>
@@ -32,7 +34,7 @@
 
 
       <h3>Software Developer - Itixo s.r.o/ICT Capital s.r.o</h3>
-      <h4>2018-2020 - Prague, Cezch Republic</h4>
+      <h4>2018-2020 - Prague, Czech Republic</h4>
       <div>
       <ul>
         <li>Software Creation y maintenance in .NET Framework and migration tasks to .NET Standard/Core.</li>
@@ -126,6 +128,9 @@
       
       <h3>CCNA Discovery 1 : Networking for Home and Small Businesses - 2013</h3>
       <h4>Cisco</h4>
+
+      <h3>Adobe Photoshop CS3 Course - 2013</h3>
+      <h4>Grupo System</h4>
 
       <h2>Besides...</h2>
       <div>
