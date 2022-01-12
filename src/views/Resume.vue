@@ -6,7 +6,7 @@
       I'm Gabriel Bustillo del Cuvillo, <strong> Gaby for everyone </strong>, I'm a Software Developer since 2017.
 
       <div style="margin-top:20px; margin-bottom:20px;">
-        <a class="download-link" href="d/cv-BustilloDelCuvilloGabriel-en.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download Essential Resume (PDF) 🇬🇧</a>
+        <a class="download-link" href="d/resume-BustilloDelCuvilloGabriel-en.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download Essential Resume (PDF) 🇬🇧</a>
         <a class="download-link" href="d/resume-BustilloDelCuvilloGabriel-en-gamedev.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download Essential Resume GameDev (PDF) 🇬🇧</a>
         <a class="download-link" href="d/cv-BustilloDelCuvilloGabriel-es.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Descargar CV Esencial (PDF) 🇪🇸</a>
         <a class="download-link" href="d/cv-BustilloDelCuvilloGabriel-es-gamedev.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Descargar CV Esencial GameDev (PDF) 🇪🇸</a>
