@@ -1,33 +1,29 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
-    new ProjectData("project-1", "VRProject (Temporal Name)", "img/projects/project-1-icon.png", 
+    new ProjectData("project-1", "VRProject", "img/projects/project-1-icon.png", 
     `
     <div class="paragraph">
-     <strong>VRProject (Temporal Name)</strong> is my current on-going Project in finals phase which is a VR Game. <br/>
-     Which you can find Information about the current state <a href="https://github.com/gabuscuv/VRProjectLiteForRecruiter-HR">here.</a> <br/>
-     You can find <a href="https://www.youtube.com/playlist?list=PLUjwTJzEXpjZi-vGFN79H84W2OptAIlkG"> here </a> a playlist about different features of the game.
+     <strong>VRProject</strong> is my latest project. You can check the real game page <a href="https://cutt.ly/LHTkwEH"><strong>here</strong></a> <br/>
+
+     Which you can find some (maybe outdated?) essential information about the development <a href="https://github.com/gabuscuv/VRProjectLiteForRecruiter-HR">here.</a> <br/>
+     You can find <a href="https://www.youtube.com/playlist?list=PLUjwTJzEXpjZi-vGFN79H84W2OptAIlkG"> here </a> an (outdated)  playlist about the different features/mechanics of the game. 
      <br/>Placeholder Photo by <a href="https://unsplash.com/@unblume?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jannis Blume</a> on <a href="https://unsplash.com/s/photos/virtual-reality-woman?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>.
      </div>
 
      <div class="paragraph center">
+     <div class="notice">
+         Windows build available on <a href="https://cutt.ly/4HEqUQu" target="_blank">itch.io (Under a pen-name)</a>.<br/>
+         It's possible ask for a verification by a message & digital signature <a href="https://cutt.ly/gHR0BaF">here</a><br/>
+         Please Contact me if It's necessary
+     </div>
+     <div class="paragraph center">
      <iframe class="youtube" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLUjwTJzEXpjZi-vGFN79H84W2OptAIlkG" frameborder="0" allowfullscreen></iframe>
-    </div>
 
-    <div class="paragraph">
-        Main features :
-        <ul>
-            <li>Adventure/Mystery Game for VR!</li>
-            <li>Compatible with almost every headset thanks to OpenXR!</li>
-            <li>Made with Unreal Engine 4 with future build for Unreal Engine 5</li>
-            <li>Features FMOD & SteamAudio for Audio Immersion</li>
+     </div>
         </ul>
     </div>
 
-    <div class="paragraph center">
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Optimistic Chubby Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Optimistic Chubby Screenshot" />
-    </div>
     `, "#23bd69", true),
     new ProjectData("project-2", "Kübler", "img/projects/project-2-icon.png", `
     <div class="paragraph">
