@@ -17,6 +17,6 @@ git add -A
 git commit -m 'deploy'
 
 # if you are deploying to https://<USERNAME>.github.io
-gitpro push -f git@github.com:gabuscuv/gabuscuv.github.io.git main
+GIT_SSH_COMMAND='ssh -i ~/.ssh/id_rsa_pro -F /dev/null' git push -f git@github.com:gabuscuv/gabuscuv.github.io.git main
 
 #cd -

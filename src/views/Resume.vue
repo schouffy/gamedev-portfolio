@@ -20,8 +20,8 @@
     <div style="clear:both"></div>
 
       <div class="notice">
-        All content below It's a long and detailed version of my resume, If you want the 1-page version. <br /> 
-        Please Download the "Essential Resume" from the links above.
+      All content below It's a long and detailed version of my resume. <br />
+      If you want the 1-page version,  Please download the "Essential Resume" from the links above.
       </div>
 
     <div class="full-content">
@@ -135,9 +135,9 @@
       <h2>Besides...</h2>
       <div>
         <h3>I 💚 IT tinkering</h3>
-        <div>Since I was a child, I always love tinker things, something like installing vintages OS, Install Ubuntu in a External HDD and boot from them, Install Gnome 2 in Mac OS X (XQuartz&MacPorts), <br/>
+        <div>Since I was a child, I always love tinker with computers things, something like installing vintages OS, Install Ubuntu on an External HDD and booting from it, Install Gnome 2 in Mac OS X (XQuartz&MacPorts),
         doing cross/distributed compiling, I compiled a kernel for an Integrated Router <br/>
-        I am using Gentoo as daily OS which theoretically is one of most hardest OS for install and using a QEMU/KVM Setup with VGA Passthrough if I need something from Windows (mainly VR Stuff and Games with Anti-cheats).
+        I am using Gentoo as my daily-driver OS which theoretically is one of the hardest OS to install and using a QEMU/KVM Setup with VGA Passthrough if I need something from Windows (mainly VR Stuff and Games with Anti-cheats).
          <br/><br/>
         So, Yeah, I love Tinker IT Stuff</div>
         
@@ -146,7 +146,7 @@
           <ul>
             <li>Atelier Saga (Specially Rorona Plus)</li>
             <li>Ace Attorney Saga (T&T my favourite)</li>
-            <li>Another Code (I didn't beat any other Cing game, Sorry!)</li>
+            <li>Another Code</li>
             <li>BeatSaber</li>
             <li>ID Software IP (old&new ones)</li> 
             <li>Metro Saga</li> 
@@ -158,8 +158,8 @@
           </ul>
   <br/>
         
-	So, I would say my game generes favourites: (Graphic) Adventure, JRPGs (specially cute ones), (No-Military) FPS, Rhythm and Beat em' up or Hack 'n' Slash Games. <br/><br/>
-        I don't play a lot of Mobile Games/GaaS because my huge backlog & lack of time (mainly developing games) but I always have installed Rhythm games like デレステ (deresute), ミリシタ(mirishita), Bandori, SB69:Fes A Live (69 in japanese is pronounced as ro-ku (rock)) </div>
+	So, I would say my game genre favourites: (Graphic) Adventure, JRPGs (especially cute ones), (No-Military) FPS, Rhythm and Beat em' up or Hack 'n' Slash Games. <br/><br/>
+        I don't play a lot of Mobile Games/GaaS because of my huge backlog & lack of time (mainly developing games) but I always have installed Rhythm games like デレステ (deresute), ミリシタ(mirishita), Bandori, SB69:Fes A Live (69 in japanese is pronounced as ro-ku (rock)) </div>
 
         <h3>I 🧡 Anime/Manga/Akiba-kei</h3>
         <div>
@@ -171,9 +171,9 @@
 	</div>
         <h3>I 💛 Music</h3>
         <div> 
-        As I'm a guitarrist (and a bit about Piano/Keyboard) I love so some much Musical improvisation and Music Arrangement, 
+                As I'm a guitarist (and a bit about Piano/Keyboard) I love so much musical improvisation and Music Arrangement,
         I don't have any preference, I like Classical Music, Jazz/Blues, Any Kind of Pop, Any kind of Rock/Metal of any era. <br/><br/>
-        But I would say, Nowdays I listen a lot of Videogames OST, AniSongs, Virtual Japanese Idols (I'm not meaning Vocaloid or Hatsune miku but also I like it), 
+        But I would say, Nowadays I listen to a lot of Videogames OST, AniSongs, Virtual Japanese Idols (I'm not meaning Vocaloid or Hatsune Miku but also I like it),
         Oh, yeah, I know I'm Spanish, But I don't like flamenco</div>
       </div>
     </div>

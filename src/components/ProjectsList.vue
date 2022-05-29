@@ -30,9 +30,18 @@
 
 <script lang="ts">
 import Vue from "vue";
+/*
+import { Vue } from 'vue-property-decorator'
+import 'vue-router/types/vue'
+*/
 import ProjectDetailsOverlay from "@/components/ProjectDetailsOverlay.vue";
 import ProjectData from "@/data/ProjectData.ts";
-
+/*
+if (this.$router.params.project)
+{
+  showDetails(this.$router.params.project)
+}
+*/
 export default Vue.extend({
   name: "ProjectsList",
   components: {

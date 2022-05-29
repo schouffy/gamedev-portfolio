@@ -12,8 +12,7 @@
       on <router-link to="/other-projects"> other game-dev related projects</router-link>,
       <br/> and other <router-link to="/resume">Generalist Developer Things</router-link> as well.</div>
 
-      <div style="margin-top: 40px;">I'm <strong>currently working on my portfolio</strong> But I'm open for Game Development or Virtual Production or similar related jobs,<router-link to="/contact"><br/>
-      Contact me!</router-link> if you have something for me.</div>
+      <div style="margin-top: 40px;">I'm currently <strong>open</strong> for any kind of IT Job related<br/> if you have interest for hire me, Please <router-link to="/contact">Contact me</router-link></div>
     </div>
 
     <div class="photo">

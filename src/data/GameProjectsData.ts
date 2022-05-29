@@ -6,7 +6,7 @@ export default [
     <div class="paragraph">
      <strong>VRProject</strong> is my latest project. You can check the real game page <a href="https://cutt.ly/LHTkwEH"><strong>here</strong></a> <br/>
 
-     Which you can find some (maybe outdated?) essential information about the development <a href="https://github.com/gabuscuv/VRProjectLiteForRecruiter-HR">here.</a> <br/>
+    You can find some (maybe outdated?) essential information about the development <a href="https://github.com/gabuscuv/VRProjectLiteForRecruiter-HR">here.</a> <br/>
      You can find <a href="https://www.youtube.com/playlist?list=PLUjwTJzEXpjZi-vGFN79H84W2OptAIlkG"> here </a> an (outdated)  playlist about the different features/mechanics of the game. 
      <br/>Placeholder Photo by <a href="https://unsplash.com/@unblume?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Jannis Blume</a> on <a href="https://unsplash.com/s/photos/virtual-reality-woman?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>.
      </div>
@@ -14,14 +14,12 @@ export default [
      <div class="paragraph center">
      <div class="notice">
          Windows build available on <a href="https://cutt.ly/4HEqUQu" target="_blank">itch.io (Under a pen-name)</a>.<br/>
-         It's possible ask for a verification by a message & digital signature <a href="https://cutt.ly/gHR0BaF">here</a><br/>
+         It's possible to ask for a verification by a message & digital signature <a href="https://cutt.ly/gHR0BaF">here</a><br/>
          Please Contact me if It's necessary
      </div>
      <div class="paragraph center">
      <iframe class="youtube" src="https://www.youtube-nocookie.com/embed/videoseries?list=PLUjwTJzEXpjZi-vGFN79H84W2OptAIlkG" frameborder="0" allowfullscreen></iframe>
-
      </div>
-        </ul>
     </div>
 
     `, "#23bd69", true),
@@ -58,8 +56,8 @@ export default [
     `, "#5a78af"),
     new ProjectData("project-3", "TestingGround++", "img/projects/project-3-icon.png", `
     <div class="paragraph">
-        <strong>TestingGround++</strong> is an improvement of last execrise from UE4 course made by <a href="https://www.udemy.com/user/bentristem/">Ben Tristem</a><br/>
-        Adding Some Must-Have features.
+        <strong>TestingGround++</strong> is an improvement of the last exercise from the UE4 course made by <a href="https://www.udemy.com/user/bentristem/">Ben Tristem</a><br/>
+        Adding some must-have features.
     </div>
     <div class="paragraph center"><iframe class="youtube" src="https://www.youtube-nocookie.com/embed/UFTDGFCA2vI" frameborder="0" allowfullscreen></iframe></div>
     <div class="paragraph">
@@ -77,7 +75,7 @@ export default [
         <li> Better Textures.</li>
         <li> Better Performance.</li>
         <li> Improved UI.</li>
-        <li> Saving HighScore.</li>
+        <li> The capacity to save high scores.</li>
         </ul>
     </div>
 
@@ -97,15 +95,14 @@ export default [
     `, "#383838"),
     new ProjectData("project-4", "_4thof4th", "img/projects/project-4-icon.png", `
     <div class="paragraph">
-    <strong>_4thof4th (2017)</strong> was my end of degree project (note: 9) using my own Game Engine (Usagi Engine) based on MonoGame Game Framework. (C#) <br />
-    The Game is about a Cute/Kawaii Game which suffer a Buffer overflow which result in a virtual reboot <br />
-    booting in a Simulated OS (based on FreeBSD) and (again, fictional/Virtual etc) run some unknown routines which active your typical Bad AI. (HAL900,GLaDOS, etcetc) <br />
-    they shows some tricks like toggling keyboard lights, reading some desktop filenames (again, it's safe) <br />
-    and produces some beepings (a little melody!), all with a cheap battle end which is poor/weird bad bullet hell. <br />
-    And technically don't have an ending so...
+    <strong>_4thof4th (2017)</strong> was my end of degree project (note: 9) using my game engine (Usagi Engine) based on MonoGame Game Framework. (C#). <br />
+    The Game is about a supposed cute game which suffers a simulated buffer overflow and because of this causes a virtual reboot <br />
+    booting in a fake operating system (based on FreeBSD's appearance) and (again, fictional/virtual) running some unknown routines which activate a typical evil AI. (like HAL900, GLaDOS) <br />
+    It shows some tricks like toggling keyboard LEDs lights and reading some desktop filenames (again, it's safe)
+    and produces some beepings (a little melody!), all with a cheap end battle which is poor bullet hell.
+    And It doesn't have an ending so, yeah, An unfinished project.
     </div>
     <br/>Placeholder Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@neo8iam">NEOSiAM 2020</a>.
-
     
     <div class="paragraph">
         Main features :
