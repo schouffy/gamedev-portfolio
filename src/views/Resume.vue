@@ -27,7 +27,7 @@
     <div class="full-content">
       <h2>Work experience</h2>
 
-      <h3>Hobbyist Game Developer</h3>
+      <h3>Game Developer</h3>
       <h4>2017-2022</h4>
       <div> You can see my work <router-link to="/game-projects">here</router-link>,
       </div>
