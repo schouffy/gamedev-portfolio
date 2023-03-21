@@ -20,6 +20,10 @@
         <a href="https://github.com/gabuscuv" target="_blank">github.com/gabuscuv</a>
       </li>
       <li>
+        <i class="fa fa-facebook fa-lg fa-fw"></i>
+        <a href="https://www.facebook.com/GabrielBustillodelCuvillo/" target="_blank">https://www.facebook.com/GabrielBustillodelCuvillo/</a>
+      </li>
+      <li>
         <i class="fa fa-gamepad fa-lg fa-fw"></i>
         <a href="https://gabuscuv.itch.io" target="_blank">gabuscuv.itch.io</a>
       </li>

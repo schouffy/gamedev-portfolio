@@ -110,34 +110,34 @@
         
         International Standard Classification of Education: ISCED3</div>
 
+      <h2>Courses and Certifications</h2>
+      <h3> <a href="https://www.udemy.com/certificate/UC-OHE75YJE/">
+      Unreal Engine C++ Developer: Learn C++ and Make Video Games</a>- 2019</h3>
+      <h4> by Ben Tristem & Sam Pattuzzi on Udemy</h4>
+      
+      <h3><a href="/img/certificates/CCNA2.jpg">CCNA Discovery 2 : Working at a Small-to-Medium Business or ISP - 2013</a></h3>
+      <h4>Cisco</h4>
+      
+      <h3><a href="/img/certificates/CCNA1.jpg">CCNA Discovery 1 : Networking for Home and Small Businesses - 2013</a></h3>
+      <h4>Cisco</h4>
+
+      <h3><a href="/img/certificates/Photoshop.jpg">Adobe Photoshop CS3 Course - 2013</a></h3>
+      <h4>Grupo System</h4>
+
       <h2>Languages</h2>
 
       <h3>Spanish</h3>
       <div>Native Language</div>
 
       <h3>English</h3>
-      <div>I lived and worked in England for 5 months at the end of 2017 and did bussiness with Czech People for 2 years with British Clients</div>
+      <div>I lived and worked in England for 5 months at the end of 2017 and did bussiness with Czech People for almost 3 years with British Clients</div>
 
-      <h2>Courses and Certifications</h2>
-      <h3> <a href="https://www.udemy.com/certificate/UC-OHE75YJE/">
-      Unreal Engine C++ Developer: Learn C++ and Make Video Games</a>- 2019</h3>
-      <h4> by Ben Tristem & Sam Pattuzzi on Udemy</h4>
-      
-      <h3>CCNA Discovery 2 : Working at a Small-to-Medium Business or ISP - 2013</h3>
-      <h4>Cisco</h4>
-      
-      <h3>CCNA Discovery 1 : Networking for Home and Small Businesses - 2013</h3>
-      <h4>Cisco</h4>
-
-      <h3>Adobe Photoshop CS3 Course - 2013</h3>
-      <h4>Grupo System</h4>
 
       <h2>Besides...</h2>
       <div>
         <h3>I 💚 IT tinkering</h3>
-        <div>Since I was a child, I always love tinker with computers things, something like installing vintages OS, Install Ubuntu on an External HDD and booting from it, Install Gnome 2 in Mac OS X (XQuartz&MacPorts),
-        doing cross/distributed compiling, I compiled a kernel for an Integrated Router <br/>
-        I am using Gentoo as my daily-driver OS which theoretically is one of the hardest OS to install and using a QEMU/KVM Setup with VGA Passthrough if I need something from Windows (mainly VR Stuff and Games with Anti-cheats).
+        <div>Since I was a child, I always loved tinkering with computers things, something as installing vintages OS, installing Ubuntu on an external HDD and booting from it, Install Gnome 2 in Mac OS X (XQuartz&MacPorts), doing cross/distributed compiling, I compiled a kernel for an integrated router
+I am using Gentoo as my daily-driver OS which theoretically is one of the hardest OS to install and using a QEMU/KVM Setup with VGA Passthrough if I need something from Windows (mainly VR Stuff and Games with Anti-cheats). 
          <br/><br/>
         So, Yeah, I love Tinker IT Stuff</div>
         

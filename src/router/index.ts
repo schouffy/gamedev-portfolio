@@ -21,6 +21,11 @@ const routes: Array<RouteConfig> = [
     component: () => import(/* webpackChunkName: "about" */ '../views/GameProjects.vue')
   },
   {
+    path: '/game-tools-projects',
+    name: 'GameTools Projects',
+    component: () => import(/* webpackChunkName: "about" */ '../views/GameToolsProjects.vue')
+  },
+  {
     path: '/other-projects',
     name: 'Other Projects',
     component: () => import(/* webpackChunkName: "about" */ '../views/OtherProjects.vue')

@@ -9,14 +9,14 @@
 
       <div style="margin-top: 20px;">I've worked on  <router-link to="/game-projects">Game Projects</router-link>, 
       <!-- on <router-link to="/other-projects">Game Tools</router-link>, on <router-link to="/other-projects">Hacky Things</router-link>, --> 
-      on <router-link to="/other-projects"> other game-dev related projects</router-link>,
+      <router-link to="/game-tools-projects"> other game-dev related projects</router-link>, <router-link to="/other-projects"> personal projects </router-link>
       <br/> and other <router-link to="/resume">Generalist Developer Things</router-link> as well.</div>
 
-      <div style="margin-top: 40px;">I'm currently <strong>open</strong> for any kind of IT Job related<br/> if you have interest for hire me, Please <router-link to="/contact">Contact me</router-link></div>
+      <div style="margin-top: 40px;">I'm currently <strong>open</strong> to any kind of IT Job-related <br/> (especially interested in Game Development, Interactive or media projects)<br/> if you have interest for hire me, Please <router-link to="/contact">Contact me</router-link></div>
     </div>
 
     <div class="photo">
-      <img src="img/avatar.png" alt="Avatar of Gaby" /> 
+      <img src="img/avatar-2.png" alt="Avatar of Gaby" /> 
     </div>
 
     <div style="clear:both"></div>

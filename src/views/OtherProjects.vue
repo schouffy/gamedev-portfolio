@@ -1,16 +1,10 @@
 <template>
-  <div>
-    <h1>Other stuff</h1>
-
-    <div style="margin-bottom: 30px;">
-      And here are some other standalone, game tools I've made or heavily contributed to.
-    </div>
-    <ProjectsList v-bind:projects="projects" />
-
-          <div style="margin-top: 20px;">
+<div>
+        <div style="margin-top: 20px;">
             There is more to see on <a target="_blank" href="https://github.com/gabuscuv">my GitHub profile</a>
           </div>
-  </div>
+        <ProjectsList v-bind:projects="projects" />
+        </div>
 </template>
 
 <script lang="ts">

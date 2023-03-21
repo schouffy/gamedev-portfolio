@@ -1,70 +1,60 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
-    new ProjectData("project-6", "ArrowDialogueParse", "img/projects/project-6-icon.png", `
-    <div class="paragraph">
-      <strong>ArrowDialogueParse</strong> is a simple & quick format converter program/script written in golang. <br />
-      This parser allows converts all dialogue from a Arrow project to CSV which makes importable to another Game Engine like Unreal Engine.
-            </div>
-            <div class="paragraph center">
-            <div class="notice">
-            Available on <a href="https://github.com/gabuscuv/ArrowDialogueParser" target="_blank">Github</a>
-            </div>
-        </div>
-
-          <div class="paragraph">
-            Main features :
-            <ul>
-            <li>Fast, Quick & Simple</li>
-            <li>Unattended mode using a JSON config file!</li>
-            <li>Allows use Node Notes as Metadata!</li>
-            </ul>
-        </div>
-
-    `, "#c10606", false, false),
-    new ProjectData("project-7", "DialogueToTTS", "img/projects/DialogueToTTS-icon.png", `
-    <div class="paragraph">
-      <strong>DialogueToTTS</strong> is a program written in C#/.NETCore<br />
-      This program is an automatized "frontend" for <a href="https://github.com/mozilla/TTS">TTS from Mozilla/coqui-ai</a> which allows
-      convert tons of dialogues/data generated/based from <a href="https://github.com/gabuscuv/ArrowDialogueParser" target="_blank">ArrowDialogueParser</a>
-      to TTS (Program) for WaveForms Generation, For a easy Placeholder/Mock Data/Testing.
-            </div>
-            <div class="paragraph center">
-            <div class="notice">
-            Available on <a href="https://github.com/gabuscuv/DialogueToTTS" target="_blank">Github</a>
-            </div>
-        </div>
-
-          <div class="paragraph">
-            Main features :
-            <ul>
-            <li>Multi-plataform</li>
-            <li>CLI Support or Unattended mode using a JSON config file!</li>
-            <li>Done in half a day (!)</li>
-            </ul>
-        </div>
-
-    `, "#c10606", false, false),
-    new ProjectData("project-8", "UE4 Toolkit", "img/projects/toolkit/cmd.jpg", `
-    <div class="paragraph">
-                <strong>UE4 Toolkit</strong> is a set of scripts written in Powershell & Bash that helps about automatization compiling and cooking UE4 Games since CLI. <br />
-                without need open UE4Editor, Ideal for Continous Integration Tasks.
+  new ProjectData("project-7", "Beaten Games", "img/projects/BeatenGames-icon.png", `
+  <div class="paragraph">
+    <strong>BeatenGames</strong> is a SPA (single-page application) written in JS/React.JS<br />
+    This SPA is automatized list which uses data from a static (for now) JSON generated with information from my game database plus some reference from the IGDB database
           </div>
+          <div class="paragraph center">
+          <div class="notice">
+          Live WebPage available <a href="https://cutt.ly/x81PC7S" target="_blank">here</a>.
+          Source code is available on <a href="https://github.com/gabuscuv/BeatenGames-Source" target="_blank">GitHub</a>.
+          </div>
+      </div>
+
+        <div class="paragraph">
+          Main features :
+          <ul>
+          <li>Selectable by Years without Page Reloads</li>
+          <li>Responsive Dynamic Web Design for Phones, Tablets and High resolution displays</li>
+          <li>Done in ~2 work days</li>
+          </ul>
+      </div>
+
+  `, "#c10606", false, true),
+    new ProjectData("project-6", "BacklogDatabase-Utils", "img/projects/HLTB2GameList-icon.png", `
+    <div class="paragraph">
+      <strong>BacklogDatabase-Utils</strong> is a autofiller database & other utils CLI program for my personal Game Database written in C#. <br />
+      It uses information from IGDB (API Keys required) and HowLongToBeat.
+            </div>
+            <div class="paragraph center">
+            <div class="notice">
+            Available on <a href="https://github.com/gabuscuv/BacklogDatabase-Utils" target="_blank">Github</a>
+            </div>
+        </div>
+
+          <div class="paragraph">
+            Main features :
+            <ul>
+            <li>Add Scores, Year Release from IGDB</li>
+            <li>Add time required for beat it from HowLongToBeat (It's broken right now because a deprected third-party library, It's planned fix the library by myself)</li>
+            <li>Export data for other applications like BeatenGames</li>
+            </ul>
+        </div>
+
+    `, "#c10606", false, true),
+    new ProjectData("project-8", "HLTB2GameList", "img/projects/toolkit/cmd.jpg", `
+    <div class="paragraph">
+                <strong>HLTB2GameList</strong> is a workaround script written in Python for a malfunction feature of BacklogDatabase-Utils (because a deprected third-party library, It's planned fix the library by myself)           
+                </div>
 
     <div class="paragraph center">
               <div class="notice">
-                Available on <a href="https://github.com/gabuscuv/UE4-Toolkit-Public" target="_blank">Github</a>
+                Source Code available on <a href="https://github.com/gabuscuv/HLTB2GameList" target="_blank">Github</a>
               </div>
           </div>
-
-            <div class="paragraph">
-              Main features :
-              <ul>
-              <li>Allows Cooking your UE4 Game, copy all extra files (like README, NOTICE or ChangeLog files) & compress in one-click/enter</li>
-              <li>Allows you retry failed compilations or initial compilations in one-click/enter</li>
-              <li>Make easy set up custom ssh keys, name, e-mail commits, and checks if it's not installed git lfs</li>
-              </ul>
           </div>
 
-`, "#1ca1e2", false, true),
+`, "#1ca1e2", false, false),
 ];
