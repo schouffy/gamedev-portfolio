@@ -7,7 +7,7 @@ jobs:
     steps:
     - uses: actions/checkout@v2
     - id: Build-Vue
-      uses: gabuscuv/VuePagesAction@1.0.2c
+      uses: xRealNeon/VuePagesAction@1.0.1
       with:
         username: 'gabuscuv'
         reponame: 'gabuscuv.github.io'

@@ -35,7 +35,7 @@ import { Vue } from 'vue-property-decorator'
 import 'vue-router/types/vue'
 */
 import ProjectDetailsOverlay from "@/components/ProjectDetailsOverlay.vue";
-import ProjectData from "@/data/ProjectData.ts";
+import ProjectData from "@/data/ProjectData";
 /*
 if (this.$router.params.project)
 {
