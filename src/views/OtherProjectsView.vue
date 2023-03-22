@@ -10,7 +10,7 @@
 <script lang="ts">
 import Vue from "vue";
 import ProjectsList from "@/components/ProjectsList.vue";
-import otherProjectsData from "@/data/OtherProjectsData.ts";
+import otherProjectsData from "@/data/OtherProjectsData";
 
 export default Vue.extend({
   name: "OtherProjects",

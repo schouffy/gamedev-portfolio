@@ -14,7 +14,7 @@
 <script lang="ts">
 import Vue from "vue";
 import ProjectsList from "@/components/ProjectsList.vue";
-import gameProjectsData from "@/data/GameProjectsData.ts";
+import gameProjectsData from "@/data/GameProjectsData";
 
 export default Vue.extend({
   name: "GameProjects",

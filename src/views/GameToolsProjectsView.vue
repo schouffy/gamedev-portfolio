@@ -12,7 +12,7 @@
 <script lang="ts">
 import Vue from "vue";
 import ProjectsList from "@/components/ProjectsList.vue";
-import otherProjectsData from "@/data/GameToolsProjectsData.ts";
+import otherProjectsData from "@/data/GameToolsProjectsData";
 
 export default Vue.extend({
   name: "OtherProjects",

@@ -18,7 +18,7 @@
 
 <script lang="ts">
 import Vue from "vue";
-import referencesData from "@/data/ReferencesData.ts";
+import referencesData from "@/data/ReferencesData";
 
 
 export default Vue.extend({
