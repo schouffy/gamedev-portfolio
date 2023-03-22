@@ -22,7 +22,7 @@ import referencesData from "@/data/ReferencesData.ts";
 
 
 export default Vue.extend({
-  name: "References",
+  name: "ReferencesView",
   data:
       function(){return {ReferencesData : referencesData}}
 });
