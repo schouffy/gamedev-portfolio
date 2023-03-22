@@ -11,4 +11,5 @@ jobs:
       with:
         username: 'gabuscuv'
         reponame: 'gabuscuv.github.io'
+        branch: 'main'
         token: ${{ secrets.GITHUB_TOKEN }}
