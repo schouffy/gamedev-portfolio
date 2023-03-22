@@ -1,4 +1,4 @@
-import ProjectData from '@/data/ProjectData'
+import ProjectData from '@/data/ProjectData.ts'
 
 export default [
     new ProjectData("project-1", "VRProject", "img/projects/project-1-icon.png", 

@@ -1,4 +1,4 @@
-import ProjectData from '@/data/ProjectData'
+import ProjectData from '@/data/ProjectData.ts'
 
 export default [
     new ProjectData("project-6", "ArrowDialogueParse", "img/projects/project-6-icon.png", `

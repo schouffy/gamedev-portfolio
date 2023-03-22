@@ -1,4 +1,4 @@
-import ProjectData from '@/data/ProjectData'
+import ProjectData from '@/data/ProjectData.ts'
 
 export default [
   new ProjectData("project-7", "Beaten Games", "img/projects/BeatenGames-icon.png", `
