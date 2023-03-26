@@ -14,8 +14,6 @@ permissions:
   pages: write
   id-token: write
 
-name: Build Vue
-on: [push]
 jobs:
   build_vue:
     runs-on: ubuntu-latest
