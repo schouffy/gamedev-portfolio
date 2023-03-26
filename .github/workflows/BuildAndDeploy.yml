@@ -24,7 +24,7 @@ jobs:
       uses: gabuscuv/VuePagesAction@1.0.2c
       with:
         username: 'gabuscuv'
-        reponame: '__gabuscuv.github.io'
+        reponame: 'gabuscuv.github.io'
         branch: 'gh-pages'
         token: ${{ secrets.GITHUB_TOKEN }}
   deploy:
