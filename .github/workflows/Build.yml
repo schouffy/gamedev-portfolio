@@ -2,30 +2,26 @@ name: Build (Just for Test)
 
 on:
   issue_comment
-   # Runs on pushes targeting the default branch
   push:
     branches: ["development/main"]
     
-
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
-# Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
-permissions:
-  contents: write
-  pages: write
-  id-token: write
-
 jobs:
-  build_vue:
+  build:
     runs-on: ubuntu-latest
     name: Build Vue
     steps:
-    - uses: actions/checkout@v2
-    - id: Build-Vue
-      uses: gabuscuv/VuePagesAction@1.0.2c
-      with:
-        username: 'gabuscuv'
-        reponame: 'gabuscuv.github.io'
-        branch: 'gh-pages'
-        token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/checkout@v3
+
+      - name: Setup Node
+        uses: actions/setup-node@v3
+        with:
+          cache: npm
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Rebuild the dist/ directory
+        run: npm run build
