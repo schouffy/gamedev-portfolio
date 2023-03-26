@@ -1,4 +1,7 @@
-  # Runs on pushes targeting the default branch
+name: Build and Deploy Portfolio content to Pages
+
+on:
+   # Runs on pushes targeting the default branch
   push:
     branches: ["main"]
 
