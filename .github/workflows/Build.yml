@@ -1,7 +1,11 @@
 name: Build (Just for Test)
 
 on:
-  issue_comment
+  pull_request:
+    # Sequence of patterns matched against refs/heads
+    branches:    
+      - 'development/**'
+      - 'dependabot/**'  
   push:
     branches: ["development/main"]
     
