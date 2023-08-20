@@ -13,7 +13,7 @@ set -e
 . ~/.nvm/nvm.sh
 
 # build
-nvm install 16.20.2 
+nvm install 16.20.2
 npm run build
 
 # navigate into the build output directory
