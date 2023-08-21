@@ -10,11 +10,11 @@
 
       <div style="margin-top: 20px;">I've worked on  <router-link to="/game-projects">stuff</router-link>, on <router-link to="/other-projects">other stuff</router-link>, and took part in <router-link to="/resume">a few things</router-link> as well.</div>
 
-      <div style="margin-top: 40px;">I'm <strong>currently looking for a job</strong> as a monk, like my good friend John Rambo did a few years back. You can reach me at <a href="mailto:johnmatrix@deltaforce.us">johnmatrix@deltaforce.us</a> or <router-link to="/contact">through here</router-link>.</div>
+      <div style="margin-top: 40px;">I'm <strong>currently looking for a job</strong> as a monk, like my good friend John Rambo did a few years back. You can reach me at <a href="mailto:eduardobarrancos11488@gmail.com">eduardobarrancos11488@gmail.com</a> or <router-link to="/contact">through here</router-link>.</div>
     </div>
 
     <div class="photo">
-      <img src="img/avatar.png" alt="Avatar of John" /> 
+      <img src="img/me.png" alt="Avatar of Eduardo" class="avatar-image"/> 
     </div>
 
     <div style="clear:both"></div>
@@ -28,9 +28,16 @@
   margin-bottom: 20px;
 }
 
+.avatar-image {
+  border-radius: 50%;
+  width: 250px;
+}
+
 .photo {
   margin-top: 50px;
   text-align: center;
+  width: 50%;
+  margin: auto;
 }
 
 @media only screen and (min-width: 620px){
@@ -41,7 +48,7 @@
   .photo {
     float: left;
     padding: 10px;
-    padding-left: 80px;
+    width: 0;
   }
 }
 
