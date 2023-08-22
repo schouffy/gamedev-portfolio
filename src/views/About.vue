@@ -1,16 +1,19 @@
 <template>
   <div style="margin-bottom: 80px;">
-    <h1>Hello!</h1>
+    <h1>Heyho!</h1>
 
     <div class="paragraph">
       <div>
-        I'm <strong>John Matrix</strong>, a former Delta Force operative, now a hobbyist lumberjack.<br/>
-        I spend my days living alone with my daughter Jenny, and cutting trees and carrying trunks around to keep in shape.
+        I'm <strong>Eduardo Barrancos</strong>, a Software Engineer by day and GameDev by night :D <br>
+        I'm currently finishing my Masters' degree in Computer Science, working part-time as a Software Engineer and making games and all sort of experiments as a hobby!
       </div>
 
-      <div style="margin-top: 20px;">I've worked on  <router-link to="/game-projects">stuff</router-link>, on <router-link to="/other-projects">other stuff</router-link>, and took part in <router-link to="/resume">a few things</router-link> as well.</div>
+      <div style="margin-top: 20px;">I've worked on <router-link to="/game-projects">some games</router-link>(some alone, others in teams, most as jam participations). I've also made some <router-link to="/other-projects">non-game experiments</router-link>, and took part in <router-link to="/resume">a few other-things</router-link> as well.</div>
 
-      <div style="margin-top: 40px;">I'm <strong>currently looking for a job</strong> as a monk, like my good friend John Rambo did a few years back. You can reach me at <a href="mailto:eduardobarrancos11488@gmail.com">eduardobarrancos11488@gmail.com</a> or <router-link to="/contact">through here</router-link>.</div>
+      <div style="margin-top: 40px;">I'm really passioned about art. 
+        <a href="https://www.wincalendar.com/Calendar-UK/date/22-August-2023">Currently</a> I'm playing the <a href="https://store.steampowered.com/app/379720/DOOM/">Doom</a> game 
+        and reading the <a href="https://www.goodreads.com/series/40911-the-witcher">Witcher's Series</a>. <br>
+      Feel free to reach me at <a href="mailto:eduardobarrancos11488@gmail.com">eduardobarrancos11488@gmail.com</a> or <router-link to="/contact">through here</router-link>.</div>
     </div>
 
     <div class="photo">
