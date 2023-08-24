@@ -11,13 +11,13 @@
       <div style="margin-top: 20px;">I've worked on <router-link to="/game-projects">some games</router-link>(some alone, others in teams, most as jam participations). I've also made some <router-link to="/other-projects">non-game experiments</router-link>, and took part in <router-link to="/resume">a few other-things</router-link> as well.</div>
 
       <div style="margin-top: 40px;">I'm really passioned about art. 
-        <a href="https://www.wincalendar.com/Calendar-UK/date/22-August-2023">Currently</a> I'm playing the <a href="https://store.steampowered.com/app/379720/DOOM/">Doom</a> game 
+        <a href="https://www.wincalendar.com/Calendar-UK/date/22-August-2023">Currently</a> I'm playing <a href="https://store.steampowered.com/app/379720/DOOM/">Doom (2016)</a> 
         and reading the <a href="https://www.goodreads.com/series/40911-the-witcher">Witcher's Series</a>. <br>
       Feel free to reach me at <a href="mailto:eduardobarrancos11488@gmail.com">eduardobarrancos11488@gmail.com</a> or <router-link to="/contact">through here</router-link>.</div>
     </div>
 
     <div class="photo">
-      <img src="img/me.png" alt="Avatar of Eduardo" class="avatar-image"/> 
+      <img src="img/me_sun.png" alt="Avatar of Eduardo" class="avatar-image"/> 
     </div>
 
     <div style="clear:both"></div>
@@ -32,8 +32,8 @@
 }
 
 .avatar-image {
-  border-radius: 50%;
-  width: 250px;
+  border-radius: 15%;
+  width: 230px;
 }
 
 .photo {

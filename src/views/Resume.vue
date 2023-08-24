@@ -3,24 +3,22 @@
     <h1>Resume</h1>
 
     <div class="paragraph">
-      I'm <strong>John Matrix</strong>, a former Delta Force operative with lots of experience, lots of training and huge muscles.
-      <br />After graduating from kindergarten, I've been enrolled in the army for 25 years, where I learned to destroy things in an amazing number of ways.
-      <br />I joined the Delta Force because I thought it was Greek lessons, but I quickly adapted to this unexpected environment and became a key element.
-      <br />I love teamwork, but I can also go in solo depending on the mission requirements.
+      I'm a Computer Science student and Software Engineer living in Lisbon, Portugal.
+      <br />Currently finishing my Masters in <a href="https://tecnico.ulisboa.pt/pt/">Instituto Superior Técnico</a>
+       and I've been working as a Software Engineer in <a href="https://www.premium-minds.com/">Premium Minds</a> since the end of 2022.
       <br />
-      <br />Right now I'm trying to find inner peace after I've read some personal development books. I'm looking for a monk job so if you have any opportunity feel free to 
-      <router-link to="/contact">contact me</router-link>.
+      <br /> Two years ago I also joined <a href="https://gamedev.tecnico.ulisboa.pt/">GameDev Técnico</a>
+      , a student game development group. Within the group I participated in a few jams and a couple of longer term projects.
+       Today I'm one of the Community Managers of the group.
       <br />
-      <br />Besides war, I'm passionate about firearms, martial arts, explosions, push-ups and flowers.
 
-      <div style="margin-top:20px; margin-bottom:20px;">
-        <a class="download-link" href="d/resume-en.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF 🇬🇧</a>
-        <a class="download-link" href="d/cv-fr.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Télécharger en PDF 🇫🇷</a>
+      <div style="margin-top:20px;">
+        <a class="download-link" href="d/Eduardo_Barrancos_CV.pdf" target="_blank"><i class="fa fa-download fa-lg fa-fw"></i> Download as PDF 🇬🇧</a>
         <div style="clear:both"></div>
       </div>
     </div>
     <div class="photo">
-      <img src="img/resume-photo.png" alt="Photo of John" />
+      <img src="img/me.png" alt="Photo of Eduardo" class="avatar-images"/>
     </div>
 
     <div style="clear:both"></div>
@@ -161,6 +159,7 @@ h4 {
 .photo img {
   height: 300px;
   width: 300px;
+  border-radius: 50%;
 }
 
 .tech-stack {
@@ -179,8 +178,9 @@ h4 {
 
   .photo {
     float: left;
-    padding: 30px;
     padding-left: 80px;
+    width: 0;
+    margin-top: 0;
   }
 
   .skill-set {
