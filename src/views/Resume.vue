@@ -26,26 +26,29 @@
     <div class="full-content">
       <h2>Work experience</h2>
 
-      <h3>Operation Classified - Delta Force</h3>
-      <h4>2018-2019</h4>
+      <h3>Community Manager | Member - GameDev Técnico</h3>
+      <h4>October 2021 - <i>Present</i></h4>
 
-      <div>It's classified so I can't speak about it.</div>
+      <div>Official <i>Instituto Superior Técnico's</i> game development club
+      <br> - Participated in a variaty of game jams with various teammates and in multiple roles (programmer, designer,  2d/vfx artist, music/sound producer)
+      available on <a href="https://reallyokeyfruit.itch.io/">itch.io</a>
+      <br> - Made <i>Quinta do Vale</i> as a game programmer - a farming game
+      <br> - As a community manager, organized various events, mainly the group's recruitment</div>
 
-      <div class="tech-stack">Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
+      <div class="tech-stack">Godot, GDScript, Unity, C#, Aseprite, Audacity, Beepbox</div>
 
-      <h3>Operation Classified - Delta Force</h3>
-      <h4>2015-2017</h4>
+      <h3>Software Engineer - Premium Minds</h3>
+      <h4>June 2022 - <i>Present</i></h4>
 
-      <div>It's classified so I can't speak about it.</div>
+      <div>
+        - Work with a team to develop and automate processes in a multi-context ecosystem<br>
+        - Integrated with internal and external systems <br>
+        - Migrated from a monolithic system to a micro-services focused environment
+      </div>
 
-      <div class="tech-stack">Even more Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
-
-      <h3>Operation Classified - Delta Force</h3>
-      <h4>2012-2015</h4>
-
-      <div>It's classified so I can't speak about it.</div>
-
-      <div class="tech-stack">Firearms, knives, grenades, Hummer vehicle, parachute,...</div>
+      <div class="tech-stack">
+        Java (Hibernate, Evean, Jobby, Guice, Flyway), Bash, SQL, PostgreSQL, Kafka, Docker, Nomad, JUnit, Maven, Jenkins, Jira     
+      </div>
 
       <h2>Skills</h2>
 
