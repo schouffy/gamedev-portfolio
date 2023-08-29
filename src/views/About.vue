@@ -43,6 +43,10 @@
   margin: auto;
 }
 
+h1 {
+  text-align: center;
+}
+
 @media only screen and (min-width: 620px){
   .paragraph {
     float: left;
@@ -52,6 +56,10 @@
     float: left;
     padding: 10px;
     width: 0;
+  }
+
+  h1 {
+    text-align: left;
   }
 }
 

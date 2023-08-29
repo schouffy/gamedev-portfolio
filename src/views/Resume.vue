@@ -133,6 +133,11 @@ export default Vue.extend({
 </script>
 
 <style scoped>
+
+h1 {
+  text-align: center;
+}
+
 h2 {
   font-weight: 100;
   font-size: 2em;
@@ -193,6 +198,10 @@ h4 {
 }
 
 @media only screen and (min-width: 620px){
+  h1 {
+    text-align: left;
+  }
+
   .paragraph {
     float: left;
   }

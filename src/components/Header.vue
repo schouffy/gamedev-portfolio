@@ -50,6 +50,7 @@ a {
 @media only screen and (max-width: 620px){
   .nav-bar {
     line-height: 2em;
+    text-align: center;
   }
 
   a {

@@ -32,17 +32,26 @@
 </template>
 
 <style scoped>
+
+h1 {
+  text-align: center;
+}
+
 ul {
   list-style: none;
   padding-inline-start: 0px;
 }
 
 li {
-    line-height: 1.8em;
-    font-size: 1.2em;
-  }
+  line-height: 1.8em;
+  font-size: 1.2em;
+}
 
 @media only screen and (min-width: 620px){
+  h1 {
+    text-align: left;
+  }
+
   ul {
     padding-inline-start: 40px;
   }
