@@ -74,34 +74,22 @@
 
       <h2>Education</h2>
 
-      <h3>Kindergarten - 1985</h3>
-      <h4>Kindergarten degree</h4>
-      <div>Specialty in bullying and fighting (58 wins, 58 K-O, 0 losses)</div>
+      <h3>Bachelors in Computer Science and Engineering</h3>
+      <h4>2019 - 2022</h4>
+      <h4><a href="https://tecnico.ulisboa.pt/pt/">Instituto Superior Técnico</a>, Lisbon</h4>
+      
+      <h3>Masters in Computer Science and Engineering</h3>
+      <h4>2022 - <i>Present</i></h4>
+      <h4><a href="https://tecnico.ulisboa.pt/pt/">Instituto Superior Técnico</a>, Lisbon</h4>
+
+      <div>Had course in a multitude of subjects within computer science. 
+        E.g. Games, Distributed Systems, Software Engineering, AI, meta-programming, ...</div>
 
       <h2>Languages</h2>
 
-      <h3>American</h3>
-      <div>Basic knowledge but I know lots of one-liners</div>
+      <h4>English - C2</h4>
 
-      <h3>That's it</h3>
-      <div>Who needs another language when you speak American?</div>
-
-
-      <h2>Besides...</h2>
-      <div>
-        <h3>I ❤️ Violence</h3>
-        <div>I find it really soothing to just shoot at bad guys</div>
-
-        <h3>I 🧡 Sports</h3>
-        <div>I used to be thin but then I ingested 10 kilos of steroids and proteins a day while doing 1000 push-ups.</div>
-
-        <h3>I 💛 Politics</h3>
-        <div>I hope I can have a career here someday but I might have temper issues.</div>
-
-        <h3>I 💚 Flowers</h3>
-        <div>Especially the big ones, with the trunk and leaves.</div>
-
-      </div>
+      <h4>Portuguese - Native</h4>
     </div>
   </div>
 </template>
