@@ -8,7 +8,7 @@
         I'm currently finishing my Masters' degree in Computer Science, working part-time as a Software Engineer and making games and all sort of experiments as a hobby!
       </div>
 
-      <div style="margin-top: 20px;">I've worked on <router-link to="/game-projects">some games</router-link>(some alone, others in teams, most as jam participations). I've also made some <router-link to="/other-projects">non-game experiments</router-link>, and took part in <router-link to="/resume">a few other-things</router-link> as well.</div>
+      <div style="margin-top: 20px;">I've worked on <a href="https://reallyokeyfruit.itch.io/">some games</a>(some alone, others in teams, most as jam participations). I've also made some <a href="https://github.com/EdBarrancos">non-game experiments</a>, and took part in <router-link to="/resume">a few other-things</router-link> as well.</div>
 
       <div style="margin-top: 40px;">I'm really passioned about art. 
         <a href="https://www.wincalendar.com/Calendar-UK/date/22-August-2023">Currently</a> I'm playing <a href="https://store.steampowered.com/app/379720/DOOM/">Doom (2016)</a> 
