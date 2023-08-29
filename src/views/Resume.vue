@@ -50,25 +50,51 @@
         Java (Hibernate, Evean, Jobby, Guice, Flyway), Bash, SQL, PostgreSQL, Kafka, Docker, Nomad, JUnit, Maven, Jenkins, Jira     
       </div>
 
-      <h2>Skills</h2>
+      <h2>Tech Stack</h2>
 
       <div class="skill-set">
-        <h3>Lethal</h3>
-        <SkillRate name="Handguns" :rate="5" />
-        <SkillRate name="Rifles" :rate="5" />
-        <SkillRate name="Shotguns" :rate="5" />
-        <SkillRate name="Machineguns" :rate="5" />
-        <SkillRate name="Missile launchers" :rate="5" />
-        <SkillRate name="Knives" :rate="5" />
-        <SkillRate name="Hand to hand combat" :rate="5" />
+        <h3>Languages</h3>
+        <SkillRate name="Java"/>
+        <SkillRate name="Python"/>
+        <SkillRate name="C"/>
+        <SkillRate name="Julia"/>
+        <SkillRate name="SQL"/>
+        <SkillRate name="C#"/>
+        <SkillRate name="Javascript"/>
+        <SkillRate name="C++"/>
+        <SkillRate name="Bash"/>
+        <SkillRate name="Prolog"/>
+        <div style="clear:both"></div>
       </div>
 
       <div class="skill-set">
-        <h3>Non-lethal</h3>
-        <SkillRate name="Sneaking" :rate="1" />
-        <SkillRate name="Negotiation" :rate="1" />
-        <SkillRate name="Seduction" :rate="1" />
-        <SkillRate name="Sense of humor" :rate="2" />
+        <h3>Gamedev tools</h3>
+        <SkillRate name="Godot"/>
+        <SkillRate name="Unity"/>
+        <SkillRate name="Aseprite"/>
+        <SkillRate name="Audacity"/>
+        <SkillRate name="Krita"/>
+        <SkillRate name="Beepbox"/>
+        <div style="clear:both" />
+      </div>
+
+      <div class="skill-set">
+        <h3>Tools & frameworks</h3>
+        <SkillRate name="Hibernate"/>
+        <SkillRate name="Ebean"/>
+        <SkillRate name="Jobby"/>
+        <SkillRate name="Guice"/>
+        <SkillRate name="Flyway"/>
+        <SkillRate name="JUnit"/>
+        <SkillRate name="PostgresSQL"/>
+        <SkillRate name="Kafka"/>
+        <SkillRate name="Docker"/>
+        <SkillRate name="Nomad"/>
+        <SkillRate name="Vue"/>
+        <SkillRate name="React.js"/>
+        <SkillRate name="discord-py"/>
+        <SkillRate name="P5"/>
+        <div style="clear:both" />
       </div>
       <div style="clear:both" />
 
@@ -160,6 +186,10 @@ h4 {
 .photo {
   margin-top: 50px;
   text-align: center;
+}
+
+.clear {
+  clear: both;
 }
 
 @media only screen and (min-width: 620px){
