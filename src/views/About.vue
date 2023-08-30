@@ -39,7 +39,6 @@
 .photo {
   margin-top: 50px;
   text-align: center;
-  width: 50%;
   margin: auto;
 }
 
@@ -54,7 +53,7 @@ h1 {
 
   .photo {
     float: left;
-    padding: 10px;
+     padding-left: 80px;
     width: 0;
   }
 
