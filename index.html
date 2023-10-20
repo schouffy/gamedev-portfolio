@@ -5,23 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width,initial-scale=1.0">
 
-    <link rel="icon" href="<%= BASE_URL %>favicon.ico">
+    <link rel="icon" href="%BASE_URL%favicon.ico">
     <link href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" type="text/css">
-    
-    <title><%= VUE_APP_TITLE %></title>
-    <meta name="description" content="<%= VUE_APP_DESCRIPTION %>" />
-    <meta property="og:title" content="<%= VUE_APP_TITLE %>" />
-    <meta property="og:description" content="<%= VUE_APP_OGDESCRIPTION %>" />
-    <meta property="og:url" content="<%= VUE_APP_PRODUCTION_URL %>" />
-    <meta property="og:image" content="<%= VUE_APP_PRODUCTION_URL %>/img/avatar-og.png" />
 
+    <title>%VITE_APP_TITLE%</title>
+    <meta name="description" content="%VITE_APP_DESCRIPTION%" />
+    <meta property="og:title" content="%VITE_APP_TITLE%" />
+    <meta property="og:description" content="%VITE_APP_OGDESCRIPTION%" />
+    <meta property="og:url" content="%VITE_APP_PRODUCTION_URL%" />
+    <meta property="og:image" content="%VITE_APP_PRODUCTION_URL%/img/avatar-og.png" />
+    
   </head>
   <body>
     <noscript>
       <strong>Sorry but this portfolio doesn't work properly without JavaScript enabled. Please enable it to continue.</strong>
     </noscript>
     <div id="app"></div>
-    <!-- built files will be auto injected -->
+    <!-- built files are no longer auto injected -->
+    <script type="module" src="/src/main.ts"></script>
   </body>
 </html>
