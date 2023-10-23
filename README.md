@@ -14,14 +14,15 @@ For a real world use case, check my portfolio: https://scheefer.me
 
     - Fork or duplicate the repository
     - npm install
-    - npm run serve
+    - npm run dev
 
 2. Customize
 * For the content
     - Except for the projects pages, everything is static HTML that you can edit directly in the views and components files
     - For the projects pages, the page is dynamically populated at runtime using data stored in Typescript files (data/GameProjectsData.ts and data/OtherProjectsData.ts). Make the changes directly in these .ts files
     - Static files (images, icons, downloadables,..) should be placed in /public folder.
-    - Make the necessary changes in the .env file (this is mostly the site metadata). You need to "npm run serve" again when updating this file.
+    - Make the necessary changes in the .env file (this is mostly the site metadata). You need to "npm run dev"/
+    "npm run build" again when updating this file.
 
 * For the style
     - The basic colors can be edited in the css/variables.less file.
@@ -35,7 +36,7 @@ For a real world use case, check my portfolio: https://scheefer.me
 
     - npm run build
     - copy the content of the "dist" folder (created by "npm run build") to the publish location.
-    - Check this example if you want to deploy to GitHub pages or some other major static content host: https://cli.vuejs.org/guide/deployment.html#github-pages
+    - Check this example if you want to deploy to GitHub pages or some other major static content host: https://vitejs.dev/guide/static-deploy.html
 
 
 # License
