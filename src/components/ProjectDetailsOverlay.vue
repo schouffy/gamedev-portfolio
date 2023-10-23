@@ -18,9 +18,9 @@
 </template>
 
 <script lang="ts">
-import Vue from "vue";
+import { defineComponent }  from "vue";
 
-export default Vue.extend({
+export default defineComponent({
   name: "ProjectDetailsOverlay",
   props: {
     visible: Boolean,
@@ -63,10 +63,10 @@ iframe {
 }
 
 h1.dialog-title {
-    text-align: center;
-    font-size: 1.3em;
-    margin: 0px;
-    padding: 22px;
+  text-align: center;
+  font-size: 1.3em;
+  margin: 0px;
+  padding: 22px;
 }
 
 .dialog-content {

@@ -20,7 +20,7 @@
       </div>
     </div>
     <div class="photo">
-      <img src="img/resume-photo.png" alt="Photo of John" />
+      <img :src="`/img/resume-photo.png`" alt="Photo of John" />
     </div>
 
     <div style="clear:both"></div>
@@ -106,10 +106,11 @@
 </template>
 
 <script lang="ts">
-import Vue from "vue";
+import { defineComponent } from "vue";
 import SkillRate from "@/components/SkillRate.vue";
 
-export default Vue.extend({
+
+export default defineComponent({
   name: "Resume",
   components: {
     SkillRate,
