@@ -7,11 +7,13 @@
 </template>
 
 <script lang="ts">
-import Vue from "vue";
 
-export default Vue.extend({
+import { defineComponent } from "vue";
+
+export default defineComponent({
   name: "Footer"
 });
+
 </script>
 
 <style scoped lang="less">
@@ -27,9 +29,9 @@ export default Vue.extend({
 }
 
 .left, .right {
-    padding-top: 10px;
-    text-align: center;
-  }
+  padding-top: 10px;
+  text-align: center;
+}
 
 @media only screen and (min-width: 620px){
 

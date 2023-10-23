@@ -106,10 +106,11 @@
 </template>
 
 <script lang="ts">
-import Vue from "vue";
+import { defineComponent } from "vue";
 import SkillRate from "@/components/SkillRate.vue";
 
-export default Vue.extend({
+
+export default defineComponent({
   name: "Resume",
   components: {
     SkillRate,

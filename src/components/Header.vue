@@ -11,14 +11,12 @@
 </template>
 
 <script lang="ts">
-import Vue from "vue";
+import { defineComponent } from "vue";
 
-export default Vue.extend({
-  name: "Header",
-  //   props: {
-  //     msg: String,
-  //   },
+export default defineComponent({
+  name: "Header"
 });
+
 </script>
 
 <style scoped lang="less">
