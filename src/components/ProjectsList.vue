@@ -39,7 +39,7 @@ export default defineComponent({
     ProjectDetailsOverlay,
   },
   props: {
-    projects: Array
+    projects: Array<ProjectData>
   },
   data: function () {
     return {
