@@ -42,7 +42,7 @@ export default Vue.extend({
     methods: {
         moveTo: function(item: BlogPostData) {
             // I want this to be different, I want to open a new page?
-            console.debug("Move to blog post");
+            window.location.href = item.pathToPage;
         },
 
         fetchDate: function(date: Date) {
