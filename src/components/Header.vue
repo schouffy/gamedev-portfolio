@@ -22,7 +22,7 @@ export default Vue.extend({
 
 <style scoped lang="less">
 
-@import '../css/variables.less';
+@import '../css/less/variables.less';
 
 .header {
   width: 100%;

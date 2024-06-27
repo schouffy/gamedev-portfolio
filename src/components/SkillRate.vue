@@ -17,7 +17,7 @@ export default Vue.extend({
 
 <style scoped lang="less">
 
-@import '../css/variables.less';
+@import '../css/less/variables.less';
 
 .skill-name {
   float: left;

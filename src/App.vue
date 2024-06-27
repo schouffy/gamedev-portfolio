@@ -38,7 +38,7 @@ Helpers.preloadImages([
 <style lang="less">
 
 @import './css/projects.less';
-@import './css/variables.less';
+@import './css/less/variables.less';
 
 html, body {
   margin: 0px;
@@ -98,11 +98,11 @@ h1 {
   }
 
   .main {
-    padding: 0px 40px 40px 150px;
+    padding: 0px 40px 40px 5%;
   }
 
   .main, .header, .footer {
-    max-width: 1200px;
+    max-width: 70%;
     margin: 0 auto;
   }
 }
