@@ -38,7 +38,7 @@ Helpers.preloadImages([
 <style lang="less">
 
 @import './css/projects.less';
-@import './css/variables.less';
+@import './css/less/variables.less';
 
 html, body {
   margin: 0px;
@@ -53,7 +53,7 @@ html, body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 
-  font-size: 1.1em;
+  font-size: 1.7em;
   line-height: 1.6em;
   text-align: justify;
 }
@@ -72,7 +72,7 @@ a:hover, .router-link-exact-active {
 }
 
 h1 {
-  font-size: 2.5em;
+  font-size: 3em;
   font-weight: 100;
   margin-top: -10px;
   margin-bottom: 40px;
@@ -98,11 +98,11 @@ h1 {
   }
 
   .main {
-    padding: 0px 40px 40px 180px;
+    padding: 0px 40px 40px 5%;
   }
 
   .main, .header, .footer {
-    max-width: 1200px;
+    max-width: 70%;
     margin: 0 auto;
   }
 }

@@ -2,6 +2,7 @@
   <div class="header">
     <div class="nav-bar">
       <router-link to="/">About me</router-link>
+      <router-link to="/blog">Blog</router-link>
       <router-link to="/resume">Resume</router-link>
       <router-link to="/contact">Contact</router-link>
     </div>
@@ -21,7 +22,7 @@ export default Vue.extend({
 
 <style scoped lang="less">
 
-@import '../css/variables.less';
+@import '../css/less/variables.less';
 
 .header {
   width: 100%;
@@ -57,6 +58,7 @@ a {
     margin-left: 9px;
     margin-right: 9px;
     padding-bottom: 0px;
+    font-size: 0.7em;
   }
 }
 

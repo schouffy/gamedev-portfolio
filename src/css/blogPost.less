@@ -1,0 +1,137 @@
+
+@import url("../css/less/variables.less");
+
+.title-card {
+    .blog-date {
+        font-size: 0.8em;
+        color: @skillSquareColor;
+        text-align: center;
+    }
+
+    .blog-title {
+        font-size: 1.7em;
+        line-height: 1.1em;
+        text-align: center;
+    }
+
+    .blog-synopsis {
+        font-size: 0.8em;
+        padding: 0px 0px 10px 0px;
+    }
+    padding: 5%;
+}
+
+.main-article {
+    
+    .article-body {
+        h1 {
+            font-size: 2em;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 1.4em;
+            font-weight: normal;
+            text-align: center;
+        };
+
+        .paragraph {
+            font-size: 0.9em;
+            margin-bottom: 1em;
+            text-align: justify;
+        }
+
+        .sign-off {
+            text-align: left;
+
+            margin-top: 20%;
+
+            .paragraph {
+                text-align: left;
+            }
+
+            .goodbye {
+                font-weight: bold;
+            }
+
+            .signature {
+                font-weight: bolder;
+            }
+        }
+    }
+
+    padding: 5%;
+
+}
+
+@media only screen and (min-width: 620px) {
+    .title-card {
+        .blog-date {
+            font-size: 1em;
+            color: @skillSquareColor;
+            text-align: left;
+        }
+
+        .blog-title {
+            font-size: 2.5em;
+            padding: 0px 0px 20px 0px;
+            text-align: left;
+        }
+
+        .blog-synopsis {
+            font-size: 1em;
+            padding-bottom: 1%;
+        }
+
+        padding: 0%;
+    }
+
+    .main-article {
+    
+        .article-body {
+            h1 {
+                font-size: 2.8em;
+                text-align: justify;
+                margin-top: 0%;
+                margin-bottom: 0.8em;
+                line-height: 1.1em;
+            }
+    
+            h2 {
+                font-size: 2em;
+                font-weight: normal;
+                text-align: justify;
+                margin-top: 1.3em;
+                margin-bottom: 0.6em;
+            };
+    
+            .paragraph {
+                font-size: 1.2em;
+                margin-bottom: 1em;
+                text-align: justify;
+            }
+    
+            .sign-off {
+                text-align: left;
+    
+                margin-top: 3em;
+    
+                .paragraph {
+                    text-align: left;
+                }
+    
+                .goodbye {
+                    font-weight: bold;
+                }
+    
+                .signature {
+                    font-weight: bolder;
+                }
+            }
+        }
+    
+        margin-top: 3em;
+        margin-bottom: 1em;
+        padding: 0%
+    }
+}

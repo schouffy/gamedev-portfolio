@@ -47,7 +47,7 @@
       </div>
 
       <div class="tech-stack">
-        Java (Hibernate, Evean, Jobby, Guice, Flyway), Bash, SQL, PostgreSQL, Kafka, Docker, Nomad, JUnit, Maven, Jenkins, Jira     
+        Java (Hibernate, Ebean, Jobby, Guice, Flyway), Bash, SQL, PostgreSQL, Kafka, Docker, Nomad, JUnit, Maven, Jenkins, Jira     
       </div>
 
       <h2>Tech Stack</h2>
