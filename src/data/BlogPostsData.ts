@@ -2,17 +2,10 @@ import BlogPostData from "./BlogPostData";
 
 export default [
     new BlogPostData(
-        "blog-test",
-        "Testing Blogs",
-        "This is a project designed to test blogs",
-        "1995-12-17",
-        "Test"
-    ),
-    new BlogPostData(
-        "blog-test-2",
-        "Testing Blogs Again",
-        "This is a project designed to test blogs",
-        "1995-12-17",
-        "Test"
+        "blog-introduction",
+        "And the Work is Done",
+        "A quick post introducing the blog",
+        "2024-06-27",
+        "and-the-work-is-done"
     )
 ];
