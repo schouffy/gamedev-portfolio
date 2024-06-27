@@ -29,7 +29,6 @@
 
 <style scoped>
 .paragraph {
-  max-width: 80%;
   margin-bottom: 20px;
 }
 
@@ -51,6 +50,7 @@ h1 {
 @media only screen and (min-width: 620px){
   .paragraph {
     float: left;
+    max-width: 80%;
   }
 
   .photo {

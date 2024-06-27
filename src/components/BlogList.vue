@@ -7,7 +7,7 @@
                         @click="moveTo(blog)"
                         class="blog-post-item">
                     <div class="blog-post-card-date">
-                        {{ fetchDate(blog.date) }}
+                        {{ blog.fetchDate() }}
                     </div>
                     <div class="blog-post-card-title-bar">
                         <div class="title-text">
@@ -41,66 +41,7 @@ export default Vue.extend({
     },
     methods: {
         moveTo: function(item: BlogPostData) {
-            // I want this to be different, I want to open a new page?
-            window.location.href = item.pathToPage;
-        },
-
-        fetchDate: function(date: Date) {
-            return this.fetchDayOfTheWeek(date) +
-                " - " + 
-                this.fetchMonth(date) + 
-                " " + 
-                date.getDate() +
-                ", " +
-                date.getFullYear();
-        },
-
-        fetchDayOfTheWeek: function(date: Date) {
-            switch(date.getDay()) {
-                case 0:
-                    return "Monday";
-                case 1:
-                    return "Tuesday";
-                case 2:
-                    return "Wednesday";
-                case 3:
-                    return "Thursday";
-                case 4:
-                    return "Friday";
-                case 5:
-                    return "Saturday";
-                case 6:
-                    return "Sunday";
-            }
-        },
-
-        fetchMonth: function(date: Date) {
-            switch(date.getMonth()) {
-                case 0:
-                    return "January";
-                case 1:
-                    return "February";
-                case 2:
-                    return "March";
-                case 3:
-                    return "April";
-                case 4:
-                    return "May";
-                case 5:
-                    return "June";
-                case 6:
-                    return "July";
-                case 7:
-                    return "August";
-                case 8:
-                    return "September";
-                case 9:
-                    return "October";
-                case 10:
-                    return "November";
-                case 11:
-                    return "December";
-            }
+            this.$router.push(item.pathToPage);
         }
     },
 });
@@ -108,7 +49,7 @@ export default Vue.extend({
 
 <style lang="less">
 
-@import '../css/variables.less';
+@import '../css/less/variables.less';
 
 .blog-list{
     width: 100%;
@@ -128,6 +69,7 @@ export default Vue.extend({
 
 .blog-post-card-title-bar {
     font-size: 1.3em;
+    line-height: 1.1em;
 }
 
 .blog-post-card-title-bar:hover {
@@ -154,7 +96,7 @@ export default Vue.extend({
 
     .blog-post-card-title-bar {
         font-size: 1.8em;
-        padding: 15px 0px 40px 0px;
+        padding: 10px 0px 20px 0px;
     }
 
     .blog-post-card-synopses {
