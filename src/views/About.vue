@@ -3,7 +3,7 @@
     <h1>Heyho!</h1>
 
     <div class="main-text">
-      <div class="paragraph">
+      <div class="paragraph text-box">
         <div>
           I'm <strong>Eduardo Barrancos</strong>, a Software Engineer by day and a game developer by night :D <br>
           I'm currently finishing my Masters' degree in Computer Science, working part-time as a Software Engineer and making games and all sort of experiments as a hobby!

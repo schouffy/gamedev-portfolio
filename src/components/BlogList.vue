@@ -1,6 +1,6 @@
 <template>
     <div>
-        <div class="blog-list">
+        <div class="blog-list text-box">
             <template v-for="blog in blogPosts">
                 <div
                     :key="blog.id"
@@ -50,10 +50,6 @@ export default Vue.extend({
 <style lang="less">
 
 @import '../css/less/variables.less';
-
-.blog-list{
-    width: 100%;
-}
 
 .blog-post-item {
     width: 100%;

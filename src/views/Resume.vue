@@ -2,7 +2,7 @@
   <div>
     <h1>Resume</h1>
 
-    <div class="paragraph">
+    <div class="paragraph text-box">
       I'm a Computer Science student and Software Engineer living in Lisbon, Portugal.
       <br />Currently finishing my Masters in <a href="https://tecnico.ulisboa.pt/pt/">Instituto Superior Técnico</a>
        and I've been working as a Software Engineer in <a href="https://www.premium-minds.com/">Premium Minds</a> since the end of 2022.
@@ -23,7 +23,7 @@
 
     <div style="clear:both"></div>
 
-    <div class="full-content">
+    <div class="full-content text-box">
       <h2>Work experience</h2>
 
       <h3>Community Manager | Member - GameDev Técnico</h3>
@@ -108,7 +108,7 @@
       <h4>2022 - <i>Present</i></h4>
       <h4><a href="https://tecnico.ulisboa.pt/pt/">Instituto Superior Técnico</a>, Lisbon</h4>
 
-      <div>Had course in a multitude of subjects within computer science. 
+      <div>Had courses in a multitude of subjects within computer science. 
         E.g. Games, Distributed Systems, Software Engineering, AI, meta-programming, ...</div>
 
       <h2>Languages</h2>
@@ -140,7 +140,6 @@ h1 {
 
 h2 {
   font-weight: 100;
-  font-size: 2em;
   margin: 0px;
   padding: 0px;
   padding-top: 50px;

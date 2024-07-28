@@ -72,7 +72,6 @@ a:hover, .router-link-exact-active {
 }
 
 h1 {
-  font-size: 3em;
   font-weight: 100;
   margin-top: -10px;
   margin-bottom: 40px;
@@ -81,8 +80,9 @@ h1 {
 }
 
 .main {
-    padding: 12px;
-  }
+  padding: 12px;
+  background-color: @contentBgColor;
+}
 
 @media only screen and (min-width: 620px){
 
