@@ -15,6 +15,7 @@ For a real world use case, check my portfolio: https://scheefer.me
     - Fork or duplicate the repository
     - npm install
     - npm run serve
+    - If any issue with serve, please read this: https://stackoverflow.com/questions/70582072/npm-run-fails-with-err-ossl-evp-unsupported For Windows Powershell, you can fix with `$env:NODE_OPTIONS = '--openssl-legacy-provider'` then `npm run serve`
 
 2. Customize
 * For the content
