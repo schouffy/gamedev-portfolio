@@ -1,8 +1,9 @@
 <template>
   <div class="footer">
     
-    <div class="left"><a href="https://github.com/schouffy/gamedev-portfolio" target="blank">Portfolio</a> by schouffy</div>
-    <div class="right">Reach me at <a href="mailto:my@email.com">my@email.com</a> or <router-link to="/contact">through here</router-link></div>
+    <div class="left"><img src="img/ItchIoIcon.png" alt="itch.io" style='vertical-align: middle'/><a href="https://zoldargames.itch.io/" target="blank" style='padding-left: 20px'>ZOLDAR GAMES</a></div>
+
+    <div class="right">© 2025 CARLOS ORTEGA GONZÁLEZ</div>
   </div>
 </template>
 

@@ -101,15 +101,16 @@ filter: brightness(120%);
 
 .title-text {
   padding: 10px;
+  text-align: center;
 }
 
 @media only screen and (min-width: 620px){
   .projects-list {
-    max-width: 900px;
+    max-width: 790px;
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
-    grid-auto-rows: minmax(250px, auto);
+    grid-auto-rows: minmax(300px, auto);
   }
 
   .project-item {

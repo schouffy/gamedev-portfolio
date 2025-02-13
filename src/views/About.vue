@@ -1,24 +1,30 @@
 <template>
-  <div style="margin-bottom: 80px;">
-    <h1>Hello!</h1>
+  <div>
+    <h2>Hello!</h2>
 
     <div class="paragraph">
       <div>
-        I'm <strong>John Matrix</strong>, a former Delta Force operative, now a hobbyist lumberjack.<br/>
-        I spend my days living alone with my daughter Jenny, and cutting trees and carrying trunks around to keep in shape.
+        I'm <strong>Carlos Ortega González</strong>, a Game programmer.<br/>
+        I've got a strong technical background, having worked in multiple sectors as a Test Automation engineer, Technical support Engineer and Systems Administator.
       </div>
 
-      <div style="margin-top: 20px;">I've worked on  <router-link to="/game-projects">stuff</router-link>, on <router-link to="/other-projects">other stuff</router-link>, and took part in <router-link to="/resume">a few things</router-link> as well.</div>
+      <div style="margin-top: 20px;">I've recently added Unreal Engine 5 to my arsenal (c++ and blueprints), and I'm enjoying crafting polished gameplay that keeps players engaged.</div>
 
-      <div style="margin-top: 40px;">I'm <strong>currently looking for a job</strong> as a monk, like my good friend John Rambo did a few years back. You can reach me at <a href="mailto:johnmatrix@deltaforce.us">johnmatrix@deltaforce.us</a> or <router-link to="/contact">through here</router-link>.</div>
+      <div style="margin-top: 20px;">In <router-link to="/game-projects">Zoldar Games</router-link> you'll find a selection of games I've developed on my own and released in <a href="https://zoldargames.itch.io/">itch.io</a>, while in <router-link to="/other-projects">Team Projects</router-link> you'll find details about projects where I've contributed as part of a team.</div>
+
+      <div style="margin-top: 20px;">I'm currently looking for a job as a <strong>gameplay programmer</strong> (preferably using Unreal Engine), where I can help craft unforgettable experiences with crisp controls and engaging game mechanics.</div>
+
+      <div style="margin-top: 20px;">If you wish to contact me, please check the <router-link to="/contact">Contact</router-link> section.</div>
     </div>
 
     <div class="photo">
-      <img src="img/avatar.png" alt="Avatar of John" /> 
+      <img src="img/avatar.png" alt="Avatar" /> 
     </div>
 
     <div style="clear:both"></div>
 
+    <div style="text-align: right; margin-bottom: -20px; font-size: smaller;"><br><br><a href="https://github.com/schouffy/gamedev-portfolio" target="blank">Portfolio template</a> by schouffy</div>
+   
   </div>
 </template>
 
