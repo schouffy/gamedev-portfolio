@@ -28,24 +28,27 @@ export default [
     </div>
 
     <div class="paragraph center">
-        MAIN FEATURES
+        <strong>MAIN FEATURES</strong>
     </div>
-<div class="paragraph">
+    <div class="paragraph">
         <center>
             <table>
                 <tr>
                     <td>
                         <ul>
-                            <li>Vehicle configuration system.</li>
-                            <li>Vehicle stats.</li>
-                            <li>Gameplay elements.
+                            <li><a href="/#/vca-vehicles">VEHICLES</a></li>
+                            <ul>
+                                <li>Vehicle Configuration System</li>
+                                <li>Vehicle stats.</li>
+                            </ul>
+                            <li><a href="/#/vca-gameplay">GAMEPLAY ELEMENTS</a></li>
                                 <ul>
                                     <li>Data Points</li>
                                     <li>Ammo / health pickup.</li>
                                     <li>Gears (currency).</li>
                                 </ul>
                             </li>
-                            <li>Enemy AI:
+                            <li><a href="/#/vca-enemy-ai">ENEMY AI</a></li>
                                 <ul>
                                     <li>Navigation system.</li>
                                     <li>Perception system.</li>
@@ -57,15 +60,27 @@ export default [
                     </td>
                     <td style="vertical-align: top;">
                         <ul>
-                            <li>Enhanced input.</li>
-                            <li>User Interface.</li>
-                            <li>Configurable level mechanics.</li>
-                            <li>Progression system.</li>
-                            <li>Save system.</li>
-                            <li>Sound system.</li>
-                            <li>Settings & performance.</li>
-                            <li>Training Ground.</li>
-                            <li>In-game information.</li>
+                            <li><a href="/#/vca-ux">USER EXPERIENCE</a>
+                                <ul>
+                                    <li>Enhanced input.</li>
+                                    <li>User Interface.</li>
+                                </ul>
+                            </li>
+                            <li><a href="/#/vca-architecture">ARCHITECTURE</a>
+                                <ul>
+                                    <li>Configurable level mechanics.</li>
+                                    <li>Progression system.</li>
+                                    <li>Save system.</li>
+                                    <li>Audio system.</li>
+                                </ul>
+                            </li>
+                            <li><a href="/#/vca-new-player-help">NEW PLAYER HELP</a>
+                                <ul>
+                                    <li>Settings & performance.</li>
+                                    <li>Training Ground.</li>
+                                    <li>In-game information.</li>
+                                </ul>
+                            </li>                            
                         </ul>
                     </td>
                 </tr>

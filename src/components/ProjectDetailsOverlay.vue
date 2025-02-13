@@ -9,8 +9,8 @@
         <div class="dialog-content">
           <div v-html="htmlContent"></div>
           <div class="dialog-bottom">
-          <a @click="$emit('close')" class="dialog-close-button">Close</a>
-        </div>
+            <a @click="$emit('close')" class="dialog-close-button">CLOSE</a>
+          </div>
         </div>
       </div>
     </div>
@@ -95,7 +95,7 @@ h1.dialog-title {
 
 a.dialog-close-button {
   cursor:pointer;
-  font-size: 1.4em;
+  font-size: 1.2em;
   display: inline-block;
   margin: 0 auto;
 }

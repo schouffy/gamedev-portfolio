@@ -31,6 +31,36 @@ const routes: Array<RouteConfig> = [
     component: () => import(/* webpackChunkName: "about" */ '../views/Contact.vue')
   },
   {
+    path: '/vca-vehicles',
+    name: 'VCA Vehicles',
+    component: () => import(/* webpackChunkName: "about" */ '../views/VCA_Vehicles.vue')
+  },
+  {
+    path: '/vca-enemy-ai',
+    name: 'VCA Enemy AI',
+    component: () => import(/* webpackChunkName: "about" */ '../views/VCA_EnemyAI.vue')
+  },
+  {
+    path: '/vca-gameplay',
+    name: 'VCA Gameplay Elements',
+    component: () => import(/* webpackChunkName: "about" */ '../views/VCA_Gameplay.vue')
+  },
+  {
+    path: '/vca-ux',
+    name: 'VCA User Experience',
+    component: () => import(/* webpackChunkName: "about" */ '../views/VCA_UserExperience.vue')
+  },
+  {
+    path: '/vca-architecture',
+    name: 'VCA Architecture',
+    component: () => import(/* webpackChunkName: "about" */ '../views/VCA_Architecture.vue')
+  },
+  {
+    path: '/vca-new-player-help',
+    name: 'VCA New Player Help',
+    component: () => import(/* webpackChunkName: "about" */ '../views/VCA_NewPlayerHelp.vue')
+  },
+  {
     path: '/404',
     name: 'NotFound',
     component: () => import(/* webpackChunkName: "about" */ '../views/404.vue')
