@@ -1,5 +1,5 @@
 <template>
-  <div class="side-menu">
+  <div class="vca-menu">
     <div class="nav-bar">
       <router-link to="/vca-vehicles">VEHICLES</router-link>
       <router-link to="/vca-gameplay">GAMEPLAY ELEMENTS</router-link>
@@ -15,7 +15,7 @@
 import Vue from "vue";
 
 export default Vue.extend({
-  name: "SideMenu",
+  name: "VCAMenu",
   //   props: {
   //     msg: String,
   //   },
@@ -26,7 +26,7 @@ export default Vue.extend({
 
 @import '../css/variables.less';
 
-.side-menu {
+.vca-menu {
   width: 100%;
 }
 

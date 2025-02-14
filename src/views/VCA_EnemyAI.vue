@@ -2,20 +2,20 @@
     <div>      
       <h2>VEHICULAR COMBAT ARENA - ENEMY AI</h2>
       
-      <SideMenu />
+      <VCAMenu />
       
-      <SideMenu />        
+      <VCAMenu />        
     </div>
   </template>
   
   <script lang="ts">
   import Vue from "vue";
-  import SideMenu from "@/components/SideMenu.vue";
+  import VCAMenu from "@/components/VCAMenu.vue";
     
   export default Vue.extend({
     name: "VCAEnemyAI",
     components: {
-      SideMenu
+      VCAMenu
     }
   });
   </script>

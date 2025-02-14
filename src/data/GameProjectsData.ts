@@ -5,6 +5,9 @@ export default [
     `
     <center>
         <div class="paragraph center limited-width">
+            <strong>RELEASE DATE</strong>: FEB 2025 
+        </div>
+        <div class="paragraph center limited-width">
             Single player game where you drive a configurable vehicle and participate in Arena style battles against AI enemies.
         </div>
     </center>
@@ -44,7 +47,7 @@ export default [
                             <li><a href="/#/vca-gameplay">GAMEPLAY ELEMENTS</a></li>
                                 <ul>
                                     <li>Data Points</li>
-                                    <li>Ammo / health pickup.</li>
+                                    <li>Ammo & health pickup.</li>
                                     <li>Gears (currency).</li>
                                 </ul>
                             </li>
@@ -52,7 +55,7 @@ export default [
                                 <ul>
                                     <li>Navigation system.</li>
                                     <li>Perception system.</li>
-                                    <li>Behavior Trees + state machines.</li>
+                                    <li>Behavior Trees & state machines.</li>
                                     <li>EQS.</li>
                                 </ul>
                             </li>                            
