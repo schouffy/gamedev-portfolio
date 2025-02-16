@@ -27,7 +27,7 @@
         </tr>
       </table>
 
-      <div style="clear:both"></div>
+      <div><br></div>
 
       <h3><strong>AMMO & HEALTH PICK UPS</strong></h3>
                   
@@ -50,13 +50,28 @@
         </tr>
       </table>
       
-      <div style="clear:both"></div>
+      <div><br></div>
 
       <h3><strong>GEARS</strong></h3>
                   
-      <div class="paragraph">
-        <iframe class="youtube" src="https://www.youtube.com/embed/feuBT5AA8gw" frameborder="0" allowfullscreen></iframe>
-      </div>
+      <table>
+        <tr>
+          <td>
+            <iframe class="youtube" src="https://www.youtube.com/embed/feuBT5AA8gw" frameborder="0" allowfullscreen></iframe>
+          </td>
+          <td>
+            <div class="side-text">Gears are the <strong>currency</strong> of the game. They are dropped by defeated Enemies, except when the Player is maxed out (has purchased every vehicle part).</div>
+            
+            <br>
+
+            <div class="side-text">Gear rewards are adjusted based on the enemy's configuration, and on the difference in power between the Player and the defeated Enemy.</div>
+
+            <br>
+
+            <div class="side-text">The Player can spend Gears between matches in order to buy new vehicle parts (chassis, bodies and weapons).</div>
+          </td>
+        </tr>
+      </table>
 
       <div style="clear:both"></div>
 

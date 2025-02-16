@@ -93,6 +93,13 @@ h1.dialog-title {
   text-align: center;
 }
 
+.fixed-width {
+  min-width: 600px;
+  padding-left: 30px;
+  padding-right: 30px;
+  border-radius: 1px;
+}
+
 a.dialog-close-button {
   cursor:pointer;
   font-size: 1.2em;

@@ -33,58 +33,86 @@ export default [
     <div class="paragraph center">
         <strong>MAIN FEATURES</strong>
     </div>
+
+    <div class="paragraph center">
+        Click on the links to get additional information on the feature.
+    </div>
+
     <div class="paragraph">
         <center>
             <table>
                 <tr>
-                    <td>
-                        <ul>
-                            <li><a href="/#/vca-vehicles">VEHICLES</a></li>
-                            <ul>
-                                <li>Vehicle Configuration System</li>
-                                <li>Vehicle stats.</li>
-                            </ul>
-                            <li><a href="/#/vca-gameplay">GAMEPLAY ELEMENTS</a></li>
-                                <ul>
-                                    <li>Data Points</li>
-                                    <li>Ammo & health pickup.</li>
-                                    <li>Gears (currency).</li>
-                                </ul>
-                            </li>
-                            <li><a href="/#/vca-enemy-ai">ENEMY AI</a></li>
-                                <ul>
-                                    <li>Navigation system.</li>
-                                    <li>Perception system.</li>
-                                    <li>Behavior Trees & state machines.</li>
-                                    <li>EQS.</li>
-                                </ul>
-                            </li>                            
+                    <th style="min-width: 350px; background-color:#b4690c;">
+                        <a href="/#/vca-vehicles" style="color: white;">VEHICLES<img src="img/LinkIcon.svg" width="24px" height="24px" style="vertical-align: middle; padding-left:10px;"/></a>
+                    </th>
+                    <th style="min-width: 350px; background-color:#b4690c;">
+                        <a href="/#/vca-ux" style="color: white;">USER EXPERIENCE<img src="img/LinkIcon.svg" width="24px" height="24px" style="vertical-align: middle; padding-left:10px;"/></a>
+                    </th>
+                </tr>
+                <tr>
+                    <td style="min-width: 350px; background-color: #f5f5f5; line-height: 1em;">
+                        <ul style="margin-left: 50px;">
+                            <li>Vehicle Configuration</li>
+                            <li>Vehicle stats</li>
+                            <li>Combat</li>
                         </ul>
                     </td>
-                    <td style="vertical-align: top;">
-                        <ul>
-                            <li><a href="/#/vca-ux">USER EXPERIENCE</a>
-                                <ul>
-                                    <li>Enhanced input.</li>
-                                    <li>User Interface.</li>
-                                </ul>
-                            </li>
-                            <li><a href="/#/vca-architecture">ARCHITECTURE</a>
-                                <ul>
-                                    <li>Configurable level mechanics.</li>
-                                    <li>Progression system.</li>
-                                    <li>Save system.</li>
-                                    <li>Audio system.</li>
-                                </ul>
-                            </li>
-                            <li><a href="/#/vca-new-player-help">NEW PLAYER HELP</a>
-                                <ul>
-                                    <li>Settings & performance.</li>
-                                    <li>Training Ground.</li>
-                                    <li>In-game information.</li>
-                                </ul>
-                            </li>                            
+                    <td style="min-width: 350px; background-color: #f5f5f5; line-height: 1em;">
+                        <ul style="margin-left: 50px;">
+                            <li>Enhanced input</li>
+                            <li>User Interface</li>
                         </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <th style="min-width: 350px; background-color:#b4690c;">
+                        <a href="/#/vca-gameplay" style="color: white;">GAMEPLAY ELEMENTS<img src="img/LinkIcon.svg" width="24px" height="24px" style="vertical-align: middle; padding-left:10px;"/></a>
+                    </th>
+                    <th style="min-width: 350px; background-color:#b4690c;">
+                        <a href="/#/vca-architecture" style="color: white;">ARCHITECTURE<img src="img/LinkIcon.svg" width="24px" height="24px" style="vertical-align: middle; padding-left:10px;"/></a>
+                    </th>
+                </tr>
+                <tr>
+                    <td style="min-width: 350px; background-color: #f5f5f5; line-height: 1em;">
+                        <ul style="margin-left: 50px;">
+                            <li>Data Points</li>
+                            <li>Ammo & health pickups</li>
+                            <li>Gears (currency)</li>
+                        </ul>    
+                    </td>
+                    <td style="min-width: 350px; background-color: #f5f5f5; line-height: 1em;">
+                        <ul style="margin-left: 50px;">
+                            <li>Level mechanics</li>
+                            <li>Progression system</li>
+                            <li>Save system</li>
+                            <li>Audio system</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <th style="min-width: 350px; background-color:#b4690c;">
+                        <a href="/#/vca-enemy-ai" style="color: white;">ENEMY AI<img src="img/LinkIcon.svg" width="24px" height="24px" style="vertical-align: middle; padding-left:10px;"/></a>
+                    </th>
+                    <th style="min-width: 350px; background-color:#b4690c;">
+                        <a href="/#/vca-new-player-help" style="color: white;">NEW PLAYER HELP<img src="img/LinkIcon.svg" width="24px" height="24px" style="vertical-align: middle; padding-left:10px;"/></a>
+                    </th>
+                </tr>
+                <tr>
+                    <td style="min-width: 350px; background-color: #f5f5f5; line-height: 1em;">
+                        <ul style="margin-left: 50px;">
+                            <li>Navigation system</li>
+                            <li>Perception system</li>
+                            <li>Behavior Trees</li>
+                            <li>State Machines</li>
+                            <li>EQS</li>
+                        </ul>    
+                    </td>
+                    <td style="min-width: 350px; background-color: #f5f5f5; line-height: 1em;">
+                        <ul style="margin-left: 50px;">
+                            <li>Settings & performance</li>
+                            <li>Training Ground</li>
+                            <li>In-game information</li>
+                        </ul>    
                     </td>
                 </tr>
             </table>
