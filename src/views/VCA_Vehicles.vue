@@ -50,6 +50,10 @@
             <br>
 
             <div class="side-text">Each vehicle part (Body, Chassis & Weapons) has its own <strong>Impact Resistance</strong>, plus each vehicle has a <strong>Shield</strong> that needs to be destroyed first, and can regenerate over time if the vehicle is not damaged.</div>
+
+            <br>
+
+            <div class="side-text">Damaged Bodies have their <strong>rotation speed</strong> lowered. Damaged Chassis have their <strong>movement speed</strong> lowered. Repairing these parts reverses the movility change.</div>
           </td>
         </tr>
       </table>
@@ -64,15 +68,15 @@
             <iframe class="youtube" src="https://www.youtube.com/embed/feuBT5AA8gw" frameborder="0" allowfullscreen></iframe>
           </td>
           <td>
-            <div class="side-text">Text1.</div>
+            <div class="side-text">Vehicles can equip up to 3 different weapons, but only 1 may be <strong>active</strong> at any given time. The HUD shows the Player's active weapon highlighted, in the lowest position of the widget.</div>
             
             <br>
 
-            <div class="side-text">Text2.</div>
+            <div class="side-text">Aiming depends on the weapon's position relative to the Body. Weapons <strong>on top of the Body</strong> can freely rotate independently of the Body itself, allowing faster and more precise aiming. <strong>Side weapons</strong>, however, are more limited in their rotation, and rely mainly on the Body facing the right way before they can be effective.</div>
             
             <br>
 
-            <div class="side-text">Text3.</div>
+            <div class="side-text">The <strong>Weapons Subsystem</strong> handles all weapon mechanics, from line tracing to spawning Niagara effects or projectiles. All vehicle weapons shoot in a straight line following the weapon's facing direction.</div>
           </td>
         </tr>
       </table>
