@@ -37,15 +37,15 @@
             <iframe class="youtube" src="https://www.youtube.com/embed/feuBT5AA8gw" frameborder="0" allowfullscreen></iframe>
           </td>
           <td>
-            <div class="side-text">Text1.</div>
+            <div class="side-text">The intent of the game is to keep the Player <strong>engaged</strong>, so Enemies need to chase and pressure the Player as soon as possible. Not every Enemy will attack immediately, but will take the Player's position and the distance to the Player into account when deciding their next <strong>actions</strong>.</div>
             
             <br>
 
-            <div class="side-text">Text2.</div>
+            <div class="side-text">The Perception Component is configured in the AI Controller BP. Sight is configured to be able to see all around the Enemy over a long range, and once a target (the Player) is acquired, it's never forgotten.</div>
             
             <br>
 
-            <div class="side-text">Text3.</div>
+            <div class="side-text">The Player is filtered out from other vehicles by using tags.</div>
           </td>          
         </tr>
       </table>
