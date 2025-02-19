@@ -10,19 +10,19 @@
       
       <table>
         <tr>
-          <td>
+          <td class="top">
             <iframe class="youtube" src="https://www.youtube.com/embed/feuBT5AA8gw" frameborder="0" allowfullscreen></iframe>
+
+            <br>
+
+            <div class="paragraph-bottom">A <strong>custom BBTask</strong> replaces the default <i>BTTask_MoveTo</i>, because vehicles use a <strong>custom Movement Component</strong>.</div>
           </td>
-          <td>
+          <td class="top">
             <div class="side-text">There is only one Navigation Mesh in the Arena Map, with multiple Navigation Modifiers. This makes sure Enemies only try to go to reachable points in the map. Enemies use a combination of predefined paths and EQS to determine their destinations.</div>
             
             <br>
 
             <div class="side-text">Enemy AIControllers include a custom <strong>UAIDriverComponent</strong> that can drive vehicles using the <strong>Acceleration</strong> and <strong>Steering</strong> variables used by Pawns. The component uses <i><strong>UNavigationSystemV1::FindPathToLocationSynchronously</strong></i> to find the path to each destination at runtime.</div>
-            
-            <br>
-
-            <div class="side-text">A <strong>custom BBTask</strong> replaces the default <i>BTTask_MoveTo</i>, because vehicles use a <strong>custom Movement Component</strong>.</div>
           </td>
         </tr>
       </table>
@@ -33,10 +33,10 @@
                   
       <table>
         <tr>
-          <td>
+          <td class="top">
             <iframe class="youtube" src="https://www.youtube.com/embed/feuBT5AA8gw" frameborder="0" allowfullscreen></iframe>
           </td>
-          <td>
+          <td class="top">
             <div class="side-text">The intent of the game is to keep the Player <strong>engaged</strong>, so Enemies need to chase and pressure the Player as soon as possible. Not every Enemy will attack immediately, but will take the Player's position and the distance to the Player into account when deciding their next <strong>actions</strong>.</div>
             
             <br>
@@ -56,14 +56,14 @@
                   
       <table>
         <tr>
-          <td>
+          <td class="top">
             <iframe class="youtube" src="https://www.youtube.com/embed/feuBT5AA8gw" frameborder="0" allowfullscreen></iframe>
 
             <br>
 
             <div class="paragraph-bottom">The Environment Query System (EQS) is used to calculate where the Enemies should move to be close to the Player, within attacking range, and also avoid colliding with other Enemies as much as possible.</div>
           </td>
-          <td>
+          <td class="top">
             <div class="side-text">This game uses a hybrid approach to Enemy AI, using a combination of <strong>State Machines</strong> and <strong>Behavior Trees</strong> to drive Enemy logic. Enemies have an <strong>AI Mode</strong> (state), which drives the <strong>BT</strong> that actually implements different behaviors.</div>
             
             <br>
@@ -103,7 +103,6 @@
   
   .paragraph-bottom {
     max-width: 700px;
-    margin-bottom: 20px;
     margin-top: 40px;
   }
 
@@ -119,6 +118,10 @@
 
   .side-text {
     margin-left: 50px;
+  }
+
+  td.top {
+    vertical-align: top;
   }
   
   @media only screen and (min-width: 620px){
