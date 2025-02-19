@@ -58,17 +58,21 @@
         <tr>
           <td>
             <iframe class="youtube" src="https://www.youtube.com/embed/feuBT5AA8gw" frameborder="0" allowfullscreen></iframe>
+
+            <br>
+
+            <div class="paragraph-bottom">The Environment Query System (EQS) is used to calculate where the Enemies should move to be close to the Player, within attacking range, and also avoid colliding with other Enemies as much as possible.</div>
           </td>
           <td>
-            <div class="side-text">Text1.</div>
+            <div class="side-text">This game uses a hybrid approach to Enemy AI, using a combination of <strong>State Machines</strong> and <strong>Behavior Trees</strong> to drive Enemy logic. Enemies have an <strong>AI Mode</strong> (state), which drives the <strong>BT</strong> that actually implements different behaviors.</div>
             
             <br>
 
-            <div class="side-text">Text2.</div>
+            <div class="side-text">States are managed by the <strong>AIController</strong>, working in conjuction with the <strong>Enemy Coordination Subsystem</strong>. This allows an Enemy to make decisions on its own, and also considering the actions of the rest of the Enemies.</div>
             
             <br>
 
-            <div class="side-text">Text3.</div>
+            <div class="side-text">There are many rules for enemy coordination, but as a summary the game tries to have 1 Enemy actively attacking the Player, with up to 3 other Enemies adding pressure closeby, and 1 Enemy protecting each Enemy Data Point. The system scales from levels with as few as 2 Enemies, up to levels with multiple waves of Enemies (and 8 active Enemies at the same time).</div>            
           </td>
         </tr>
       </table>
@@ -97,6 +101,12 @@
     margin-bottom: 20px;
   }
   
+  .paragraph-bottom {
+    max-width: 700px;
+    margin-bottom: 20px;
+    margin-top: 40px;
+  }
+
   .photo {
     margin-top: 50px;
     text-align: center;
