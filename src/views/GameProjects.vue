@@ -15,10 +15,6 @@
     </div>
 
     <ProjectsList v-bind:projects="projects" />
-
-    <div style="margin-top: 20px;">
-      These projects are available at <a target="_blank" href="https://zoldargames.itch.io/">itch.io</a> (Zoldar Games).
-    </div>
   </div>
 </template>
 

@@ -1,7 +1,7 @@
 <template>
   <div class="footer">
     
-    <div class="left"><img src="img/ItchIoIcon.png" alt="itch.io" style='vertical-align: middle'/><a href="https://zoldargames.itch.io/" target="blank" style='padding-left: 20px'>ZOLDAR GAMES</a></div>
+    <div class="left"><img src="img/ItchIoIcon.png" alt="itch.io" style="vertical-align: middle;"/><a href="https://zoldargames.itch.io/" target="blank" class="footer">ZOLDAR GAMES</a></div>
 
     <div class="right">© 2025 CARLOS ORTEGA GONZÁLEZ</div>
   </div>
@@ -48,6 +48,11 @@ export default Vue.extend({
 
   .right {
     float:right;
+  }
+
+  a.footer {
+    padding-left: 20px;
+    font-size: 1em;
   }
 }
 </style>

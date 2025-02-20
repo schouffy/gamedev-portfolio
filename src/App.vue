@@ -60,10 +60,11 @@ html, body {
 
 h1, h2, h3, h4, h5 {
   text-align: left;
+  color: @headerColor;
 }
 
 a {
-  color: @textColor;
+  color: @linkTextColor;
   text-decoration: none;
   opacity: 0.5;
 }

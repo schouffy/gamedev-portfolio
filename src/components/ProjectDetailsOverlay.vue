@@ -37,6 +37,7 @@ export default Vue.extend({
 </script>
 
 <style scoped>
+
 .overlay {
   background-color: rgba(0,0,0,0.5);
   z-index: 10;
@@ -55,7 +56,7 @@ export default Vue.extend({
   z-index: 11;
   margin: 20px;
   padding-bottom: 10px;
-  color:white;
+  color: white;
 }
 
 iframe {
@@ -67,16 +68,15 @@ h1.dialog-title {
     font-size: 1.3em;
     margin: 0px;
     padding: 22px;
+    color: white;
 }
 
 .dialog-content {
   padding: 20px;
+  background-color: #c8c8c8;
+  color: #414141;
 }
 
-.dialog-content {
-  background-color: #fcfcfc;
-  color: #696969;
-}
 .dialog-close {
   position: absolute;
   top: 20px;
@@ -85,6 +85,7 @@ h1.dialog-title {
   font-size: 1.2em;
   font-weight: 100;
 }
+
 .dialog-close:hover {
   opacity: 0.6;
 }
@@ -105,6 +106,8 @@ a.dialog-close-button {
   font-size: 1.2em;
   display: inline-block;
   margin: 0 auto;
+  text-decoration: none;
+  color: #b84e4e;
 }
 
 @media only screen and (min-width: 620px){
