@@ -22,7 +22,7 @@
             
             <br>
 
-            <div class="side-text">Data Points <strong>activate randomly</strong> during the match, which puts them under the enemy's control (see <router-link to="/vca-architecture">Architecture</router-link> for additional details).</div>
+            <div class="side-text">Data Points <strong>activate randomly</strong> during the match, which puts them under the enemy's control (see <router-link to="/vca-internals">Internals</router-link> for additional details).</div>
           </td>
         </tr>
       </table>

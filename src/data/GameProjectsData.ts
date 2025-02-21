@@ -46,8 +46,8 @@ export default [
                         <a href="/#/vca-vehicles" style="color: white;">VEHICLES<img src="img/LinkIcon.svg" width="24px" height="24px" style="vertical-align: middle; padding-left:10px;"/></a>
                     </th>
                     <th style="min-width: 350px; background-color: #b4690c;">
-                        <a href="/#/vca-ux" style="color: white;">USER EXPERIENCE<img src="img/LinkIcon.svg" width="24px" height="24px" style="vertical-align: middle; padding-left:10px;"/></a>
-                    </th>
+                        <a href="/#/vca-gameplay" style="color: white;">GAMEPLAY ELEMENTS<img src="img/LinkIcon.svg" width="24px" height="24px" style="vertical-align: middle; padding-left:10px;"/></a>
+                    </th>                    
                 </tr>
                 <tr>
                     <td style="min-width: 350px; background-color: #e2d2c4; line-height: 1em;">
@@ -59,34 +59,10 @@ export default [
                     </td>
                     <td style="min-width: 350px; background-color: #e2d2c4; line-height: 1em;">
                         <ul style="margin-left: 50px;">
-                            <li>Enhanced input</li>
-                            <li>User Interface</li>
-                        </ul>
-                    </td>
-                </tr>
-                <tr>
-                    <th style="min-width: 350px; background-color: #b4690c;">
-                        <a href="/#/vca-gameplay" style="color: white;">GAMEPLAY ELEMENTS<img src="img/LinkIcon.svg" width="24px" height="24px" style="vertical-align: middle; padding-left:10px;"/></a>
-                    </th>
-                    <th style="min-width: 350px; background-color: #b4690c;">
-                        <a href="/#/vca-architecture" style="color: white;">ARCHITECTURE<img src="img/LinkIcon.svg" width="24px" height="24px" style="vertical-align: middle; padding-left:10px;"/></a>
-                    </th>
-                </tr>
-                <tr>
-                    <td style="min-width: 350px; background-color: #e2d2c4; line-height: 1em;">
-                        <ul style="margin-left: 50px;">
                             <li>Data Points</li>
                             <li>Ammo & health pickups</li>
                             <li>Gears (currency)</li>
                         </ul>    
-                    </td>
-                    <td style="min-width: 350px; background-color: #e2d2c4; line-height: 1em;">
-                        <ul style="margin-left: 50px;">
-                            <li>Level mechanics</li>
-                            <li>Progression system</li>
-                            <li>Save system</li>
-                            <li>Audio system</li>
-                        </ul>
                     </td>
                 </tr>
                 <tr>
@@ -94,7 +70,7 @@ export default [
                         <a href="/#/vca-enemy-ai" style="color: white;">ENEMY AI<img src="img/LinkIcon.svg" width="24px" height="24px" style="vertical-align: middle; padding-left:10px;"/></a>
                     </th>
                     <th style="min-width: 350px; background-color: #b4690c;">
-                        <a href="/#/vca-new-player-help" style="color: white;">NEW PLAYER HELP<img src="img/LinkIcon.svg" width="24px" height="24px" style="vertical-align: middle; padding-left:10px;"/></a>
+                        <a href="/#/vca-internals" style="color: white;">INTERNALS<img src="img/LinkIcon.svg" width="24px" height="24px" style="vertical-align: middle; padding-left:10px;"/></a>
                     </th>
                 </tr>
                 <tr>
@@ -109,9 +85,32 @@ export default [
                     </td>
                     <td style="min-width: 350px; background-color: #e2d2c4; line-height: 1em;">
                         <ul style="margin-left: 50px;">
-                            <li>Settings & performance</li>
+                            <li>Subsystems</li>
+                            <li>Music and Audio</li>
+                            <li>Save system</li>
+                            <li>Performance</li>
+                        </ul>
+                    </td>
+                </tr>
+                <tr>
+                    <th style="min-width: 350px; background-color: #b4690c;">
+                        <a href="/#/vca-ux" style="color: white;">USER EXPERIENCE<img src="img/LinkIcon.svg" width="24px" height="24px" style="vertical-align: middle; padding-left:10px;"/></a>
+                    </th>                    
+                    <th style="min-width: 350px; background-color: #b4690c;">
+                        <a href="/#/vca-new-player-help" style="color: white;">NEW PLAYER HELP<img src="img/LinkIcon.svg" width="24px" height="24px" style="vertical-align: middle; padding-left:10px;"/></a>
+                    </th>
+                </tr>
+                <tr>
+                    <td style="min-width: 350px; background-color: #e2d2c4; line-height: 1em;">
+                        <ul style="margin-left: 50px;">
+                            <li>Enhanced input</li>
+                            <li>User Interface</li>
+                        </ul>
+                    </td>
+                    <td style="min-width: 350px; background-color: #e2d2c4; line-height: 1em;">
+                        <ul style="margin-left: 50px;">
+                            <li>Settings</li>
                             <li>Training Ground</li>
-                            <li>In-game information</li>
                         </ul>    
                     </td>
                 </tr>

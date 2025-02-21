@@ -3,9 +3,9 @@
     <div class="nav-bar">
       <router-link to="/vca-vehicles">VEHICLES</router-link>
       <router-link to="/vca-gameplay">GAMEPLAY ELEMENTS</router-link>
-      <router-link to="/vca-enemy-ai">ENEMY AI</router-link>
+      <router-link to="/vca-enemy-ai">ENEMY AI</router-link>      
+      <router-link to="/vca-internals">INTERNALS</router-link>
       <router-link to="/vca-ux">USER EXPERIENCE</router-link>
-      <router-link to="/vca-architecture">ARCHITECTURE</router-link>
       <router-link to="/vca-new-player-help">NEW PLAYER HELP</router-link>
     </div>
   </div>

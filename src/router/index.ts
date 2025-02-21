@@ -51,9 +51,9 @@ const routes: Array<RouteConfig> = [
     component: () => import(/* webpackChunkName: "about" */ '../views/VCA_UserExperience.vue')
   },
   {
-    path: '/vca-architecture',
-    name: 'VCA Architecture',
-    component: () => import(/* webpackChunkName: "about" */ '../views/VCA_Architecture.vue')
+    path: '/vca-internals',
+    name: 'VCA Internals',
+    component: () => import(/* webpackChunkName: "about" */ '../views/VCA_Internals.vue')
   },
   {
     path: '/vca-new-player-help',
