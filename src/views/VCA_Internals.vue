@@ -110,7 +110,7 @@
   import VCAMenu from "@/components/VCAMenu.vue";
     
   export default Vue.extend({
-    name: "VCAVehicles",
+    name: "VCAInternals",
     components: {
       VCAMenu
     }

@@ -1,12 +1,10 @@
 <template>
-  <div class="vca-menu">
+  <div class="ra-menu">
     <div class="nav-bar">
-      <router-link to="/vca-vehicles">VEHICLES</router-link>
-      <router-link to="/vca-gameplay">GAMEPLAY ELEMENTS</router-link>
-      <router-link to="/vca-enemy-ai">ENEMY AI</router-link>      
-      <router-link to="/vca-internals">INTERNALS</router-link>
-      <router-link to="/vca-ux">USER EXPERIENCE</router-link>
-      <router-link to="/vca-other">OTHER</router-link>
+      <router-link to="/ra-2d-setup-in-unreal">2D SETUP IN UNREAL</router-link>
+      <router-link to="/ra-gameplay">GAMEPLAY ELEMENTS</router-link>
+      <router-link to="/ra-enemy-ai">ENEMY AI</router-link>      
+      <router-link to="/ra-internals">INTERNALS</router-link>
     </div>
   </div>
 </template>
@@ -15,7 +13,7 @@
 import Vue from "vue";
 
 export default Vue.extend({
-  name: "VCAMenu",
+  name: "RAMenu",
   //   props: {
   //     msg: String,
   //   },
@@ -26,7 +24,7 @@ export default Vue.extend({
 
 @import '../css/variables.less';
 
-.vca-menu {
+.ra-menu {
   width: 100%;
 }
 

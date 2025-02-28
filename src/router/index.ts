@@ -56,9 +56,29 @@ const routes: Array<RouteConfig> = [
     component: () => import(/* webpackChunkName: "about" */ '../views/VCA_Internals.vue')
   },
   {
-    path: '/vca-new-player-help',
-    name: 'VCA New Player Help',
-    component: () => import(/* webpackChunkName: "about" */ '../views/VCA_NewPlayerHelp.vue')
+    path: '/vca-other',
+    name: 'VCA Other',
+    component: () => import(/* webpackChunkName: "about" */ '../views/VCA_Other.vue')
+  },
+  {
+    path: '/ra-2d-setup-in-unreal',
+    name: 'RA 2D Setup in Unreal',
+    component: () => import(/* webpackChunkName: "about" */ '../views/RA_2DSetup.vue')
+  },
+  {
+    path: '/ra-gameplay',
+    name: 'RA Gameplay Elements',
+    component: () => import(/* webpackChunkName: "about" */ '../views/RA_Gameplay.vue')
+  },
+  {
+    path: '/ra-enemy-ai',
+    name: 'RA Enemy AI',
+    component: () => import(/* webpackChunkName: "about" */ '../views/RA_EnemyAI.vue')
+  },
+  {
+    path: '/ra-internals',
+    name: 'RA Internals',
+    component: () => import(/* webpackChunkName: "about" */ '../views/RA_Internals.vue')
   },
   {
     path: '/404',
