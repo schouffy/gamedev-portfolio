@@ -120,4 +120,22 @@ h2 {
   opacity: 0
 }
 
+hr.separator_top {
+  margin-left: -100px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+hr.separator_middle {
+  margin-left: -100px;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+hr.separator_bottom {
+  margin-left: -100px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+} 
+
 </style>

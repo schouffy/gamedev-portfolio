@@ -3,18 +3,20 @@
       <h2>VEHICULAR COMBAT ARENA - OTHER</h2>
 
       <VCAMenu />
-      
+ 
+      <hr class="separator_top">
+
       <div style="clear:both"></div>
 
       <h3><strong>SETTINGS</strong></h3>
       
       <table>
         <tr>
-          <td class="top">
+          <td>
             <iframe class="youtube" src="https://www.youtube.com/embed/feuBT5AA8gw" frameborder="0" allowfullscreen></iframe>
           </td>
           <td class="top">
-            <div class="side-text">When the game is started for the first time there is no saved <strong>Settings</strong> file yet. In this scenario the game tries to use the Operating System's resolution, or the closest one with a <strong>16:9 ratio</strong>; this is a consequence of the UI's design.</div>
+            <div class="side-text">When the game is started for the first time, there is no <strong>Settings</strong> file saved yet. Therefore, the game tries to use the Operating System's resolution, or the closest one with a <strong>16:9 ratio</strong>; this is a consequence of the UI's design.</div>
             
             <br>
 
@@ -27,13 +29,13 @@
         </tr>
       </table>
 
-      <div><br></div>
+      <hr class="separator_middle">
 
       <h3><strong>TRAINING GROUND</strong></h3>
                   
       <table>
         <tr>
-          <td class="top">
+          <td>
             <iframe class="youtube" src="https://www.youtube.com/embed/feuBT5AA8gw" frameborder="0" allowfullscreen></iframe>
           </td>
           <td class="top">
@@ -41,17 +43,17 @@
             
             <br>
 
-            <div class="side-text">It's the perfect setting to test out different <strong>Gameplay Settings</strong>, and tune the Vehicle's movement to your liking.</div>
+            <div class="side-text">It's the perfect environment to test out different <strong>Gameplay Settings</strong>, and tune the Vehicle's movement to your liking.</div>
             
             <br>
 
-            <div class="side-text">There are a couple of idle Vehicles that can be shot, as well as an inactive Data Point.</div>
+            <div class="side-text">There are a couple of idle Enemies that can be shot, as well as an inactive Data Point.</div>
           </td>          
         </tr>
       </table>      
 
-      <div style="clear:both"></div>
-
+      <hr class="separator_bottom">
+      
       <VCAMenu />
     </div>
   </template>

@@ -33,7 +33,7 @@ export default Vue.extend({
 .nav-bar {
   text-align: left;
   padding: 20px;
-  line-height: 3em;
+  line-height: 1.5em;
 }
 
 a {

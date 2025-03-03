@@ -6,10 +6,21 @@ export default [
         <div class="paragraph center limited-width less-top-margin">
             <strong>RELEASE DATE</strong>: FEB 2025 
         </div>
-        <div class="paragraph center limited-width">
-            Single player game where you drive a configurable vehicle and participate in Arena style battles against AI enemies.
+        <div class="paragraph left limited-width">
+            <strong>DEVELOPMENT TEAM:</strong> I was the only developer in this project.
+        </div>        
+        <div class="paragraph left limited-width less-top-margin">
+            I used some assets from the Unreal Marketplace (which I adapted for the game), as well as some free music from itch.io.
+        </div>
+        <div class="paragraph left limited-width">
+            <strong>DEVELOPMENT TIME:</strong> 11 months
+        </div>
+        <div class="paragraph left limited-width">
+            <strong>DESCRIPTION:</strong> Single player game where you drive a configurable vehicle and participate in Arena style battles against AI enemies.
         </div>
     </center>
+
+    <div><br></div>
 
     <div class="center"> 
         <div class="label">Unreal Engine 5</div>    
@@ -21,6 +32,8 @@ export default [
         <div class="label">UMG</div>
         <div class="label">Niagara</div>
     </div>
+
+    <div><br></div>
     
     <div class="paragraph center">
         <iframe class="youtube" src="https://www.youtube.com/embed/feuBT5AA8gw" frameborder="0" allowfullscreen></iframe>
@@ -34,7 +47,7 @@ export default [
     </div>
 
     <div class="paragraph center">
-        Click on the links to get additional information on the feature, with videos.
+        <strong>Click on the headers</strong> to get additional information on the feature, with videos.
     </div>
 
     <div class="paragraph">
@@ -49,14 +62,14 @@ export default [
                     </th>                    
                 </tr>
                 <tr>
-                    <td style="min-width: 350px; background-color: #e2d2c4; line-height: 1em;">
+                    <td style="min-width: 350px; background-color: #858585;; line-height: 1em;">
                         <ul style="margin-left: 50px;">
                             <li>Vehicle Configuration</li>
                             <li>Vehicle stats</li>
                             <li>Combat</li>
                         </ul>
                     </td>
-                    <td style="min-width: 350px; background-color: #e2d2c4; line-height: 1em;">
+                    <td style="min-width: 350px; background-color: #858585; line-height: 1em;">
                         <ul style="margin-left: 50px;">
                             <li>Data Points</li>
                             <li>Ammo & health pickups</li>
@@ -73,7 +86,7 @@ export default [
                     </th>
                 </tr>
                 <tr>
-                    <td style="min-width: 350px; background-color: #e2d2c4; line-height: 1em;">
+                    <td style="min-width: 350px; background-color: #858585; line-height: 1em;">
                         <ul style="margin-left: 50px;">
                             <li>Navigation system</li>
                             <li>Perception system</li>
@@ -82,7 +95,7 @@ export default [
                             <li>EQS</li>
                         </ul>    
                     </td>
-                    <td style="min-width: 350px; background-color: #e2d2c4; line-height: 1em;">
+                    <td style="min-width: 350px; background-color: #858585; line-height: 1em;">
                         <ul style="margin-left: 50px;">
                             <li>Subsystems</li>
                             <li>Music and Audio</li>
@@ -100,13 +113,13 @@ export default [
                     </th>
                 </tr>
                 <tr>
-                    <td style="min-width: 350px; background-color: #e2d2c4; line-height: 1em;">
+                    <td style="min-width: 350px; background-color: #858585; line-height: 1em;">
                         <ul style="margin-left: 50px;">
                             <li>Enhanced input</li>
                             <li>User Interface</li>
                         </ul>
                     </td>
-                    <td style="min-width: 350px; background-color: #e2d2c4; line-height: 1em;">
+                    <td style="min-width: 350px; background-color: #858585; line-height: 1em;">
                         <ul style="margin-left: 50px;">
                             <li>Settings</li>
                             <li>Training Ground</li>
@@ -122,8 +135,17 @@ export default [
         <div class="paragraph center limited-width less-top-margin">
             <strong>RELEASE DATE</strong>: MAY 2024 
         </div>
-        <div class="paragraph center limited-width">
-            Single player shoot'em up game inspired in the likes of Capcom's 1942, where you fight waves of enemies, avoid asteroids and challenge powerful bosses.
+        <div class="paragraph left limited-width">
+            <strong>DEVELOPMENT TEAM:</strong> I was the only developer in this project.
+        </div>        
+        <div class="paragraph left limited-width less-top-margin">
+            I used free assets and music from itch.io (which I adapted for the game).
+        </div>
+        <div class="paragraph left limited-width">
+            <strong>DEVELOPMENT TIME:</strong> 1 month
+        </div>
+        <div class="paragraph left limited-width">
+            <strong>DESCRIPTION:</strong> Single player shoot'em up game inspired in the likes of Capcom's 1942, where you fight waves of enemies, avoid asteroids and challenge powerful bosses.
         </div>
     </center>
 
@@ -148,28 +170,28 @@ export default [
     </div>
 
     <div class="paragraph center">
-        Click on the links to get additional information on the feature, with videos.
+        <strong>Click on the headers</strong> to get additional information on the feature, with videos.
     </div>
 
     <div class="paragraph">
         <center>
             <table>
                 <tr>
-                    <th style="min-width: 350px; background-color: #b4690c;">
+                    <th style="min-width: 350px; background-color: #2b9793;">
                         <a href="/#/ra-2d-setup-in-unreal" style="color: white;">2D SETUP IN UNREAL<img src="img/LinkIcon.svg" width="24px" height="24px" style="vertical-align: middle; padding-left:10px;"/></a>
                     </th>
-                    <th style="min-width: 350px; background-color: #b4690c;">
+                    <th style="min-width: 350px; background-color: #2b9793;">
                         <a href="/#/ra-gameplay" style="color: white;">GAMEPLAY ELEMENTS<img src="img/LinkIcon.svg" width="24px" height="24px" style="vertical-align: middle; padding-left:10px;"/></a>
                     </th>                    
                 </tr>
                 <tr>
-                    <td style="min-width: 350px; background-color: #e2d2c4; line-height: 1em;">
+                    <td style="min-width: 350px; background-color: #858585; line-height: 1em;">
                         <ul style="margin-left: 50px;">
                             <li>Level Setup</li>
                             <li>Pawn Configuration</li>
                         </ul>
                     </td>
-                    <td style="min-width: 350px; background-color: #e2d2c4; line-height: 1em;">
+                    <td style="min-width: 350px; background-color: #858585; line-height: 1em;">
                         <ul style="margin-left: 70px;">
                             <li>PowerUps</li>
                             <li>Asteroids</li>                            
@@ -177,22 +199,22 @@ export default [
                     </td>
                 </tr>
                 <tr>
-                    <th style="min-width: 350px; background-color: #b4690c;">
+                    <th style="min-width: 350px; background-color: #2b9793;">
                         <a href="/#/ra-enemy-ai" style="color: white;">ENEMY AI<img src="img/LinkIcon.svg" width="24px" height="24px" style="vertical-align: middle; padding-left:10px;"/></a>
                     </th>
-                    <th style="min-width: 350px; background-color: #b4690c;">
+                    <th style="min-width: 350px; background-color: #2b9793;">
                         <a href="/#/ra-internals" style="color: white;">INTERNALS<img src="img/LinkIcon.svg" width="24px" height="24px" style="vertical-align: middle; padding-left:10px;"/></a>
                     </th>
                 </tr>
                 <tr>
-                    <td style="min-width: 350px; background-color: #e2d2c4; line-height: 1em;">
+                    <td style="min-width: 350px; background-color: #858585; line-height: 1em;">
                         <ul style="margin-left: 50px;">
                             <li>Behavior Trees - Enemies</li>
                             <li>Squad Subsystem</li>
                             <li>Behavior Trees - Bosses</li>
                         </ul>    
                     </td>
-                    <td style="min-width: 350px; background-color: #e2d2c4; line-height: 1em;">
+                    <td style="min-width: 350px; background-color: #858585; line-height: 1em;">
                         <ul style="margin-left: 70px;">
                             <li>Subsystems</li>
                         </ul>

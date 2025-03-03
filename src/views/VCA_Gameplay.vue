@@ -4,13 +4,15 @@
 
       <VCAMenu />
 
+      <hr class="separator_top">
+
       <div style="clear:both"></div>
 
       <h3><strong>DATA POINTS</strong></h3>
       
       <table>
         <tr>
-          <td class="top">
+          <td>
             <iframe class="youtube" src="https://www.youtube.com/embed/feuBT5AA8gw" frameborder="0" allowfullscreen></iframe>
           </td>
           <td class="top">
@@ -27,13 +29,13 @@
         </tr>
       </table>
 
-      <div><br></div>
+      <hr class="separator_middle">
 
       <h3><strong>AMMO & HEALTH PICK UPS</strong></h3>
                   
       <table>
         <tr>
-          <td class="top">
+          <td>
             <iframe class="youtube" src="https://www.youtube.com/embed/feuBT5AA8gw" frameborder="0" allowfullscreen></iframe>
           </td>
           <td class="top">
@@ -50,13 +52,13 @@
         </tr>
       </table>
       
-      <div><br></div>
+      <hr class="separator_middle">
 
       <h3><strong>GEARS</strong></h3>
                   
       <table>
         <tr>
-          <td class="top">
+          <td>
             <iframe class="youtube" src="https://www.youtube.com/embed/feuBT5AA8gw" frameborder="0" allowfullscreen></iframe>
           </td>
           <td class="top">
@@ -73,7 +75,7 @@
         </tr>
       </table>
 
-      <div style="clear:both"></div>
+      <hr class="separator_bottom">
 
       <VCAMenu />
     </div>

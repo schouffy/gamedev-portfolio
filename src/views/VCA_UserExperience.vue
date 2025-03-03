@@ -4,13 +4,15 @@
 
       <VCAMenu />
       
+      <hr class="separator_top">
+
       <div style="clear:both"></div>
 
       <h3><strong>ENHANCED INPUT</strong></h3>
       
       <table>
         <tr>
-          <td class="top">
+          <td>
             <iframe class="youtube" src="https://www.youtube.com/embed/feuBT5AA8gw" frameborder="0" allowfullscreen></iframe>
           </td>
           <td class="top">
@@ -27,13 +29,13 @@
         </tr>
       </table>
 
-      <div><br></div>
+      <hr class="separator_middle">
 
       <h3><strong>USER INTERFACE</strong></h3>
                   
       <table>
         <tr>
-          <td class="top">
+          <td>
             <iframe class="youtube" src="https://www.youtube.com/embed/feuBT5AA8gw" frameborder="0" allowfullscreen></iframe>
           
             <br>
@@ -41,7 +43,7 @@
             <div class="paragraph-bottom">The project's <strong>DPI Scale Rule</strong> is set to <strong>Scale to Fit</strong> so that the UI scales correctly on different resolutions.</div>
           </td>
           <td class="top">
-            <div class="side-text"><strong>UMG Widgets</strong> comprise the game's UI, which is designed with a 16:9 ratio in mind. The <strong>Player Controller</strong> handles the HUD and other in-game menus, while the Main Menu and related sub-menus are controlled by the <strong>Main Menu level's BP</strong> directly.</div>
+            <div class="side-text">The UI is made of <strong>UMG Widgets</strong>, and is designed with a 16:9 ratio in mind. The <strong>Player Controller</strong> handles the HUD and other in-game menus, while the Main Menu and related sub-menus are controlled by the <strong>Main Menu level's BP</strong> directly.</div>
             
             <br>
 
@@ -54,7 +56,7 @@
         </tr>
       </table>
       
-      <div style="clear:both"></div>
+      <hr class="separator_bottom">
 
       <VCAMenu />
     </div>

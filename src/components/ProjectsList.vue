@@ -1,5 +1,6 @@
 <template>
-    <div>
+    <center>
+    <div style="margin-left: -180px;">
       <div class="projects-list">
         <template v-for="project in projects">
           <div
@@ -26,6 +27,7 @@
         :color="popupColor"
       />
     </div>
+  </center>
 </template>
 
 <script lang="ts">

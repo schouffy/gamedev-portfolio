@@ -6,6 +6,7 @@
       <router-link to="/other-projects">Team Projects</router-link>
       <router-link to="/contact">Contact</router-link>
     </div>
+    <hr class="separator">
   </div>
 </template>
 
@@ -31,7 +32,14 @@ export default Vue.extend({
 .nav-bar {
   text-align: right;
   padding: 20px;
-  line-height: 3em;
+  line-height: 1.5em;
+}
+
+hr.separator {
+  margin-left: -30px;
+  margin-bottom: 40px;
+  margin-top: 10px;
+  margin-right: -70px;
 }
 
 a {

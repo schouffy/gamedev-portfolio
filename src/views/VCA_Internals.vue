@@ -4,17 +4,19 @@
 
       <VCAMenu />
       
+      <hr class="separator_top">
+
       <div style="clear:both"></div>
 
       <h3><strong>SUBSYSTEMS</strong></h3>
       
       <table>
         <tr>
-          <td class="top">
+          <td>
             <iframe class="youtube" src="https://www.youtube.com/embed/feuBT5AA8gw" frameborder="0" allowfullscreen></iframe>
           </td>
           <td class="top">
-            <div class="side-text">Unreal's Subsystems provide a <strong>modular</strong> way to contain game logic that is not tied to Actors present in the level. In this project they are used for different tasks, such as handling Currency related operations, managing Vehicle Configurations or handling Save Files.</div>
+            <div class="side-text">Unreal's Subsystems provide a <strong>modular</strong> way to contain game logic that is not tied to Actors present in the level. In this project they are used for different tasks, such as handling Currency-related operations, managing Vehicle Loadouts, or handling Save Files.</div>
             
             <br>
 
@@ -22,18 +24,18 @@
 
             <br>
 
-            <div class="side-text">Using Events and Timers helps in reducing the <strong>load</strong> of the system. Events can be consumed by different Objects for very different purposes, like updating the UI or displaying some VFX in the level.</div>
+            <div class="side-text">Using Events and Timers helps reduce <strong>CPU load</strong>. Events can be consumed by Objects for very different purposes, like updating the UI or displaying some VFX in the level.</div>
           </td>
         </tr>
       </table>
 
-      <div><br></div>
+      <hr class="separator_middle">
 
       <h3><strong>MUSIC AND AUDIO</strong></h3>
                   
       <table>
         <tr>
-          <td class="top">
+          <td>
             <iframe class="youtube" src="https://www.youtube.com/embed/feuBT5AA8gw" frameborder="0" allowfullscreen></iframe>
           </td>
           <td class="top">
@@ -41,7 +43,7 @@
             
             <br>
 
-            <div class="side-text">This means that BPs, like the Vehicle Pawns or the Trains that drop loot, do not need to have <strong>references to the Cues</strong> themselves; instead all they need to know is the Id of the sounds they need to play, and ask the Sound Subsystem to play them.</div>
+            <div class="side-text">This means that BPs, like the Vehicle Pawns or the Trains that drop loot, do not need to have <strong>references to the Cues</strong> themselves. Instead, all they need to know is the Id of the sounds they need, and ask the Sound Subsystem to play them.</div>
             
             <br>
 
@@ -50,17 +52,17 @@
         </tr>
       </table>
       
-      <div><br></div>
+      <hr class="separator_middle">
 
       <h3><strong>SAVE SYSTEM</strong></h3>
                   
       <table>
         <tr>
-          <td class="top">
+          <td>
             <iframe class="youtube" src="https://www.youtube.com/embed/feuBT5AA8gw" frameborder="0" allowfullscreen></iframe>
           </td>
           <td class="top">
-            <div class="side-text">The <strong>Game Options Persistance Subsystem</strong> handles loading and saving data to disk. 2 different <strong>USaveGame</strong> based classes are used, one to store Settings, and another to store Game progress (with up to 4 Game Slots).</div>
+            <div class="side-text">The <strong>Game Options Persistance Subsystem</strong> handles loading and saving data to disk. 2 different <strong>USaveGame-based</strong> classes are used, one to store Settings, and another to store Game progress (with up to 4 Game Slots).</div>
             
             <br>
 
@@ -73,20 +75,21 @@
         </tr>
       </table>
 
-      <div><br></div>
+      <hr class="separator_middle">
 
       <h3><strong>PERFORMANCE</strong></h3>
                   
       <table>
         <tr>
-          <td class="top">
+          <td>
             <iframe class="youtube" src="https://www.youtube.com/embed/feuBT5AA8gw" frameborder="0" allowfullscreen></iframe>
+
             <br>
 
             <div class="paragraph-bottom"><strong>Note:</strong> Some of the footage in this video was taken in <strong>PIE</strong> in order to display stats with a bigger size on screen. Performance is better when measured in a <strong>development build</strong>.</div>
           </td>
           <td class="top">
-            <div class="side-text">The game is rate limited by default to <strong>60 fps</strong> in order to reduce CPU usage. A number of <strong>profiling</strong> activities were performed during development, which highlighted that the bottleneck was the <strong>GPU</strong> rather than the <strong>CPU</strong>, so most of the focus has been put on reducing the GPU Time.</div>
+            <div class="side-text">The game is rate-limited by default to <strong>60 fps</strong> in order to reduce CPU usage. A number of <strong>profiling</strong> activities were performed during development, which highlighted that the bottleneck was the <strong>GPU</strong> rather than the <strong>CPU</strong>, so most of the focus has been put on reducing the GPU Time.</div>
             
             <br>
 
@@ -99,7 +102,7 @@
         </tr>
       </table>
 
-      <div style="clear:both"></div>
+      <hr class="separator_bottom">
 
       <VCAMenu />
     </div>

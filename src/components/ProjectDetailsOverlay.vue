@@ -73,8 +73,8 @@ h1.dialog-title {
 
 .dialog-content {
   padding: 20px;
-  background-color: #c8c8c8;
-  color: #414141;
+  background-color: #525252;
+  color: #e4e4e4;
 }
 
 .dialog-close {
@@ -103,11 +103,15 @@ h1.dialog-title {
 
 a.dialog-close-button {
   cursor:pointer;
-  font-size: 1.2em;
+  font-size: 1.1em;
   display: inline-block;
-  margin: 0 auto;
+  margin-top: 20px;
+  margin-left: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
   text-decoration: none;
-  color: #b84e4e;
+  color: #ecebeb;
+  font-weight: bold;
 }
 
 @media only screen and (min-width: 620px){
