@@ -10,7 +10,7 @@
       
       <table>
         <tr>
-          <td class="top">
+          <td>
             <iframe class="youtube" src="https://www.youtube.com/embed/feuBT5AA8gw" frameborder="0" allowfullscreen></iframe>
           </td>
           <td class="top">

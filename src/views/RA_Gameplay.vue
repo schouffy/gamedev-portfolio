@@ -4,53 +4,55 @@
 
       <RAMenu />
 
+      <hr class="separator_top">
+
       <div style="clear:both"></div>
 
       <h3><strong>POWER UPS</strong></h3>
       
       <table>
         <tr>
-          <td class="top">
+          <td>
             <iframe class="youtube" src="https://www.youtube.com/embed/feuBT5AA8gw" frameborder="0" allowfullscreen></iframe>
           </td>
           <td class="top">
-            <div class="side-text">Text1.</div>
+            <div class="side-text">As the Player progresses in the game, a special type of spaceship (the <strong>Bonus Carrier</strong>) will appear periodically. Destroying them will spawn powerful bonuses, which will enhance the Player's firepower or will provide some protection.</div>
             
             <br>
 
-            <div class="side-text">Text2.</div>
+            <div class="side-text">Defeating Bosses also rewards the Player with an extra life. However, Enemies (and Bosses) become tougher after each Boss kill.</div>
             
             <br>
 
-            <div class="side-text">Text3.</div>
+            <div class="side-text">Power and Multishot bonuses decay over time unless additional bonuses of the same type are picked up in time, increasing the challenge.</div>
           </td>
         </tr>
       </table>
 
-      <div><br></div>
+      <hr class="separator_middle">
 
       <h3><strong>ASTEROIDS</strong></h3>
                   
       <table>
         <tr>
-          <td class="top">
+          <td>
             <iframe class="youtube" src="https://www.youtube.com/embed/feuBT5AA8gw" frameborder="0" allowfullscreen></iframe>
           </td>
           <td class="top">
-            <div class="side-text">Text1.</div>
+            <div class="side-text">Asteroid fields are designed to give the Player a break from combat from time to time. However, avoiding them is not trivial.</div>
             
             <br>
 
-            <div class="side-text">Text2.</div>
+            <div class="side-text">They are handled by the <strong>Enemy Spawner Subsystem</strong>, and treated like any other Enemy. Each Asteroid is in charge on configuring itself, and this is triggered by a <strong>Behaviour Tree</strong>.</div>
 
             <br>
 
-            <div class="side-text">Text3.</div>
+            <div class="side-text">Asteroids will deal damage to the Player on contact, and can't be destroyed. This forces the Player to focus on avoiding them.</div>
           </td>
         </tr>
       </table>
 
-      <div style="clear:both"></div>
+      <hr class="separator_bottom">
 
       <RAMenu />
     </div>
