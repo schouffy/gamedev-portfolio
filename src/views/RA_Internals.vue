@@ -4,6 +4,8 @@
 
       <RAMenu />
       
+      <hr class="separator_top">
+
       <div style="clear:both"></div>
 
       <h3><strong>SUBSYSTEMS</strong></h3>
@@ -14,20 +16,20 @@
             <iframe class="youtube" src="https://www.youtube.com/embed/feuBT5AA8gw" frameborder="0" allowfullscreen></iframe>
           </td>
           <td class="top">
-            <div class="side-text">Text1.</div>
+            <div class="side-text">Unreal's <strong>Subsystems</strong> are a great way to split logic tasks in different classes.</div>
             
             <br>
 
-            <div class="side-text">Text2.</div>
+            <div class="side-text">In this game I used them for spawning Enemies, saving Settings and High Scores on disk, keeping track of the Score of the current game, or playing sounds and music.</div>
 
             <br>
 
-            <div class="side-text">Text3.</div>
+            <div class="side-text"><strong>Data Assets</strong> and <strong>Data Tables</strong> are the perfect complement for Subsystems, as they expose configurable data in the Unreal Editor that can modify the game's behaviour without needing to recompile.</div>
           </td>
         </tr>
       </table>
 
-      <div style="clear:both"></div>
+      <hr class="separator_bottom">
 
       <RAMenu />
     </div>
