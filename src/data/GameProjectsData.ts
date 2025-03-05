@@ -209,8 +209,7 @@ export default [
                 <tr>
                     <td style="min-width: 350px; background-color: #858585; line-height: 1em;">
                         <ul style="margin-left: 50px;">
-                            <li>Behavior Trees - Enemies</li>
-                            <li>Squad Subsystem</li>
+                            <li>Behavior Trees - Enemies</li>                            
                             <li>Behavior Trees - Bosses</li>
                         </ul>    
                     </td>
