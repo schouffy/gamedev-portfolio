@@ -1,7 +1,7 @@
 <template>
   <div class="footer">
-    
-    <div class="left"><img src="img/ItchIoIcon.png" alt="itch.io" style="vertical-align: middle;"/><a href="https://zoldargames.itch.io/" target="blank" class="footer">ZOLDAR GAMES</a></div>
+       
+    <div class="left"><a href="https://zoldargames.itch.io/" target="blank" class="footer"><i class="fa fa-brands fa-itch-io fa-2x red"></i>ZOLDAR GAMES</a></div>
 
     <div class="right">© 2025 CARLOS ORTEGA GONZÁLEZ</div>
   </div>
@@ -31,6 +31,13 @@ export default Vue.extend({
     padding-top: 10px;
     text-align: center;
   }
+
+i.red {
+  color: #f95e5e;
+  margin-right: 20px;
+  margin-bottom: 5px;
+  vertical-align: middle;
+}
 
 @media only screen and (min-width: 620px){
 

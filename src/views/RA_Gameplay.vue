@@ -43,7 +43,7 @@
             
             <br>
 
-            <div class="side-text">They are handled by the <strong>Enemy Spawner Subsystem</strong>, and treated like any other Enemy. Each Asteroid is in charge on configuring itself, and this is triggered by a <strong>Behaviour Tree</strong>.</div>
+            <div class="side-text">They are handled by the <strong>Enemy Spawner Subsystem</strong>, and treated like any other Enemy. Each Asteroid uses a simple <strong>Behaviour Tree</strong> to set its configuration, and then start moving.</div>
 
             <br>
 

@@ -20,11 +20,11 @@
             
             <br>
 
-            <div class="side-text">The main factor is using a Camera with an <strong>Ortographic view</strong> and positioning it in such a way that you can use Unreal's features like the <strong>Navigation mesh</strong> to allow movement for the AI controlled Enemies.</div>
+            <div class="side-text">The main factor is using a Camera with an <strong>Ortographic view</strong>, and positioning it in such a way that you can use Unreal's features, like the <strong>Navigation mesh</strong> that allows movement for the AI controlled Enemies.</div>
             
             <br>
 
-            <div class="side-text">In this project I decided to not use <strong>Lumen</strong> or other Lighting features that Unreal provides, and instead I set the <strong>Viewport mode</strong> to <strong>Unlit</strong> so I could see every Texture based on their color, and nothing else.</div>
+            <div class="side-text">In this project I decided to not use <strong>Lumen</strong> or other Lighting features that Unreal provides, and instead I set the <strong>Viewport mode</strong> to <strong>Unlit</strong>, so I could see every Texture based on their color, and nothing else.</div>
           </td>
         </tr>
       </table>
@@ -40,7 +40,7 @@
 
             <br>
 
-            <div class="paragraph-bottom">Enemy types are defined by an <strong>Enum</strong>, which is used later on in the spawning process to select the exact BP of the Enemy to be spawned.</div>
+            <div class="paragraph-bottom">Enemy types are defined by an <strong>Enum</strong>, which is used later on in the spawning process, to select the BP of the Enemy to be spawned.</div>
           </td>
           <td class="top">
             <div class="side-text">Every spaceship is a <strong>Pawn</strong> that handles multiple animations via <strong>Flipbooks</strong>. Movement animations are swapped based on movement related variables, while others, like shooting projectiles, or exploding upon death, depend on <strong>Events</strong> or <strong>AI commands</strong>.</div>

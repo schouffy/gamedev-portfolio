@@ -20,11 +20,11 @@
             
             <br>
 
-            <div class="side-text">In this game I used them for spawning Enemies, saving Settings and High Scores on disk, keeping track of the Score of the current game, or playing sounds and music.</div>
+            <div class="side-text">In this game I used them for spawning Enemies, saving Settings and High Scores on disk, keeping track of the Score of the current game, and playing Sounds and Music.</div>
 
             <br>
 
-            <div class="side-text"><strong>Data Assets</strong> and <strong>Data Tables</strong> are the perfect complement for Subsystems, as they expose configurable data in the Unreal Editor that can modify the game's behaviour without needing to recompile.</div>
+            <div class="side-text"><strong>Data Assets</strong> and <strong>Data Tables</strong> are the perfect complement for Subsystems, as they expose configurable data in the Unreal Editor, allowing for modififcations of the game's behaviour without needing to recompile.</div>
           </td>
         </tr>
       </table>

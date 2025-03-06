@@ -2,8 +2,7 @@
   <div class="header">
     <div class="nav-bar">
       <router-link to="/">About me</router-link>
-      <router-link to="/game-projects">Zoldar Games</router-link>
-      <router-link to="/other-projects">Team Projects</router-link>
+      <router-link to="/zoldargames-projects">Zoldar Games</router-link>
       <router-link to="/contact">Contact</router-link>
     </div>
     <hr class="separator">

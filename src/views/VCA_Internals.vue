@@ -24,7 +24,7 @@
 
             <br>
 
-            <div class="side-text">Using Events and Timers helps reduce <strong>CPU load</strong>. Events can be consumed by Objects for very different purposes, like updating the UI or displaying some VFX in the level.</div>
+            <div class="side-text">Using Events and Timers helps reduce <strong>CPU load</strong>. Events can be consumed by Objects for very different purposes, like updating the UI, or displaying some VFX in the level.</div>
           </td>
         </tr>
       </table>

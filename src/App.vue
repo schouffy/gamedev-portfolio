@@ -28,9 +28,9 @@ export default Vue.extend({
 
 // Preload heavy images or gifs that are used in other pages
 Helpers.preloadImages([
-  "img/projects/VCA_CoverImage.png",
-  "img/projects/RA_CoverImage.png",
-  "img/projects/LTD_CoverImage.png"
+  "img/projects/VCA_Project.gif",
+  "img/projects/RA_Project.gif",
+  "img/projects/LTD_Project.gif"
 ]);
 
 </script>

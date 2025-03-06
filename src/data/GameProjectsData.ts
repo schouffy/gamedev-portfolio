@@ -1,7 +1,7 @@
 import ProjectData from '@/data/ProjectData.ts'
 
 export default [
-    new ProjectData("VCA", "VEHICULAR COMBAT ARENA", "img/projects/VCA_CoverImage.png", `
+    new ProjectData("VCA", "VEHICULAR COMBAT ARENA", "img/projects/VCA_Project.gif", `
     <center>
         <div class="paragraph center limited-width less-top-margin">
             <strong>RELEASE DATE</strong>: FEB 2025 
@@ -39,7 +39,7 @@ export default [
         <iframe class="youtube" src="https://www.youtube.com/embed/feuBT5AA8gw" frameborder="0" allowfullscreen></iframe>
     </div>
     <div class="paragraph center">
-        <iframe frameborder="0" src="https://itch.io/embed/3254761?border_width=2&amp;bg_color=282828&amp;fg_color=ffffff&amp;link_color=fa5c5c&amp;border_color=333333" width="554" height="169"><a href="https://zoldargames.itch.io/vehicular-combat-arena">VEHICULAR COMBAT ARENA by Zoldar Games</a></iframe>
+        <iframe frameborder="0" src="https://itch.io/embed/3254761?border_width=2&amp;bg_color=282828&amp;fg_color=ffffff&amp;link_color=b45f40&amp;border_color=333333" width="554" height="169"><a href="https://zoldargames.itch.io/vehicular-combat-arena">VEHICULAR COMBAT ARENA by Zoldar Games</a></iframe>
     </div>
 
     <div class="paragraph center">
@@ -54,22 +54,22 @@ export default [
         <center>
             <table>
                 <tr>
-                    <th style="min-width: 350px; background-color: #b4690c;">
-                        <a href="/#/vca-vehicles" style="color: white;">VEHICLES<img src="img/LinkIcon.svg" width="24px" height="24px" style="vertical-align: middle; padding-left:10px;"/></a>
+                    <th style="min-width: 350px; background-color: #B45F40;">
+                        <a href="/#/vca-vehicles" style="color: white;">VEHICLES<i class="fa-solid fa-link link"></i></a>
                     </th>
-                    <th style="min-width: 350px; background-color: #b4690c;">
-                        <a href="/#/vca-gameplay" style="color: white;">GAMEPLAY ELEMENTS<img src="img/LinkIcon.svg" width="24px" height="24px" style="vertical-align: middle; padding-left:10px;"/></a>
+                    <th style="min-width: 350px; background-color: #B45F40;">
+                        <a href="/#/vca-gameplay" style="color: white;">GAMEPLAY ELEMENTS<i class="fa-solid fa-link link"></i></a>
                     </th>                    
                 </tr>
                 <tr>
-                    <td style="min-width: 350px; background-color: #858585;; line-height: 1em;">
+                    <td style="min-width: 350px; background-color: #282828; line-height: 1em;">
                         <ul style="margin-left: 50px;">
                             <li>Vehicle Configuration</li>
                             <li>Vehicle stats</li>
                             <li>Combat</li>
                         </ul>
                     </td>
-                    <td style="min-width: 350px; background-color: #858585; line-height: 1em;">
+                    <td style="min-width: 350px; background-color: #282828; line-height: 1em;">
                         <ul style="margin-left: 50px;">
                             <li>Data Points</li>
                             <li>Ammo & health pickups</li>
@@ -78,15 +78,15 @@ export default [
                     </td>
                 </tr>
                 <tr>
-                    <th style="min-width: 350px; background-color: #b4690c;">
-                        <a href="/#/vca-enemy-ai" style="color: white;">ENEMY AI<img src="img/LinkIcon.svg" width="24px" height="24px" style="vertical-align: middle; padding-left:10px;"/></a>
+                    <th style="min-width: 350px; background-color: #B45F40;">
+                        <a href="/#/vca-enemy-ai" style="color: white;">ENEMY AI<i class="fa-solid fa-link link"></i></a>
                     </th>
-                    <th style="min-width: 350px; background-color: #b4690c;">
-                        <a href="/#/vca-internals" style="color: white;">INTERNALS<img src="img/LinkIcon.svg" width="24px" height="24px" style="vertical-align: middle; padding-left:10px;"/></a>
+                    <th style="min-width: 350px; background-color: #B45F40;">
+                        <a href="/#/vca-internals" style="color: white;">INTERNALS<i class="fa-solid fa-link link"></i></a>
                     </th>
                 </tr>
                 <tr>
-                    <td style="min-width: 350px; background-color: #858585; line-height: 1em;">
+                    <td style="min-width: 350px; background-color: #282828; line-height: 1em;">
                         <ul style="margin-left: 50px;">
                             <li>Navigation system</li>
                             <li>Perception system</li>
@@ -95,7 +95,7 @@ export default [
                             <li>EQS</li>
                         </ul>    
                     </td>
-                    <td style="min-width: 350px; background-color: #858585; line-height: 1em;">
+                    <td style="min-width: 350px; background-color: #282828; line-height: 1em;">
                         <ul style="margin-left: 50px;">
                             <li>Subsystems</li>
                             <li>Music and Audio</li>
@@ -105,21 +105,21 @@ export default [
                     </td>
                 </tr>
                 <tr>
-                    <th style="min-width: 350px; background-color: #b4690c;">
-                        <a href="/#/vca-ux" style="color: white;">USER EXPERIENCE<img src="img/LinkIcon.svg" width="24px" height="24px" style="vertical-align: middle; padding-left:10px;"/></a>
+                    <th style="min-width: 350px; background-color: #B45F40;">
+                        <a href="/#/vca-ux" style="color: white;">USER EXPERIENCE<i class="fa-solid fa-link link"></i></a>
                     </th>                    
-                    <th style="min-width: 350px; background-color: #b4690c;">
-                        <a href="/#/vca-other" style="color: white;">OTHER<img src="img/LinkIcon.svg" width="24px" height="24px" style="vertical-align: middle; padding-left:10px;"/></a>
+                    <th style="min-width: 350px; background-color: #B45F40;">
+                        <a href="/#/vca-other" style="color: white;">OTHER<i class="fa-solid fa-link link"></i></a>
                     </th>
                 </tr>
                 <tr>
-                    <td style="min-width: 350px; background-color: #858585; line-height: 1em;">
+                    <td style="min-width: 350px; background-color: #282828; line-height: 1em;">
                         <ul style="margin-left: 50px;">
                             <li>Enhanced input</li>
                             <li>User Interface</li>
                         </ul>
                     </td>
-                    <td style="min-width: 350px; background-color: #858585; line-height: 1em;">
+                    <td style="min-width: 350px; background-color: #282828; line-height: 1em;">
                         <ul style="margin-left: 50px;">
                             <li>Settings</li>
                             <li>Training Ground</li>
@@ -129,8 +129,8 @@ export default [
             </table>
         </center>
     </div>
-    `, "#b4690c", true, true),
-    new ProjectData("RetroA", "RETRO ARCADE", "img/projects/RA_CoverImage.png", `
+    `, "#B45F40", true, true),
+    new ProjectData("RetroA", "RETRO ARCADE", "img/projects/RA_Project.gif", `
     <center>
         <div class="paragraph center limited-width less-top-margin">
             <strong>RELEASE DATE</strong>: MAY 2024 
@@ -162,8 +162,8 @@ export default [
         <iframe class="youtube" src="https://www.youtube.com/embed/HGlUW9EVMII" frameborder="0" allowfullscreen></iframe>
     </div>
     <div class="paragraph center">
-        <iframe frameborder="0" src="https://itch.io/embed/2712297?bg_color=282828&amp;fg_color=ffffff&amp;border_color=333333" width="552" height="167"><a href="https://zoldargames.itch.io/retro-arcade">Retro Arcade by Zoldar Games</a></iframe>
-    </div>
+        <iframe frameborder="0" src="https://itch.io/embed/2712297?border_width=2&amp;bg_color=282828&amp;fg_color=ffffff&amp;link_color=2b9793&amp;border_color=333333" width="552" height="167"><a href="https://zoldargames.itch.io/retro-arcade">Retro Arcade by Zoldar Games</a></iframe>
+        </div>
 
     <div class="paragraph center">
         <strong>MAIN FEATURES</strong>
@@ -178,20 +178,20 @@ export default [
             <table>
                 <tr>
                     <th style="min-width: 350px; background-color: #2b9793;">
-                        <a href="/#/ra-2d-setup-in-unreal" style="color: white;">2D SETUP IN UNREAL<img src="img/LinkIcon.svg" width="24px" height="24px" style="vertical-align: middle; padding-left:10px;"/></a>
+                        <a href="/#/ra-2d-setup-in-unreal" style="color: white;">2D SETUP IN UNREAL<i class="fa-solid fa-link link"></i></a>
                     </th>
                     <th style="min-width: 350px; background-color: #2b9793;">
-                        <a href="/#/ra-gameplay" style="color: white;">GAMEPLAY ELEMENTS<img src="img/LinkIcon.svg" width="24px" height="24px" style="vertical-align: middle; padding-left:10px;"/></a>
+                        <a href="/#/ra-gameplay" style="color: white;">GAMEPLAY ELEMENTS<i class="fa-solid fa-link link"></i></a>
                     </th>                    
                 </tr>
                 <tr>
-                    <td style="min-width: 350px; background-color: #858585; line-height: 1em;">
+                    <td style="min-width: 350px; background-color: #282828; line-height: 1em;">
                         <ul style="margin-left: 50px;">
                             <li>Level Setup</li>
                             <li>Pawn Configuration</li>
                         </ul>
                     </td>
-                    <td style="min-width: 350px; background-color: #858585; line-height: 1em;">
+                    <td style="min-width: 350px; background-color: #282828; line-height: 1em;">
                         <ul style="margin-left: 70px;">
                             <li>PowerUps</li>
                             <li>Asteroids</li>                            
@@ -200,20 +200,20 @@ export default [
                 </tr>
                 <tr>
                     <th style="min-width: 350px; background-color: #2b9793;">
-                        <a href="/#/ra-enemy-ai" style="color: white;">ENEMY AI<img src="img/LinkIcon.svg" width="24px" height="24px" style="vertical-align: middle; padding-left:10px;"/></a>
+                        <a href="/#/ra-enemy-ai" style="color: white;">ENEMY AI<i class="fa-solid fa-link link"></i></a>
                     </th>
                     <th style="min-width: 350px; background-color: #2b9793;">
-                        <a href="/#/ra-internals" style="color: white;">INTERNALS<img src="img/LinkIcon.svg" width="24px" height="24px" style="vertical-align: middle; padding-left:10px;"/></a>
+                        <a href="/#/ra-internals" style="color: white;">INTERNALS<i class="fa-solid fa-link link"></i></a>
                     </th>
                 </tr>
                 <tr>
-                    <td style="min-width: 350px; background-color: #858585; line-height: 1em;">
+                    <td style="min-width: 350px; background-color: #282828; line-height: 1em;">
                         <ul style="margin-left: 50px;">
                             <li>Behavior Trees - Enemies</li>                            
                             <li>Behavior Trees - Bosses</li>
                         </ul>    
                     </td>
-                    <td style="min-width: 350px; background-color: #858585; line-height: 1em;">
+                    <td style="min-width: 350px; background-color: #282828; line-height: 1em;">
                         <ul style="margin-left: 70px;">
                             <li>Subsystems</li>
                         </ul>
@@ -223,37 +223,38 @@ export default [
         </center>
     </div>
     `, "#2b9793"),
-    new ProjectData("LTD", "LOOT THE DUNGEON", "img/projects/LTD_CoverImage.png", `
-    <div class="paragraph">
-        <strong>Drawing Overload</strong> is a thing of beauty that I am so proud of. I could write about it for hours.
-        <br/>Image by <a target="_blank" href="https://www.pexels.com/fr-fr/@miphotography">Miesha Maiden</a>.
-    </div>
-    <div class="paragraph center">
-        <iframe class="youtube" src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0" allowfullscreen></iframe>
-    </div>
-
-    <div class="paragraph">
-        Main features :
-        <ul>
-        <li>Some stuff</li>
-        <li>Some great stuff</li>
-        <li>More awesome stuff</li>
-        <li>And then some</li>
-        </ul>
-    </div>
-
-    <div class="paragraph">
-        <div class="notice">
-        Playable in the browser (WebGL) on <a href="https://some.where/nice" target="_blank">itch.io</a>.
-        Source code is available on <a href="https://github.com/yourself" target="_blank">GitHub</a>.
+    new ProjectData("LTD", "LOOT THE DUNGEON", "img/projects/LTD_Project.gif", `
+    <center>
+        <div class="paragraph center limited-width less-top-margin">
+            <strong>RELEASE DATE</strong>: Development still in progress
         </div>
+        <div class="paragraph left limited-width">
+            <strong>DEVELOPMENT TEAM:</strong> I am the only developer in this project.
+        </div>        
+        <div class="paragraph left limited-width">
+            <strong>DEVELOPMENT TIME:</strong> Coming soon!
+        </div>
+        <div class="paragraph left limited-width">
+            <strong>DESCRIPTION:</strong> Single player game where you loot a dungeon and confront the evil Wizard within.
+        </div>
+    </center>    
+
+    <div class="center"> 
+        <div class="label">Unreal Engine 5</div>    
+        <div class="label">C++</div>
+        <div class="label">Blueprints</div>        
+        <div class="label">Behavior Tree</div>
+        <div class="label">CommonUI</div>
+        <div class="label">UMG</div>
+        <div class="label">Niagara</div>
     </div>
 
     <div class="paragraph center">
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
-        <img class="pc-screenshot" src="https://fakeimg.pl/534x300/" alt="Drawing Overload Screenshot" />
+        <strong>MAIN FEATURES</strong>
     </div>
-    `, "#045617")
+
+    <div class="paragraph center">
+        Coming soon!
+    </div>
+    `, "#00825A")
 ];
