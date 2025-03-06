@@ -13,7 +13,7 @@
       <table>
         <tr>
           <td>
-            <iframe class="youtube" src="https://www.youtube.com/embed/feuBT5AA8gw" frameborder="0" allowfullscreen></iframe>
+            <iframe class="youtube" src="https://www.youtube.com/embed/0pirbdpekyw" frameborder="0" allowfullscreen></iframe>
           </td>
           <td class="top">
             <div class="side-text">There is only one Navigation Mesh in the Arena Map, with multiple Navigation Modifiers. This makes sure Enemies only try to go to reachable points in the map. Enemies use a combination of predefined paths and EQS to determine their destinations.</div>
@@ -36,7 +36,7 @@
       <table>
         <tr>
           <td>
-            <iframe class="youtube" src="https://www.youtube.com/embed/feuBT5AA8gw" frameborder="0" allowfullscreen></iframe>
+            <iframe class="youtube" src="https://www.youtube.com/embed/oTpqNXxafh0" frameborder="0" allowfullscreen></iframe>
           </td>
           <td class="top">
             <div class="side-text">The intent of the game is to keep the Player <strong>engaged</strong>, so Enemies need to chase and pressure the Player as soon as possible. Not every Enemy will attack immediately, but will take the Player's position and the distance to the Player into account when deciding their next <strong>actions</strong>.</div>
@@ -59,7 +59,7 @@
       <table>
         <tr>
           <td>
-            <iframe class="youtube" src="https://www.youtube.com/embed/feuBT5AA8gw" frameborder="0" allowfullscreen></iframe>
+            <iframe class="youtube" src="https://www.youtube.com/embed/pAZokQ8TxBw" frameborder="0" allowfullscreen></iframe>
 
             <br>
 

@@ -13,7 +13,7 @@
       <table>
         <tr>
           <td>
-            <iframe class="youtube" src="https://www.youtube.com/embed/feuBT5AA8gw" frameborder="0" allowfullscreen></iframe>
+            <iframe class="youtube" src="https://www.youtube.com/embed/UPjGtSi3U_s" frameborder="0" allowfullscreen></iframe>
           </td>
           <td class="top">
             <div class="side-text">Data Points disrupt the balance of <strong>Resource generation</strong> by giving a bonus either to the Enemy or to the Player.</div>
@@ -36,7 +36,7 @@
       <table>
         <tr>
           <td>
-            <iframe class="youtube" src="https://www.youtube.com/embed/feuBT5AA8gw" frameborder="0" allowfullscreen></iframe>
+            <iframe class="youtube" src="https://www.youtube.com/embed/VukqrnRLK_o" frameborder="0" allowfullscreen></iframe>
           </td>
           <td class="top">
             <div class="side-text">Ammo & health pick ups are dropped periodically at random intervals by the <strong>trains</strong> on the sides of the map, and the <strong>central building</strong>.</div>
@@ -59,7 +59,7 @@
       <table>
         <tr>
           <td>
-            <iframe class="youtube" src="https://www.youtube.com/embed/feuBT5AA8gw" frameborder="0" allowfullscreen></iframe>
+            <iframe class="youtube" src="https://www.youtube.com/embed/958d-_bvf1o" frameborder="0" allowfullscreen></iframe>
           </td>
           <td class="top">
             <div class="side-text">Gears are the <strong>currency</strong> of the game. They are dropped by defeated Enemies, except when the Player is maxed out (has purchased every vehicle part).</div>

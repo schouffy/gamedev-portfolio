@@ -13,7 +13,7 @@
       <table>
         <tr>
           <td>
-            <iframe class="youtube" src="https://www.youtube.com/embed/feuBT5AA8gw" frameborder="0" allowfullscreen></iframe>
+            <iframe class="youtube" src="https://www.youtube.com/embed/_SCZgTwf9bA" frameborder="0" allowfullscreen></iframe>
           </td>
           <td class="top">
             <div class="side-text">Unreal's Subsystems provide a <strong>modular</strong> way to contain game logic that is not tied to Actors present in the level. In this project they are used for different tasks, such as handling Currency-related operations, managing Vehicle Loadouts, or handling Save Files.</div>
@@ -31,7 +31,7 @@
 
       <hr class="separator_middle">
 
-      <h3><strong>MUSIC AND AUDIO</strong></h3>
+      <h3><strong>MUSIC AND SOUND</strong></h3>
                   
       <table>
         <tr>

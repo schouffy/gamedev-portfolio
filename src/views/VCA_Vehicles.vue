@@ -13,7 +13,7 @@
       <table>
         <tr>
           <td>
-            <iframe class="youtube" src="https://www.youtube.com/embed/feuBT5AA8gw" frameborder="0" allowfullscreen></iframe>
+            <iframe class="youtube" src="https://www.youtube.com/embed/IaTb2HcnpH4" frameborder="0" allowfullscreen></iframe>
           </td>
           <td class="top">
             <div class="side-text">Vehicles inherit from <strong>APawn</strong>, rather than ACharacter. Many of their properties are configured at runtime, allowing for different appearances and behaviours emerging from the same BP.</div>
@@ -40,7 +40,7 @@
       <table>
         <tr>
           <td>
-            <iframe class="youtube" src="https://www.youtube.com/embed/feuBT5AA8gw" frameborder="0" allowfullscreen></iframe>
+            <iframe class="youtube" src="https://www.youtube.com/embed/vNwFQb5DF4k" frameborder="0" allowfullscreen></iframe>
           </td>
           <td class="top">
             <div class="side-text">The <strong>Vehicle Stats Subsystem</strong> is in charge of the Player and Enemy vehicle combat stats. Nothing else can change the stats directly (for example, Pawns or even the Weapons Subsystem).</div>
@@ -67,7 +67,7 @@
       <table>
         <tr>
           <td>
-            <iframe class="youtube" src="https://www.youtube.com/embed/feuBT5AA8gw" frameborder="0" allowfullscreen></iframe>
+            <iframe class="youtube" src="https://www.youtube.com/embed/2KfZT2BS8bw" frameborder="0" allowfullscreen></iframe>
           </td>
           <td class="top">
             <div class="side-text">Vehicles can equip up to 3 different weapons, but only 1 may be <strong>active</strong> at any given time. The HUD shows the Player's active weapon highlighted, in the lowest position of the widget.</div>
