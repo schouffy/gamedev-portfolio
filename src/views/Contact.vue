@@ -8,7 +8,7 @@
     <ul style="margin-bottom:213px;">
       <li>
         <i class="fa fa-solid fa-circle-user fa-lg fa-fw"></i>
-        <a href="http://mywebsite.com" target="_blank">https://mywebsite.com</a>
+        <a href="https://Carlos-Ortega-Gonzalez.github.io/" target="_blank">https://Carlos-Ortega-Gonzalez.github.io</a>
       </li>
       <li>
         <i class="fa fa-brands fa-linkedin fa-lg fa-fw" style="vertical-align: -5%;"></i>
@@ -20,11 +20,11 @@
       </li>
       <li>
         <i class="fa fa-brands fa-x-twitter fa-lg fa-fw"></i>
-        <a href="https://x.com/ZoldarGames" target="_blank">x.com/ZoldarGames</a>
+        <a href="https://x.com/ZoldarGames/" target="_blank">x.com/ZoldarGames</a>
       </li>
       <li>
         <i class="fa fa-brands fa-bluesky fa-lg fa-fw"></i>
-        <a href="https://bsky.app/profile/zoldargames.bsky.social" target="_blank">bsky.app/profile/zoldargames.bsky.social</a>
+        <a href="https://bsky.app/profile/zoldargames.bsky.social/" target="_blank">bsky.app/profile/zoldargames.bsky.social</a>
       </li>
     </ul>
 
