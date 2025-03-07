@@ -13,7 +13,7 @@
       <table>
         <tr>
           <td>
-            <iframe class="youtube" src="https://www.youtube.com/embed/feuBT5AA8gw" frameborder="0" allowfullscreen></iframe>
+            <iframe class="youtube" src="https://www.youtube.com/embed/XBn-Co4QVXg" frameborder="0" allowfullscreen></iframe>
           </td>
           <td class="top">
             <div class="side-text">User input is setup using Unreal's <strong>Enhanced Input system</strong>. Each action the Player can take is defined as an <strong>Input Action</strong>, and further configured in an <strong>Input Mapping Context</strong>.</div>
@@ -36,7 +36,7 @@
       <table>
         <tr>
           <td>
-            <iframe class="youtube" src="https://www.youtube.com/embed/feuBT5AA8gw" frameborder="0" allowfullscreen></iframe>
+            <iframe class="youtube" src="https://www.youtube.com/embed/hGUt-uNR3AE" frameborder="0" allowfullscreen></iframe>
           
             <br>
 

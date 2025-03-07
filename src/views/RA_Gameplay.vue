@@ -13,7 +13,7 @@
       <table>
         <tr>
           <td>
-            <iframe class="youtube" src="https://www.youtube.com/embed/feuBT5AA8gw" frameborder="0" allowfullscreen></iframe>
+            <iframe class="youtube" src="https://www.youtube.com/embed/NGSTbCsMMNk" frameborder="0" allowfullscreen></iframe>
           </td>
           <td class="top">
             <div class="side-text">As the Player progresses in the game, a special type of spaceship (the <strong>Bonus Carrier</strong>) will appear periodically. Destroying them will spawn powerful bonuses, which will enhance the Player's firepower or will provide some protection.</div>

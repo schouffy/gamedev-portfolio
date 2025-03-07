@@ -13,7 +13,7 @@
       <table>
         <tr>
           <td>
-            <iframe class="youtube" src="https://www.youtube.com/embed/feuBT5AA8gw" frameborder="0" allowfullscreen></iframe>
+            <iframe class="youtube" src="https://www.youtube.com/embed/owwYXMlVRRk" frameborder="0" allowfullscreen></iframe>
           </td>
           <td class="top">
             <div class="side-text">When the game is started for the first time, there is no <strong>Settings</strong> file saved yet. Therefore, the game tries to use the Operating System's resolution, or the closest one with a <strong>16:9 ratio</strong>; this is a consequence of the UI's design.</div>
@@ -36,7 +36,7 @@
       <table>
         <tr>
           <td>
-            <iframe class="youtube" src="https://www.youtube.com/embed/feuBT5AA8gw" frameborder="0" allowfullscreen></iframe>
+            <iframe class="youtube" src="https://www.youtube.com/embed/_-E1U-r45ro" frameborder="0" allowfullscreen></iframe>
           </td>
           <td class="top">
             <div class="side-text">The <strong>Training Ground</strong> is a simple map where the Player can get familiar with the <strong>controls</strong> and test out different <strong>Vehicle loadouts</strong> without having to purchase any parts.</div>

@@ -36,7 +36,7 @@
       <table>
         <tr>
           <td>
-            <iframe class="youtube" src="https://www.youtube.com/embed/feuBT5AA8gw" frameborder="0" allowfullscreen></iframe>
+            <iframe class="youtube" src="https://www.youtube.com/embed/Vcg_1YLXMTA" frameborder="0" allowfullscreen></iframe>
           </td>
           <td class="top">
             <div class="side-text">Every Sound and Music effect is managed by the <strong>Sound Subsystem</strong>. Sounds and Music Cues are given an identifier, and a <strong>Sound Data Asset</strong> links these ids to the actual Cues.</div>
@@ -59,7 +59,7 @@
       <table>
         <tr>
           <td>
-            <iframe class="youtube" src="https://www.youtube.com/embed/feuBT5AA8gw" frameborder="0" allowfullscreen></iframe>
+            <iframe class="youtube" src="https://www.youtube.com/embed/v5ZQMnpNL5c" frameborder="0" allowfullscreen></iframe>
           </td>
           <td class="top">
             <div class="side-text">The <strong>Game Options Persistance Subsystem</strong> handles loading and saving data to disk. 2 different <strong>USaveGame-based</strong> classes are used, one to store Settings, and another to store Game progress (with up to 4 Game Slots).</div>
@@ -82,7 +82,7 @@
       <table>
         <tr>
           <td>
-            <iframe class="youtube" src="https://www.youtube.com/embed/feuBT5AA8gw" frameborder="0" allowfullscreen></iframe>
+            <iframe class="youtube" src="https://www.youtube.com/embed/ioBdW-DrKDg" frameborder="0" allowfullscreen></iframe>
 
             <br>
 
