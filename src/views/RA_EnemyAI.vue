@@ -13,14 +13,14 @@
       <table>
         <tr>
           <td>
-            <iframe class="youtube" src="https://www.youtube.com/embed/feuBT5AA8gw" frameborder="0" allowfullscreen></iframe>
+            <iframe class="youtube" src="https://www.youtube.com/embed/7-_simd9-Tg" frameborder="0" allowfullscreen></iframe>
           </td>
           <td class="top">
             <div class="side-text">There are 6 types of basic <strong>Enemies</strong> in the game, each with their own movement and attack patterns.</div>
             
             <br>
 
-            <div class="side-text">Enemies spawn in waves of the same Enemy type, becoming a <strong>Squad</strong>. The <strong>Squad Leader</strong> calculates the movement pattern once, and the rest of the Squad reuses the pattern, applying an offset. This reduces <strong>CPU load</strong> in non Squad Leaders, which is specially valuable in complex movement patterns like the circular pattern that Mark6 Enemies use.</div>
+            <div class="side-text">Enemies spawn in waves of the same Enemy type, becoming a <strong>Squad</strong>. The <strong>Squad Leader</strong> calculates the movement pattern once, and the rest of the Squad reuses the pattern, applying an offset. This reduces <strong>CPU load</strong> in non Squad Leaders, which is specially valuable in complex movement patterns, like the circular pattern that Mark6 Enemies use.</div>
 
             <br>
 
@@ -36,7 +36,7 @@
       <table>
         <tr>
           <td>
-            <iframe class="youtube" src="https://www.youtube.com/embed/feuBT5AA8gw" frameborder="0" allowfullscreen></iframe>
+            <iframe class="youtube" src="https://www.youtube.com/embed/VAxVwSZ4-1w" frameborder="0" allowfullscreen></iframe>
 
             <br>
 
