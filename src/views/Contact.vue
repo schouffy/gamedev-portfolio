@@ -8,7 +8,7 @@
     <ul style="margin-bottom:213px;">
       <li>
         <i class="fa fa-solid fa-circle-user fa-lg fa-fw"></i>
-        <a href="https://Carlos-Ortega-Gonzalez.github.io/" target="_blank">https://Carlos-Ortega-Gonzalez.github.io</a>
+        <a href="https://Carlos-Ortega-Gonzalez.github.io/" target="_blank">Carlos-Ortega-Gonzalez.github.io</a>
       </li>
       <li>
         <i class="fa fa-brands fa-linkedin fa-lg fa-fw" style="vertical-align: -5%;"></i>

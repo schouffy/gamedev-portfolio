@@ -16,15 +16,15 @@
             <iframe class="youtube" src="https://www.youtube.com/embed/oxAeIbRdwIM" frameborder="0" allowfullscreen></iframe>
           </td>
           <td class="top">
-            <div class="side-text">Unreal's <strong>Subsystems</strong> are a great way to split logic tasks in different classes.</div>
+            <div class="side-text">Unreal's <strong>Subsystems</strong> are a great way to split logic in different classes.</div>
             
             <br>
 
-            <div class="side-text">In this game I used them for spawning Enemies, saving Settings and High Scores on disk, keeping track of the Score of the current game, and playing Sounds and Music.</div>
+            <div class="side-text">In this game I used Subsystems for spawning Enemies, saving Settings and High Scores on disk, keeping track of the Score of the current game, and playing Sounds and Music.</div>
 
             <br>
 
-            <div class="side-text"><strong>Data Assets</strong> and <strong>Data Tables</strong> are the perfect complement for Subsystems, as they expose configurable data in the Unreal Editor, allowing for modififcations of the game's behaviour without needing to recompile.</div>
+            <div class="side-text"><strong>Data Assets</strong> and <strong>Data Tables</strong> are the perfect complement for Subsystems, as they expose configurable data in the Unreal Editor, allowing for modififcations of the game's behaviour without having to recompile.</div>
           </td>
         </tr>
       </table>

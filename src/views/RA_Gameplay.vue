@@ -16,7 +16,7 @@
             <iframe class="youtube" src="https://www.youtube.com/embed/NGSTbCsMMNk" frameborder="0" allowfullscreen></iframe>
           </td>
           <td class="top">
-            <div class="side-text">As the Player progresses in the game, a special type of spaceship (the <strong>Bonus Carrier</strong>) will appear periodically. Destroying them will spawn powerful bonuses, which will enhance the Player's firepower or will provide some protection.</div>
+            <div class="side-text">As the Player progresses in the game, a special type of spaceship (the <strong>Bonus Carrier</strong>) appears periodically. Destroying them spawns powerful bonuses, which enhance the Player's firepower or provide some protection.</div>
             
             <br>
 
@@ -43,11 +43,11 @@
             
             <br>
 
-            <div class="side-text">They are handled by the <strong>Enemy Spawner Subsystem</strong>, and treated like any other Enemy. Each Asteroid uses a simple <strong>Behaviour Tree</strong> to set its configuration, and then start moving.</div>
+            <div class="side-text">They are handled by the <strong>Enemy Spawner Subsystem</strong>, and treated like any other Enemy. Asteroids use a simple <strong>Behaviour Tree</strong> to set their configuration, which is used in the Pawn's Tick() to move them.</div>
 
             <br>
 
-            <div class="side-text">Asteroids will deal damage to the Player on contact, and can't be destroyed. This forces the Player to focus on avoiding them.</div>
+            <div class="side-text">Asteroids deal damage to the Player on contact, and can't be destroyed. This forces the Player to focus on avoiding them.</div>
           </td>
         </tr>
       </table>

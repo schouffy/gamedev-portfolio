@@ -55,10 +55,10 @@ export default [
             <table>
                 <tr>
                     <th style="min-width: 350px; background-color: #B45F40;">
-                        <a href="/#/vca-vehicles" style="color: white;">VEHICLES<i class="fa-solid fa-link link"></i></a>
+                        <a href="/#/vca-vehicles" class="header-link">VEHICLES<i class="fa-solid fa-link link"></i></a>
                     </th>
                     <th style="min-width: 350px; background-color: #B45F40;">
-                        <a href="/#/vca-gameplay" style="color: white;">GAMEPLAY ELEMENTS<i class="fa-solid fa-link link"></i></a>
+                        <a href="/#/vca-gameplay" class="header-link">GAMEPLAY ELEMENTS<i class="fa-solid fa-link link"></i></a>
                     </th>                    
                 </tr>
                 <tr>
@@ -79,10 +79,10 @@ export default [
                 </tr>
                 <tr>
                     <th style="min-width: 350px; background-color: #B45F40;">
-                        <a href="/#/vca-enemy-ai" style="color: white;">ENEMY AI<i class="fa-solid fa-link link"></i></a>
+                        <a href="/#/vca-enemy-ai" class="header-link">ENEMY AI<i class="fa-solid fa-link link"></i></a>
                     </th>
                     <th style="min-width: 350px; background-color: #B45F40;">
-                        <a href="/#/vca-internals" style="color: white;">INTERNALS<i class="fa-solid fa-link link"></i></a>
+                        <a href="/#/vca-internals" class="header-link">INTERNALS<i class="fa-solid fa-link link"></i></a>
                     </th>
                 </tr>
                 <tr>
@@ -106,10 +106,10 @@ export default [
                 </tr>
                 <tr>
                     <th style="min-width: 350px; background-color: #B45F40;">
-                        <a href="/#/vca-ux" style="color: white;">USER EXPERIENCE<i class="fa-solid fa-link link"></i></a>
+                        <a href="/#/vca-ux" class="header-link">USER EXPERIENCE<i class="fa-solid fa-link link"></i></a>
                     </th>                    
                     <th style="min-width: 350px; background-color: #B45F40;">
-                        <a href="/#/vca-other" style="color: white;">OTHER<i class="fa-solid fa-link link"></i></a>
+                        <a href="/#/vca-other" class="header-link">OTHER<i class="fa-solid fa-link link"></i></a>
                     </th>
                 </tr>
                 <tr>
@@ -178,10 +178,10 @@ export default [
             <table>
                 <tr>
                     <th style="min-width: 350px; background-color: #2b9793;">
-                        <a href="/#/ra-2d-setup-in-unreal" style="color: white;">2D SETUP IN UNREAL<i class="fa-solid fa-link link"></i></a>
+                        <a href="/#/ra-2d-setup-in-unreal" class="header-link">2D SETUP IN UNREAL<i class="fa-solid fa-link link"></i></a>
                     </th>
                     <th style="min-width: 350px; background-color: #2b9793;">
-                        <a href="/#/ra-gameplay" style="color: white;">GAMEPLAY ELEMENTS<i class="fa-solid fa-link link"></i></a>
+                        <a href="/#/ra-gameplay" class="header-link">GAMEPLAY ELEMENTS<i class="fa-solid fa-link link"></i></a>
                     </th>                    
                 </tr>
                 <tr>
@@ -200,10 +200,10 @@ export default [
                 </tr>
                 <tr>
                     <th style="min-width: 350px; background-color: #2b9793;">
-                        <a href="/#/ra-enemy-ai" style="color: white;">ENEMY AI<i class="fa-solid fa-link link"></i></a>
+                        <a href="/#/ra-enemy-ai" class="header-link">ENEMY AI<i class="fa-solid fa-link link"></i></a>
                     </th>
                     <th style="min-width: 350px; background-color: #2b9793;">
-                        <a href="/#/ra-internals" style="color: white;">INTERNALS<i class="fa-solid fa-link link"></i></a>
+                        <a href="/#/ra-internals" class="header-link">INTERNALS<i class="fa-solid fa-link link"></i></a>
                     </th>
                 </tr>
                 <tr>

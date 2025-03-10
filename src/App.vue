@@ -66,9 +66,23 @@ h1, h2, h3, h4, h5 {
 a {
   color: @linkTextColor;
   text-decoration: none;
-  opacity: 0.5;
+  opacity: 0.75;
 }
 a:hover, .router-link-exact-active {
+  opacity: 1;
+}
+
+a.header-link {
+  color: #f8f8f8;
+  text-decoration: none;
+  opacity: 1;
+}
+
+a.header-link:hover {
+  color: #f8f8f8;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 2px;
   opacity: 1;
 }
 

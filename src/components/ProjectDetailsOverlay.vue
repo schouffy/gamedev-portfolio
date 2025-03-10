@@ -114,6 +114,14 @@ a.dialog-close-button {
   font-weight: bold;
 }
 
+a.dialog-close-button:hover {
+  color: #ecebeb;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+  text-decoration-thickness: 2px;
+  opacity: 1;
+}
+
 @media only screen and (min-width: 620px){
   .dialog {
     margin: 0 auto;

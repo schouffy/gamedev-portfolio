@@ -16,11 +16,11 @@
             <iframe class="youtube" src="https://www.youtube.com/embed/7-_simd9-Tg" frameborder="0" allowfullscreen></iframe>
           </td>
           <td class="top">
-            <div class="side-text">There are 6 types of basic <strong>Enemies</strong> in the game, each with their own movement and attack patterns.</div>
+            <div class="side-text">There are 6 types of basic <strong>Enemies</strong>, each with their own movement and attack patterns.</div>
             
             <br>
 
-            <div class="side-text">Enemies spawn in waves of the same Enemy type, becoming a <strong>Squad</strong>. The <strong>Squad Leader</strong> calculates the movement pattern once, and the rest of the Squad reuses the pattern, applying an offset. This reduces <strong>CPU load</strong> in non Squad Leaders, which is specially valuable in complex movement patterns, like the circular pattern that Mark6 Enemies use.</div>
+            <div class="side-text">Enemies spawn in waves of the same Enemy type, forming a <strong>Squad</strong>. The <strong>Squad Leader</strong> calculates the movement pattern once, and the rest of the Squad reuses the pattern, applying an offset. This reduces <strong>CPU load</strong> in non Squad Leaders, which is specially valuable in complex movement patterns, like the circular pattern that Mark6 Enemies use.</div>
 
             <br>
 
@@ -40,18 +40,18 @@
 
             <br>
 
-            <div class="paragraph-bottom">The second Boss has a fixed movement pattern and focuses in attacking a wide area. This forces the Player to move in order to avoid projectiles, and also to be in a position where their attacks can hit the Boss.</div>
+            <div class="paragraph-bottom">The second Boss has a fixed movement pattern and focuses on attacking a wide area. This forces the Player to move both to avoid projectiles and to attack.</div>
           </td>
           <td class="top">
-            <div class="side-text">There are 2 <strong>Bosses</strong> in the game, and both have different movement and attack behaviors in each of the <strong>3 Phases</strong> of their fights.</div>
+            <div class="side-text">There are 2 <strong>Bosses</strong> in the game. Both have different movement and attack behaviors on each of the <strong>3 Phases</strong> of their fights.</div>
             
             <br>
 
-            <div class="side-text">Bosses have 2 <strong>Basic Attacks</strong> and a <strong>Special Attack</strong>, which are combined in different ways on each Phase of the fight. Cooldowns are also adjusted to increase the pressure on the Player as the fight progresses.</div>
+            <div class="side-text">Bosses have 2 <strong>Basic Attacks</strong> and a <strong>Special Attack</strong>, and the order in which they are used changes on each Phase. Cooldowns are also reduced to increase the pressure on the Player as the fight progresses.</div>
             
             <br>
 
-            <div class="side-text">The first Boss is all about chasing the Player and attacking the area where the Player is. The movement destination of the Boss is recalculated periodically in the AIController by using a <strong>Timer</strong>, and then stored in the BlackBoard. This reduces <strong>CPU load</strong> and gives the Player the chance to escape at the same time.</div>
+            <div class="side-text">The first Boss is all about chasing the Player and attacking the area where the Player is. The AIController uses a <strong>Timer</strong> to recalculate the movement destination of the Boss periodically, and then stores it in the BlackBoard. This reduces <strong>CPU load</strong> and gives the Player the chance to escape at the same time.</div>
           </td>
         </tr>
       </table>
