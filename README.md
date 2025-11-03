@@ -5,7 +5,7 @@ Looking for a game developer job, I needed a portfolio to present my work to rec
 
 So i created my own using VueJS, keeping in mind that I wanted it to be easily customisable so other people can use this as a base to make their own. It's very simple, static, fast and responsive.
 
-For a real world use case, check my portfolio: https://scheefer.me
+For a real world use case, check my portfolio: https://schouffy.github.io
 
 
 # How to use
